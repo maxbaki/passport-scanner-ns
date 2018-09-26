@@ -1,0 +1,25 @@
+{
+	"my-plugin": {
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/my-plugin/platforms/ios/.DS_Store": "df2fbeb1400acda0909a32c1cf6bf492f1121e07",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/my-plugin/platforms/ios/Info.plist": "8b535d1f67441c70bfa865c56a0cead842e72e7b",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/my-plugin/platforms/ios/Podfile": "bfbf5b09c14193ecaa7100c2af3bf3e327ee2eb0",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/my-plugin/platforms/ios/build.config": "fd253d1e967610470714a24cdba7b41827d12da9"
+	},
+	"nativescript-disable-bitcode": {
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/nativescript-disable-bitcode/platforms/ios/Podfile": "5c55eb9a29c30537f88277806d30acb68dccaad6"
+	},
+	"tns-core-modules": {
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m": "95f2f41d1868f418dd79a418c30a1c2ac85829f6",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h": "c7c5788d3ea834d96cf8a137cbf0c4ea28fd7829",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSProcess.h": "787f09c57ede174d6323990e6d6e9eaf134da6f0",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h": "9b1b8c8e2701901f1ddeebe67c2ca3b0f95b0281",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h": "3b31a5be818e25c142e99f98479c538632d350ae",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Info.plist": "56a84c1b187cd02aa343ffcd6236ab462a1fe1f2",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Modules/module.modulemap": "00d2220e76eb098f1808eb4e9b5c43ad4cadf1da",
+		"/Users/Max/Downloads/passport-scanner/passport-scanner/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/TNSWidgets": "22043b55b6837a2700eed34e29235c8853b01a37"
+	}
+}

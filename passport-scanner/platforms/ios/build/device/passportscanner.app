@@ -1,0 +1,1 @@
+/Users/Max/Library/Developer/Xcode/DerivedData/passportscanner-crfkrefetpqcuredquorolfnskpr/Build/Intermediates.noindex/ArchiveIntermediates/passportscanner/InstallationBuildProductsLocation/Applications/passportscanner.app

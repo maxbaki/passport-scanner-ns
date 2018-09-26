@@ -1,0 +1,14 @@
+{
+    "name": "my-plugin",
+    "version": "0.1.9",
+    "main": "my-plugin.js",
+    "nativescript": {
+        "id": "org.nativescript.passportscanner"
+    },
+    "dependencies": {},
+    "description": "PassportScanner for NativeScript",
+    "devDependencies": {
+        "tns-core-modules": "^1.5.1",
+        "typescript": "^1.7.5"
+    }
+}

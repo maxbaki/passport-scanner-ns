@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+pod 'PassportScannerNs', '~> 2.1.6'
+
+pre_install do |installer|
+    installer.analysis_result.specifications.each do |s|
+      s.swift_version = '4.2' unless s.swift_version
+    end
+end
+
+
+

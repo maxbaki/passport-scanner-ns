@@ -1,0 +1,77 @@
+{
+  "_from": "nativescript-disable-bitcode",
+  "_id": "nativescript-disable-bitcode@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-2d9Dkg2g3nwrQBH4hQ9IHY78AsM=",
+  "_location": "/nativescript-disable-bitcode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-disable-bitcode",
+    "name": "nativescript-disable-bitcode",
+    "escapedName": "nativescript-disable-bitcode",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-disable-bitcode/-/nativescript-disable-bitcode-1.0.0.tgz",
+  "_shasum": "d9df43920da0de7c2b4011f8850f481d8efc02c3",
+  "_spec": "nativescript-disable-bitcode",
+  "_where": "/Users/Max/Downloads/passport-scanner/passport-scanner",
+  "author": {
+    "name": "Essent"
+  },
+  "bugs": {
+    "url": "https://github.com/Essent/nativescript-disable-bitcode/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A NativeScript plugin to disable CocoaPods Bitcode",
+  "devDependencies": {
+    "tns-core-modules": "2.5.1",
+    "tns-platform-declarations": "2.5.0",
+    "typescript": "2.1.6"
+  },
+  "homepage": "https://github.com/Essent/nativescript-disable-bitcode",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "iOS",
+    "Bitcode"
+  ],
+  "license": "MIT",
+  "name": "nativescript-disable-bitcode",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.3.0"
+    },
+    "tns-ios": {
+      "version": "2.4.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Essent/nativescript-disable-bitcode.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns run ios",
+    "dev.android": "npm run preparedemo && npm run reset.android && cd demo && tns run android",
+    "dev.ios": "npm run preparedemo && npm run reset.ios && cd demo && tns emulate ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-disable-bitcode && tns plugin add .. && tns install",
+    "reset.android": "cd demo && tns platform remove android && tns platform add android",
+    "reset.ios": "cd demo && tns platform remove ios && tns platform add ios",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "test.android": "cd demo && tns test android",
+    "test.ios": "cd demo && tns test ios --emulator",
+    "test.ios.device": "cd demo && tns test ios"
+  },
+  "version": "1.0.0"
+}
