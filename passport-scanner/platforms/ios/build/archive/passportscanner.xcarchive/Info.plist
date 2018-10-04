@@ -14,11 +14,13 @@
 		<string>1.0</string>
 		<key>SigningIdentity</key>
 		<string>iPhone Developer: Mohamed Baki (YMUSBXHF2V)</string>
+		<key>Team</key>
+		<string>B9S9L6FFPS</string>
 	</dict>
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2018-09-24T21:16:49Z</date>
+	<date>2018-10-03T22:06:32Z</date>
 	<key>Name</key>
 	<string>passportscanner</string>
 	<key>SchemeName</key>

@@ -1,0 +1,376 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistogramEqualization"
+provides-nominal:
+- "11EVGPUImage221HistogramEqualizationC"
+provides-member:
+- ["11EVGPUImage221HistogramEqualizationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "-->"
+- !private "..<"
+- !private "/"
+- "AssignmentPrecedence"
+- "BasicOperation"
+- "FloatLiteralType"
+- "Histogram"
+- "HistogramEqualization"
+- !private "HistogramEqualizationBlueFragmentShader"
+- !private "HistogramEqualizationGreenFragmentShader"
+- !private "HistogramEqualizationLuminanceFragmentShader"
+- !private "HistogramEqualizationRGBFragmentShader"
+- !private "HistogramEqualizationRedFragmentShader"
+- "HistogramType"
+- !private "Int"
+- "IntegerLiteralType"
+- "OperationGroup"
+- "RawDataInput"
+- "RawDataOutput"
+- !private "Size"
+- "UInt"
+- !private "UInt8"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["11EVGPUImage214BasicOperationC", "deinit"]
+- !private ["11EVGPUImage214BasicOperationC", "downsamplingFactor"]
+- !private ["11EVGPUImage214BasicOperationC", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", "blue"]
+- ["SQ", "green"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "luminance"]
+- ["SQ", "red"]
+- ["SQ", "rgb"]
+- !private ["SQ", "rgba"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "blue"]
+- ["SH", "green"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "luminance"]
+- ["SH", "red"]
+- ["SH", "rgb"]
+- !private ["SH", "rgba"]
+- !private ["SH", "subscript"]
+- !private ["11EVGPUImage29HistogramC", "deinit"]
+- !private ["11EVGPUImage29HistogramC", "downsamplingFactor"]
+- !private ["11EVGPUImage29HistogramC", "init"]
+- ["11EVGPUImage221HistogramEqualizationC", "BasicOperation"]
+- ["11EVGPUImage221HistogramEqualizationC", "Histogram"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "HistogramEqualizationBlueFragmentShader"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "HistogramEqualizationGreenFragmentShader"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "HistogramEqualizationLuminanceFragmentShader"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "HistogramEqualizationRGBFragmentShader"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "HistogramEqualizationRedFragmentShader"]
+- ["11EVGPUImage221HistogramEqualizationC", "HistogramType"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "Int"]
+- ["11EVGPUImage221HistogramEqualizationC", "RawDataInput"]
+- ["11EVGPUImage221HistogramEqualizationC", "RawDataOutput"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "Size"]
+- ["11EVGPUImage221HistogramEqualizationC", "UInt"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "UInt8"]
+- !private ["11EVGPUImage221HistogramEqualizationC", "configureGroup"]
+- ["11EVGPUImage221HistogramEqualizationC", "downsamplingFactor"]
+- ["11EVGPUImage221HistogramEqualizationC", "equalizationFilter"]
+- ["11EVGPUImage221HistogramEqualizationC", "histogram"]
+- ["11EVGPUImage221HistogramEqualizationC", "init"]
+- ["11EVGPUImage221HistogramEqualizationC", "rawDataInput"]
+- ["11EVGPUImage221HistogramEqualizationC", "rawDataOutput"]
+- ["11EVGPUImage213HistogramTypeO", "blue"]
+- ["11EVGPUImage213HistogramTypeO", "green"]
+- ["11EVGPUImage213HistogramTypeO", "luminance"]
+- ["11EVGPUImage213HistogramTypeO", "red"]
+- ["11EVGPUImage213HistogramTypeO", "rgb"]
+- !private ["11EVGPUImage213ImageConsumerP", "BasicOperation"]
+- !private ["11EVGPUImage213ImageConsumerP", "Histogram"]
+- !private ["11EVGPUImage213ImageConsumerP", "HistogramEqualizationBlueFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "HistogramEqualizationGreenFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "HistogramEqualizationLuminanceFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "HistogramEqualizationRGBFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "HistogramEqualizationRedFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "Int"]
+- ["11EVGPUImage213ImageConsumerP", "RawDataInput"]
+- ["11EVGPUImage213ImageConsumerP", "RawDataOutput"]
+- !private ["11EVGPUImage213ImageConsumerP", "Size"]
+- !private ["11EVGPUImage213ImageConsumerP", "UInt8"]
+- ["11EVGPUImage213ImageConsumerP", ""]
+- !private ["11EVGPUImage213ImageConsumerP", "configureGroup"]
+- !private ["11EVGPUImage213ImageConsumerP", "dataAvailableCallback"]
+- !private ["11EVGPUImage213ImageConsumerP", "downsamplingFactor"]
+- !private ["11EVGPUImage213ImageConsumerP", "equalizationFilter"]
+- !private ["11EVGPUImage213ImageConsumerP", "histogram"]
+- ["11EVGPUImage213ImageConsumerP", "init"]
+- !private ["11EVGPUImage213ImageConsumerP", "rawDataInput"]
+- !private ["11EVGPUImage213ImageConsumerP", "rawDataOutput"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "BasicOperation"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Histogram"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "HistogramEqualizationBlueFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "HistogramEqualizationGreenFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "HistogramEqualizationLuminanceFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "HistogramEqualizationRGBFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "HistogramEqualizationRedFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Int"]
+- ["11EVGPUImage224ImageProcessingOperationP", "RawDataInput"]
+- ["11EVGPUImage224ImageProcessingOperationP", "RawDataOutput"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Size"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "UInt8"]
+- ["11EVGPUImage224ImageProcessingOperationP", ""]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "configureGroup"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "downsamplingFactor"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "equalizationFilter"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "histogram"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "init"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "rawDataInput"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "rawDataOutput"]
+- !private ["11EVGPUImage210ImageRelayC", "deinit"]
+- !private ["11EVGPUImage211ImageSourceP", "BasicOperation"]
+- !private ["11EVGPUImage211ImageSourceP", "Histogram"]
+- !private ["11EVGPUImage211ImageSourceP", "HistogramEqualizationBlueFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "HistogramEqualizationGreenFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "HistogramEqualizationLuminanceFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "HistogramEqualizationRGBFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "HistogramEqualizationRedFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "Int"]
+- ["11EVGPUImage211ImageSourceP", "RawDataInput"]
+- ["11EVGPUImage211ImageSourceP", "RawDataOutput"]
+- !private ["11EVGPUImage211ImageSourceP", "Size"]
+- !private ["11EVGPUImage211ImageSourceP", "UInt8"]
+- ["11EVGPUImage211ImageSourceP", ""]
+- !private ["11EVGPUImage211ImageSourceP", "configureGroup"]
+- !private ["11EVGPUImage211ImageSourceP", "downsamplingFactor"]
+- !private ["11EVGPUImage211ImageSourceP", "equalizationFilter"]
+- !private ["11EVGPUImage211ImageSourceP", "histogram"]
+- ["11EVGPUImage211ImageSourceP", "init"]
+- !private ["11EVGPUImage211ImageSourceP", "rawDataInput"]
+- !private ["11EVGPUImage211ImageSourceP", "rawDataOutput"]
+- !private ["11EVGPUImage211ImageSourceP", "uploadBytes"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["Sj", "init"]
+- ["11EVGPUImage214OperationGroupC", "BasicOperation"]
+- ["11EVGPUImage214OperationGroupC", "Histogram"]
+- !private ["11EVGPUImage214OperationGroupC", "HistogramEqualizationBlueFragmentShader"]
+- !private ["11EVGPUImage214OperationGroupC", "HistogramEqualizationGreenFragmentShader"]
+- !private ["11EVGPUImage214OperationGroupC", "HistogramEqualizationLuminanceFragmentShader"]
+- !private ["11EVGPUImage214OperationGroupC", "HistogramEqualizationRGBFragmentShader"]
+- !private ["11EVGPUImage214OperationGroupC", "HistogramEqualizationRedFragmentShader"]
+- ["11EVGPUImage214OperationGroupC", "HistogramType"]
+- !private ["11EVGPUImage214OperationGroupC", "Int"]
+- ["11EVGPUImage214OperationGroupC", "RawDataInput"]
+- ["11EVGPUImage214OperationGroupC", "RawDataOutput"]
+- !private ["11EVGPUImage214OperationGroupC", "Size"]
+- ["11EVGPUImage214OperationGroupC", "UInt"]
+- !private ["11EVGPUImage214OperationGroupC", "UInt8"]
+- ["11EVGPUImage214OperationGroupC", ""]
+- !private ["11EVGPUImage214OperationGroupC", "configureGroup"]
+- ["11EVGPUImage214OperationGroupC", "downsamplingFactor"]
+- ["11EVGPUImage214OperationGroupC", "equalizationFilter"]
+- ["11EVGPUImage214OperationGroupC", "histogram"]
+- ["11EVGPUImage214OperationGroupC", "init"]
+- ["11EVGPUImage214OperationGroupC", "rawDataInput"]
+- ["11EVGPUImage214OperationGroupC", "rawDataOutput"]
+- !private ["11EVGPUImage211PixelFormatO", "rgba"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["11EVGPUImage212RawDataInputC", "deinit"]
+- ["11EVGPUImage212RawDataInputC", "init"]
+- !private ["11EVGPUImage212RawDataInputC", "uploadBytes"]
+- !private ["11EVGPUImage213RawDataOutputC", "dataAvailableCallback"]
+- !private ["11EVGPUImage213RawDataOutputC", "deinit"]
+- ["11EVGPUImage213RawDataOutputC", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["11EVGPUImage24SizeV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "11EVGPUImage214BasicOperationC"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "11EVGPUImage29HistogramC"
+- "11EVGPUImage221HistogramEqualizationC"
+- "11EVGPUImage213HistogramTypeO"
+- "11EVGPUImage213ImageConsumerP"
+- "11EVGPUImage224ImageProcessingOperationP"
+- !private "11EVGPUImage210ImageRelayC"
+- "11EVGPUImage211ImageSourceP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- "11EVGPUImage214OperationGroupC"
+- !private "11EVGPUImage211PixelFormatO"
+- !private "Sk"
+- !private "Sm"
+- "11EVGPUImage212RawDataInputC"
+- "11EVGPUImage213RawDataOutputC"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "11EVGPUImage24SizeV"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/EVGPUImage2/EVGPUImage2-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/EVGPUImage2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "33e49ac924b922c5cea94275cdb0c350"

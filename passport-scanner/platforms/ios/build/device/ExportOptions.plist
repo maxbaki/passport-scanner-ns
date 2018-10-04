@@ -6,8 +6,15 @@
 	<false/>
 	<key>method</key>
 	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>org.nativescript.passportscanner</key>
+		<string>f0560df8-1a66-430e-becc-b46a48b9b150</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Developer</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>

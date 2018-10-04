@@ -5,18 +5,19 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
-		10A58BF69C7DAA192FEFC954 /* Pods_passportscanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF89AB2AD2CAA2D97329E2A /* Pods_passportscanner.framework */; };
-		2D15D6404881432E873A66F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D26B50F8714FD9B20B60C0 /* Assets.xcassets */; };
-		3A2098C5DBA14EC2A987DD79 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC45516AF8485CB5EEAEC5 /* NativeScriptEmbedder.m */; };
-		6053175907014BB88B021512 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A09AF8A50CAB4D3C89C7B927 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C30CBA721656CB100A41C28 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 2C30CBA621656CB100A41C28 /* tessdata */; };
+		2C3211FE2165662800BB8907 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3211FD2165662800BB8907 /* libz.tbd */; };
+		44D3435BB0844EBC9287428D /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C13E318B4B044F184AE4D65 /* build.xcconfig */; };
+		50A654DF685B4E4DA66471C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928632C0468B43BBB5CBD618 /* LaunchScreen.storyboard */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		9E00D150171A4171A6326206 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09AF8A50CAB4D3C89C7B927 /* TNSWidgets.framework */; };
-		A03A49F8D04144E08D5E4862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEE8868B57B4AAE91316F6B /* LaunchScreen.storyboard */; };
+		A55D1AF8901FAA9D37784454 /* Pods_passportscanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EC59F58A77BFEFA61EFAC5 /* Pods_passportscanner.framework */; };
+		BAE7FBF4B5334F6CAE5C41AD /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEEEB42D5C44510A111D7DC /* NativeScriptEmbedder.m */; };
+		C1A4F7A2F293426281375437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6602F32D124DEF917CC03F /* Assets.xcassets */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		CE039DBDABBB4733B0957060 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C764D327249408BDF85BD /* build.xcconfig */; };
+		E66924E03CC349009D7376B0 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D88B9183B5E54ADD93AE7F90 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8594F5BA9C24E4C87F31785 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88B9183B5E54ADD93AE7F90 /* TNSWidgets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6053175907014BB88B021512 /* TNSWidgets.framework in Embed Frameworks */,
+				E66924E03CC349009D7376B0 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,25 +35,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F0C764D327249408BDF85BD /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = passportscanner/Resources/build.xcconfig; sourceTree = "<group>"; };
-		40D26B50F8714FD9B20B60C0 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = passportscanner/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		4834358578B44106B77FAD52 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
-		6DF89AB2AD2CAA2D97329E2A /* Pods_passportscanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passportscanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C13E318B4B044F184AE4D65 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = passportscanner/Resources/build.xcconfig; sourceTree = "<group>"; };
+		2C30CBA621656CB100A41C28 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		2C3211FD2165662800BB8907 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		858B832E18CA111C00AB12DE /* passportscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passportscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* passportscanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "passportscanner-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* passportscanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "passportscanner-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* passportscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passportscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CFC45516AF8485CB5EEAEC5 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
-		A09AF8A50CAB4D3C89C7B927 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
-		ADEE8868B57B4AAE91316F6B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = passportscanner/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B200D0828C875B2BB1F2B821 /* Pods-passportscanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportscanner.release.xcconfig"; path = "Target Support Files/Pods-passportscanner/Pods-passportscanner.release.xcconfig"; sourceTree = "<group>"; };
+		928632C0468B43BBB5CBD618 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = passportscanner/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E6602F32D124DEF917CC03F /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = passportscanner/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		B555C347904E4F84841A58A3 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		E2428A436D51170BD1EB9037 /* Pods-passportscanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportscanner.debug.xcconfig"; path = "Target Support Files/Pods-passportscanner/Pods-passportscanner.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EC59F58A77BFEFA61EFAC5 /* Pods_passportscanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passportscanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88B9183B5E54ADD93AE7F90 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		DBEEEB42D5C44510A111D7DC /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,33 +61,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E00D150171A4171A6326206 /* TNSWidgets.framework in Frameworks */,
-				10A58BF69C7DAA192FEFC954 /* Pods_passportscanner.framework in Frameworks */,
+				2C3211FE2165662800BB8907 /* libz.tbd in Frameworks */,
+				E8594F5BA9C24E4C87F31785 /* TNSWidgets.framework in Frameworks */,
+				A55D1AF8901FAA9D37784454 /* Pods_passportscanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37CDC246E77AF1230D0C248D /* Pods */ = {
+		1FBB4F3C791445A0AEC6217D /* tns-core-modules */ = {
 			isa = PBXGroup;
 			children = (
-				E2428A436D51170BD1EB9037 /* Pods-passportscanner.debug.xcconfig */,
-				B200D0828C875B2BB1F2B821 /* Pods-passportscanner.release.xcconfig */,
+				B555C347904E4F84841A58A3 /* NativeScriptEmbedder.h */,
+				DBEEEB42D5C44510A111D7DC /* NativeScriptEmbedder.m */,
 			);
-			name = Pods;
-			path = Pods;
+			name = "tns-core-modules";
 			sourceTree = "<group>";
 		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
+				2C30CBA621656CB100A41C28 /* tessdata */,
 				E070579D1B39A9D000214BF1 /* Resources */,
 				858B833718CA111C00AB12DE /* passportscanner */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				C0B792C696684432B0D76BD1 /* tns-core-modules */,
-				37CDC246E77AF1230D0C248D /* Pods */,
+				1FBB4F3C791445A0AEC6217D /* tns-core-modules */,
+				E752D02046AB95A146DBF520 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +104,9 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A09AF8A50CAB4D3C89C7B927 /* TNSWidgets.framework */,
-				6DF89AB2AD2CAA2D97329E2A /* Pods_passportscanner.framework */,
+				2C3211FD2165662800BB8907 /* libz.tbd */,
+				D88B9183B5E54ADD93AE7F90 /* TNSWidgets.framework */,
+				D5EC59F58A77BFEFA61EFAC5 /* Pods_passportscanner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,23 +134,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0B792C696684432B0D76BD1 /* tns-core-modules */ = {
-			isa = PBXGroup;
-			children = (
-				4834358578B44106B77FAD52 /* NativeScriptEmbedder.h */,
-				9CFC45516AF8485CB5EEAEC5 /* NativeScriptEmbedder.m */,
-			);
-			name = "tns-core-modules";
-			sourceTree = "<group>";
-		};
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				40D26B50F8714FD9B20B60C0 /* Assets.xcassets */,
-				ADEE8868B57B4AAE91316F6B /* LaunchScreen.storyboard */,
-				3F0C764D327249408BDF85BD /* build.xcconfig */,
+				9E6602F32D124DEF917CC03F /* Assets.xcassets */,
+				928632C0468B43BBB5CBD618 /* LaunchScreen.storyboard */,
+				1C13E318B4B044F184AE4D65 /* build.xcconfig */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E752D02046AB95A146DBF520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "passportscanner" */;
 			buildPhases = (
-				CE0EF6F309A150524458C87B /* [CP] Check Pods Manifest.lock */,
+				3F6A6D60ACB50824CD3A69A1 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -165,7 +166,7 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
-				0228B2A30BE113E46B4ACE3C /* [CP] Embed Pods Frameworks */,
+				1B38F04106A878DC0BCB65EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,7 +189,7 @@
 				TargetAttributes = {
 					858B83EF18CA22B800AB12DE = {
 						DevelopmentTeam = B9S9L6FFPS;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -216,16 +217,17 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				2D15D6404881432E873A66F7 /* Assets.xcassets in Resources */,
-				A03A49F8D04144E08D5E4862 /* LaunchScreen.storyboard in Resources */,
-				CE039DBDABBB4733B0957060 /* build.xcconfig in Resources */,
+				C1A4F7A2F293426281375437 /* Assets.xcassets in Resources */,
+				50A654DF685B4E4DA66471C4 /* LaunchScreen.storyboard in Resources */,
+				44D3435BB0844EBC9287428D /* build.xcconfig in Resources */,
+				2C30CBA721656CB100A41C28 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0228B2A30BE113E46B4ACE3C /* [CP] Embed Pods Frameworks */ = {
+		1B38F04106A878DC0BCB65EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,7 +235,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-passportscanner/Pods-passportscanner-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-passportscanner/Pods-passportscanner-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EVGPUImage2/EVGPUImage2.framework",
 				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
 				"${BUILT_PRODUCTS_DIR}/PassportScannerNs/PassportScannerNs.framework",
@@ -252,7 +254,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-passportscanner/Pods-passportscanner-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passportscanner/Pods-passportscanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6A6D60ACB50824CD3A69A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-passportscanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
@@ -300,28 +324,6 @@
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
 			showEnvVarsInLog = 0;
 		};
-		CE0EF6F309A150524458C87B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-passportscanner-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
-				3A2098C5DBA14EC2A987DD79 /* NativeScriptEmbedder.m in Sources */,
+				BAE7FBF4B5334F6CAE5C41AD /* NativeScriptEmbedder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +428,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B9S9L6FFPS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -444,7 +447,10 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/passportscanner/passportscanner-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.passportscanner;
 				PRODUCT_NAME = passportscanner;
+				PROVISIONING_PROFILE = "f0560df8-1a66-430e-becc-b46a48b9b150";
+				PROVISIONING_PROFILE_SPECIFIER = "Developer provisioning profile Nativescript";
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +462,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B9S9L6FFPS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -470,7 +477,10 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/passportscanner/passportscanner-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.passportscanner;
 				PRODUCT_NAME = passportscanner;
+				PROVISIONING_PROFILE = "f0560df8-1a66-430e-becc-b46a48b9b150";
+				PROVISIONING_PROFILE_SPECIFIER = "Developer provisioning profile Nativescript";
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
 			};

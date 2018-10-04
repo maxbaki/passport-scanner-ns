@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SmoothToonFilter"
+provides-nominal:
+- "11EVGPUImage216SmoothToonFilterC"
+provides-member:
+- ["11EVGPUImage216SmoothToonFilterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-->"
+- "AssignmentPrecedence"
+- "Float"
+- "FloatLiteralType"
+- "GaussianBlur"
+- "OperationGroup"
+- "SmoothToonFilter"
+- "ToonFilter"
+depends-member:
+- !private ["11EVGPUImage214BasicOperationC", "blurRadiusInPixels"]
+- !private ["11EVGPUImage214BasicOperationC", "quantizationLevels"]
+- !private ["11EVGPUImage214BasicOperationC", "threshold"]
+- !private ["11EVGPUImage212GaussianBlurC", "blurRadiusInPixels"]
+- !private ["11EVGPUImage212GaussianBlurC", "deinit"]
+- ["11EVGPUImage212GaussianBlurC", "init"]
+- ["11EVGPUImage213ImageConsumerP", "GaussianBlur"]
+- ["11EVGPUImage213ImageConsumerP", "ToonFilter"]
+- ["11EVGPUImage213ImageConsumerP", ""]
+- !private ["11EVGPUImage213ImageConsumerP", "blurRadiusInPixels"]
+- !private ["11EVGPUImage213ImageConsumerP", "configureGroup"]
+- !private ["11EVGPUImage213ImageConsumerP", "gaussianBlur"]
+- ["11EVGPUImage213ImageConsumerP", "init"]
+- !private ["11EVGPUImage213ImageConsumerP", "quantizationLevels"]
+- !private ["11EVGPUImage213ImageConsumerP", "threshold"]
+- !private ["11EVGPUImage213ImageConsumerP", "toonFilter"]
+- ["11EVGPUImage224ImageProcessingOperationP", "GaussianBlur"]
+- ["11EVGPUImage224ImageProcessingOperationP", "ToonFilter"]
+- ["11EVGPUImage224ImageProcessingOperationP", ""]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "blurRadiusInPixels"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "configureGroup"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "gaussianBlur"]
+- ["11EVGPUImage224ImageProcessingOperationP", "init"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "quantizationLevels"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "threshold"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "toonFilter"]
+- !private ["11EVGPUImage210ImageRelayC", "deinit"]
+- ["11EVGPUImage211ImageSourceP", "GaussianBlur"]
+- ["11EVGPUImage211ImageSourceP", "ToonFilter"]
+- ["11EVGPUImage211ImageSourceP", ""]
+- !private ["11EVGPUImage211ImageSourceP", "blurRadiusInPixels"]
+- !private ["11EVGPUImage211ImageSourceP", "configureGroup"]
+- !private ["11EVGPUImage211ImageSourceP", "gaussianBlur"]
+- ["11EVGPUImage211ImageSourceP", "init"]
+- !private ["11EVGPUImage211ImageSourceP", "quantizationLevels"]
+- !private ["11EVGPUImage211ImageSourceP", "threshold"]
+- !private ["11EVGPUImage211ImageSourceP", "toonFilter"]
+- ["11EVGPUImage214OperationGroupC", "Float"]
+- ["11EVGPUImage214OperationGroupC", "GaussianBlur"]
+- ["11EVGPUImage214OperationGroupC", "ToonFilter"]
+- ["11EVGPUImage214OperationGroupC", ""]
+- ["11EVGPUImage214OperationGroupC", "blurRadiusInPixels"]
+- !private ["11EVGPUImage214OperationGroupC", "configureGroup"]
+- ["11EVGPUImage214OperationGroupC", "gaussianBlur"]
+- ["11EVGPUImage214OperationGroupC", "init"]
+- ["11EVGPUImage214OperationGroupC", "quantizationLevels"]
+- ["11EVGPUImage214OperationGroupC", "threshold"]
+- ["11EVGPUImage214OperationGroupC", "toonFilter"]
+- ["11EVGPUImage216SmoothToonFilterC", "Float"]
+- ["11EVGPUImage216SmoothToonFilterC", "GaussianBlur"]
+- ["11EVGPUImage216SmoothToonFilterC", "ToonFilter"]
+- ["11EVGPUImage216SmoothToonFilterC", "blurRadiusInPixels"]
+- !private ["11EVGPUImage216SmoothToonFilterC", "configureGroup"]
+- ["11EVGPUImage216SmoothToonFilterC", "gaussianBlur"]
+- ["11EVGPUImage216SmoothToonFilterC", "init"]
+- ["11EVGPUImage216SmoothToonFilterC", "quantizationLevels"]
+- ["11EVGPUImage216SmoothToonFilterC", "threshold"]
+- ["11EVGPUImage216SmoothToonFilterC", "toonFilter"]
+- !private ["11EVGPUImage224TextureSamplingOperationC", "quantizationLevels"]
+- !private ["11EVGPUImage224TextureSamplingOperationC", "threshold"]
+- !private ["11EVGPUImage210ToonFilterC", "deinit"]
+- ["11EVGPUImage210ToonFilterC", "init"]
+- !private ["11EVGPUImage210ToonFilterC", "quantizationLevels"]
+- !private ["11EVGPUImage210ToonFilterC", "threshold"]
+- !private ["11EVGPUImage217TwoStageOperationC", "blurRadiusInPixels"]
+depends-nominal:
+- !private "11EVGPUImage214BasicOperationC"
+- "11EVGPUImage212GaussianBlurC"
+- "11EVGPUImage213ImageConsumerP"
+- "11EVGPUImage224ImageProcessingOperationP"
+- !private "11EVGPUImage210ImageRelayC"
+- "11EVGPUImage211ImageSourceP"
+- "11EVGPUImage214OperationGroupC"
+- "11EVGPUImage216SmoothToonFilterC"
+- !private "11EVGPUImage224TextureSamplingOperationC"
+- "11EVGPUImage210ToonFilterC"
+- !private "11EVGPUImage217TwoStageOperationC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/EVGPUImage2/EVGPUImage2-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/EVGPUImage2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0fd3b2eaae92abeacf322a13d98e115"

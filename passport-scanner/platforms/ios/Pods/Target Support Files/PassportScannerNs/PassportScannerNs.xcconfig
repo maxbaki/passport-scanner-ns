@@ -1,8 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PassportScannerNs
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/EVGPUImage2" "${PODS_CONFIGURATION_BUILD_DIR}/GPUImage" "${PODS_CONFIGURATION_BUILD_DIR}/TesseractOCRiOS" "${PODS_CONFIGURATION_BUILD_DIR}/UIImage-Resize"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "CoreMedia" -framework "EVGPUImage2" -framework "Foundation" -framework "GPUImage" -framework "OpenGLES" -framework "QuartzCore" -framework "TesseractOCR" -framework "UIImage_Resize" -framework "UIKit"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -suppress-warnings
+OTHER_LDFLAGS = -framework "Foundation"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS" "-suppress-warnings"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

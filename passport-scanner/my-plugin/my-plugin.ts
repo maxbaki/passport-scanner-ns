@@ -31,7 +31,7 @@ export class SwiftyCam extends ContentView {
   public onLoaded() {
     var self = this;
     console.log("loafing..."),
-    let swifty = PassportScannerController.alloc().StartScanWithSender(this);
-    this._ios.addSubview(swifty.view);
+    //let swifty = PassportScannerController.alloc().StartScanWithSender(this);
+    //this._ios.addSubview(swifty.view);
   }
 }

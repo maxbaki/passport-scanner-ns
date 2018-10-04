@@ -1,0 +1,364 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CrosshairGenerator"
+provides-nominal:
+- "11EVGPUImage218CrosshairGeneratorC"
+provides-member:
+- ["11EVGPUImage218CrosshairGeneratorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Color"
+- !private "CrosshairFragmentShader"
+- "CrosshairGenerator"
+- !private "CrosshairVertexShader"
+- "Float"
+- "FloatLiteralType"
+- !private "GL_FLOAT"
+- !private "GL_POINTS"
+- !private "GL_POINT_SPRITE_OES"
+- !private "GLenum"
+- !private "GLsizei"
+- "ImageGenerator"
+- !private "IntegerLiteralType"
+- "Position"
+- "ShaderProgram"
+- "ShaderUniformSettings"
+- "Size"
+- !private "StringLiteralType"
+- !private "clearFramebufferWithColor"
+- !private "crashOnShaderCompileFailure"
+- !private "fatalError"
+- !private "glDrawArrays"
+- !private "glEnable"
+- !private "glVertexAttribPointer"
+- !private "sharedImageProcessingContext"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "flatMap"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "flatMap"]
+- !private ["SK", "count"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "count"]
+- !private ["Sl", "flatMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["11EVGPUImage25ColorV", "green"]
+- !private ["11EVGPUImage25ColorV", "transparent"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["11EVGPUImage218CrosshairGeneratorC", "Color"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "CrosshairFragmentShader"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "CrosshairVertexShader"]
+- ["11EVGPUImage218CrosshairGeneratorC", "Float"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "GL_FLOAT"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "GL_POINTS"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "GL_POINT_SPRITE_OES"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "GLenum"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "GLsizei"]
+- ["11EVGPUImage218CrosshairGeneratorC", "Position"]
+- ["11EVGPUImage218CrosshairGeneratorC", "ShaderProgram"]
+- ["11EVGPUImage218CrosshairGeneratorC", "ShaderUniformSettings"]
+- ["11EVGPUImage218CrosshairGeneratorC", "Size"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "clearFramebufferWithColor"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "crashOnShaderCompileFailure"]
+- ["11EVGPUImage218CrosshairGeneratorC", "crosshairColor"]
+- ["11EVGPUImage218CrosshairGeneratorC", "crosshairShader"]
+- ["11EVGPUImage218CrosshairGeneratorC", "crosshairWidth"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "fatalError"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "glDrawArrays"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "glEnable"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "glVertexAttribPointer"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "imageFramebuffer"]
+- ["11EVGPUImage218CrosshairGeneratorC", "init"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "notifyTargets"]
+- ["11EVGPUImage218CrosshairGeneratorC", "renderCrosshairs"]
+- !private ["11EVGPUImage218CrosshairGeneratorC", "sharedImageProcessingContext"]
+- ["11EVGPUImage218CrosshairGeneratorC", "uniformSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "activateFramebufferForRendering"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timingStyle"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "activateFramebufferForRendering"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timingStyle"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "activateFramebufferForRendering"]
+- !private ["Se", "count"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "timingStyle"]
+- !private ["SE", "activateFramebufferForRendering"]
+- !private ["SE", "count"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "timingStyle"]
+- !private ["SQ", "activateFramebufferForRendering"]
+- !private ["SQ", "count"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "timingStyle"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "activateFramebufferForRendering"]
+- !private ["s23ExpressibleByNilLiteralP", "timingStyle"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["11EVGPUImage211FramebufferC", "activateFramebufferForRendering"]
+- !private ["11EVGPUImage211FramebufferC", "timingStyle"]
+- !private ["11EVGPUImage222FramebufferTimingStyleO", "stillImage"]
+- !private ["SH", "activateFramebufferForRendering"]
+- !private ["SH", "count"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "timingStyle"]
+- ["11EVGPUImage214ImageGeneratorC", "Color"]
+- !private ["11EVGPUImage214ImageGeneratorC", "CrosshairFragmentShader"]
+- !private ["11EVGPUImage214ImageGeneratorC", "CrosshairVertexShader"]
+- ["11EVGPUImage214ImageGeneratorC", "Float"]
+- !private ["11EVGPUImage214ImageGeneratorC", "GL_FLOAT"]
+- !private ["11EVGPUImage214ImageGeneratorC", "GL_POINTS"]
+- !private ["11EVGPUImage214ImageGeneratorC", "GL_POINT_SPRITE_OES"]
+- !private ["11EVGPUImage214ImageGeneratorC", "GLenum"]
+- !private ["11EVGPUImage214ImageGeneratorC", "GLsizei"]
+- ["11EVGPUImage214ImageGeneratorC", "Position"]
+- ["11EVGPUImage214ImageGeneratorC", "ShaderProgram"]
+- ["11EVGPUImage214ImageGeneratorC", "ShaderUniformSettings"]
+- ["11EVGPUImage214ImageGeneratorC", "Size"]
+- ["11EVGPUImage214ImageGeneratorC", ""]
+- !private ["11EVGPUImage214ImageGeneratorC", "clearFramebufferWithColor"]
+- !private ["11EVGPUImage214ImageGeneratorC", "crashOnShaderCompileFailure"]
+- ["11EVGPUImage214ImageGeneratorC", "crosshairColor"]
+- ["11EVGPUImage214ImageGeneratorC", "crosshairShader"]
+- ["11EVGPUImage214ImageGeneratorC", "crosshairWidth"]
+- !private ["11EVGPUImage214ImageGeneratorC", "fatalError"]
+- !private ["11EVGPUImage214ImageGeneratorC", "glDrawArrays"]
+- !private ["11EVGPUImage214ImageGeneratorC", "glEnable"]
+- !private ["11EVGPUImage214ImageGeneratorC", "glVertexAttribPointer"]
+- !private ["11EVGPUImage214ImageGeneratorC", "imageFramebuffer"]
+- ["11EVGPUImage214ImageGeneratorC", "init"]
+- !private ["11EVGPUImage214ImageGeneratorC", "notifyTargets"]
+- ["11EVGPUImage214ImageGeneratorC", "renderCrosshairs"]
+- !private ["11EVGPUImage214ImageGeneratorC", "sharedImageProcessingContext"]
+- ["11EVGPUImage214ImageGeneratorC", "uniformSettings"]
+- ["11EVGPUImage211ImageSourceP", "Color"]
+- !private ["11EVGPUImage211ImageSourceP", "CrosshairFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "CrosshairVertexShader"]
+- !private ["11EVGPUImage211ImageSourceP", "GL_FLOAT"]
+- !private ["11EVGPUImage211ImageSourceP", "GL_POINTS"]
+- !private ["11EVGPUImage211ImageSourceP", "GL_POINT_SPRITE_OES"]
+- !private ["11EVGPUImage211ImageSourceP", "GLenum"]
+- !private ["11EVGPUImage211ImageSourceP", "GLsizei"]
+- ["11EVGPUImage211ImageSourceP", "ShaderUniformSettings"]
+- ["11EVGPUImage211ImageSourceP", ""]
+- !private ["11EVGPUImage211ImageSourceP", "clearFramebufferWithColor"]
+- !private ["11EVGPUImage211ImageSourceP", "crashOnShaderCompileFailure"]
+- !private ["11EVGPUImage211ImageSourceP", "crosshairColor"]
+- !private ["11EVGPUImage211ImageSourceP", "crosshairShader"]
+- !private ["11EVGPUImage211ImageSourceP", "crosshairWidth"]
+- !private ["11EVGPUImage211ImageSourceP", "fatalError"]
+- !private ["11EVGPUImage211ImageSourceP", "glDrawArrays"]
+- !private ["11EVGPUImage211ImageSourceP", "glEnable"]
+- !private ["11EVGPUImage211ImageSourceP", "glVertexAttribPointer"]
+- !private ["11EVGPUImage211ImageSourceP", "imageFramebuffer"]
+- !private ["11EVGPUImage211ImageSourceP", "init"]
+- !private ["11EVGPUImage211ImageSourceP", "notifyTargets"]
+- !private ["11EVGPUImage211ImageSourceP", "sharedImageProcessingContext"]
+- !private ["11EVGPUImage211ImageSourceP", "uniformSettings"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "flatMap"]
+- !private ["Sj", "init"]
+- !private ["11EVGPUImage213OpenGLContextC", "programForVertexShader"]
+- !private ["Sq", "activateFramebufferForRendering"]
+- !private ["Sq", "timingStyle"]
+- !private ["11EVGPUImage28PositionV", "toGLArray"]
+- !private ["Sk", "count"]
+- !private ["Sk", "flatMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "flatMap"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["11EVGPUImage214SerialDispatchP", "programForVertexShader"]
+- !private ["11EVGPUImage213ShaderProgramC", "attributeIndex"]
+- !private ["11EVGPUImage213ShaderProgramC", "use"]
+- ["11EVGPUImage221ShaderUniformSettingsV", "init"]
+- !private ["11EVGPUImage221ShaderUniformSettingsV", "restoreShaderSettings"]
+- !private ["11EVGPUImage221ShaderUniformSettingsV", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "activateFramebufferForRendering"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timingStyle"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "11EVGPUImage25ColorV"
+- !private "SL"
+- "11EVGPUImage218CrosshairGeneratorC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "11EVGPUImage211FramebufferC"
+- !private "11EVGPUImage222FramebufferTimingStyleO"
+- !private "SH"
+- "11EVGPUImage214ImageGeneratorC"
+- "11EVGPUImage211ImageSourceP"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- !private "11EVGPUImage213OpenGLContextC"
+- !private "Sq"
+- !private "11EVGPUImage28PositionV"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "11EVGPUImage214SerialDispatchP"
+- !private "11EVGPUImage213ShaderProgramC"
+- "11EVGPUImage221ShaderUniformSettingsV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/EVGPUImage2/EVGPUImage2-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/EVGPUImage2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "42da0e088f9d0a6a61b14d00d5eae84b"

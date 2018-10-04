@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "08ad67bf2e65d5ae0c9d7fc65d53a4f9"
+build_time: [1538602331, 626461000]
+inputs:
+  "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/MRZ.swift": [1538590084, 0]
+  "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/PassportScannerController.swift": [1538600077, 0]

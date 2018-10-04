@@ -1,0 +1,1414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MRZ"
+provides-nominal:
+- "17PassportScannerNs3MRZC"
+provides-member:
+- ["17PassportScannerNs3MRZC", ""]
+- ["SS", ""]
+- ["SS", "replace"]
+- ["SS", "toNumber"]
+provides-dynamic-lookup:
+- "description"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Date"
+- !private "DateFormatter"
+- "Dictionary"
+- !private "ExtendedGraphemeClusterType"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "Locale"
+- "MRZ"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "reduce"]
+- !private ["s13ArrayProtocolP", "replace"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "replace"]
+- !private ["SK", "Index"]
+- !private ["SK", "append"]
+- !private ["SK", "characters"]
+- !private ["SK", "components"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "index"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["SK", "replace"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["SK", "split"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subString"]
+- !private ["SK", "subscript"]
+- !private ["SK", "substring"]
+- !private ["SK", "toNumber"]
+- !private ["SK", "utf8"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "MRZ"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "characters"]
+- !private ["s7CVarArgP", "cleanup"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "countryCode"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataIsValid"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "dateFromString"]
+- !private ["s7CVarArgP", "dateOfBirth"]
+- !private ["s7CVarArgP", "dateOfBirthIsValid"]
+- !private ["s7CVarArgP", "debug"]
+- !private ["s7CVarArgP", "debugLog"]
+- !private ["s7CVarArgP", "documentSubType"]
+- !private ["s7CVarArgP", "documentType"]
+- !private ["s7CVarArgP", "expirationDate"]
+- !private ["s7CVarArgP", "firstName"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isValid"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "lastName"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "nationality"]
+- !private ["s7CVarArgP", "passportNumber"]
+- !private ["s7CVarArgP", "passportNumberIsValid"]
+- !private ["s7CVarArgP", "personalNumber"]
+- !private ["s7CVarArgP", "personalNumberIsValid"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "process"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "replace"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "sex"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "stringFromDate"]
+- !private ["s7CVarArgP", "subString"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "substring"]
+- !private ["s7CVarArgP", "toNumber"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s7CVarArgP", "validate"]
+- !private ["SJ", "init"]
+- !private ["SJ", "init"]
+- !private ["Sl", "Index"]
+- !private ["Sl", "append"]
+- !private ["Sl", "characters"]
+- !private ["Sl", "components"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "index"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "replace"]
+- !private ["Sl", "replacingOccurrences"]
+- !private ["Sl", "split"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subString"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "substring"]
+- !private ["Sl", "toNumber"]
+- !private ["Sl", "utf8"]
+- !private ["SL", "Index"]
+- !private ["SL", "characters"]
+- !private ["SL", "components"]
+- !private ["SL", "index"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "replace"]
+- !private ["SL", "replacingOccurrences"]
+- !private ["SL", "startIndex"]
+- !private ["SL", "subString"]
+- !private ["SL", "substring"]
+- !private ["SL", "toNumber"]
+- !private ["SL", "utf8"]
+- !private ["So22NSStringCompareOptionsV", "literal"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "MRZ"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "characters"]
+- !private ["s28CustomDebugStringConvertibleP", "cleanup"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "countryCode"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataIsValid"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFromString"]
+- !private ["s28CustomDebugStringConvertibleP", "dateOfBirth"]
+- !private ["s28CustomDebugStringConvertibleP", "dateOfBirthIsValid"]
+- !private ["s28CustomDebugStringConvertibleP", "debug"]
+- !private ["s28CustomDebugStringConvertibleP", "debugLog"]
+- !private ["s28CustomDebugStringConvertibleP", "documentSubType"]
+- !private ["s28CustomDebugStringConvertibleP", "documentType"]
+- !private ["s28CustomDebugStringConvertibleP", "expirationDate"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstName"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isValid"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "lastName"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "nationality"]
+- !private ["s28CustomDebugStringConvertibleP", "passportNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "passportNumberIsValid"]
+- !private ["s28CustomDebugStringConvertibleP", "personalNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "personalNumberIsValid"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "process"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "replace"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "sex"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "stringFromDate"]
+- !private ["s28CustomDebugStringConvertibleP", "subString"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "substring"]
+- !private ["s28CustomDebugStringConvertibleP", "toNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Index"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "characters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "components"]
+- !private ["s29CustomPlaygroundQuickLookableP", "first"]
+- !private ["s29CustomPlaygroundQuickLookableP", "index"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replace"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s29CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "substring"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toNumber"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "characters"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "replace"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subString"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "substring"]
+- !private ["s17CustomReflectableP", "toNumber"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "MRZ"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "characters"]
+- !private ["s23CustomStringConvertibleP", "cleanup"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "countryCode"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataIsValid"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dateFromString"]
+- !private ["s23CustomStringConvertibleP", "dateOfBirth"]
+- !private ["s23CustomStringConvertibleP", "dateOfBirthIsValid"]
+- !private ["s23CustomStringConvertibleP", "debug"]
+- !private ["s23CustomStringConvertibleP", "debugLog"]
+- !private ["s23CustomStringConvertibleP", "documentSubType"]
+- !private ["s23CustomStringConvertibleP", "documentType"]
+- !private ["s23CustomStringConvertibleP", "expirationDate"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstName"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isValid"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lastName"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "nationality"]
+- !private ["s23CustomStringConvertibleP", "passportNumber"]
+- !private ["s23CustomStringConvertibleP", "passportNumberIsValid"]
+- !private ["s23CustomStringConvertibleP", "personalNumber"]
+- !private ["s23CustomStringConvertibleP", "personalNumberIsValid"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "process"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "replace"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "sex"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "stringFromDate"]
+- !private ["s23CustomStringConvertibleP", "subString"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "substring"]
+- !private ["s23CustomStringConvertibleP", "toNumber"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "Index"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "characters"]
+- !private ["Se", "components"]
+- !private ["Se", "count"]
+- !private ["Se", "index"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "replace"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subString"]
+- !private ["Se", "subscript"]
+- !private ["Se", "substring"]
+- !private ["Se", "toNumber"]
+- !private ["Se", "utf8"]
+- !private ["SD", "map"]
+- !private ["SE", "Index"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "characters"]
+- !private ["SE", "components"]
+- !private ["SE", "count"]
+- !private ["SE", "index"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "replace"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subString"]
+- !private ["SE", "subscript"]
+- !private ["SE", "substring"]
+- !private ["SE", "toNumber"]
+- !private ["SE", "utf8"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "Index"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "Locale"]
+- !private ["SQ", "MRZ"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "characters"]
+- !private ["SQ", "cleanup"]
+- !private ["SQ", "components"]
+- !private ["SQ", "count"]
+- !private ["SQ", "countryCode"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataIsValid"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "dateFromString"]
+- !private ["SQ", "dateOfBirth"]
+- !private ["SQ", "dateOfBirthIsValid"]
+- !private ["SQ", "debug"]
+- !private ["SQ", "debugLog"]
+- !private ["SQ", "documentSubType"]
+- !private ["SQ", "documentType"]
+- !private ["SQ", "expirationDate"]
+- !private ["SQ", "firstName"]
+- !private ["SQ", "index"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isValid"]
+- !private ["SQ", "last"]
+- !private ["SQ", "lastName"]
+- !private ["SQ", "literal"]
+- !private ["SQ", "locale"]
+- !private ["SQ", "map"]
+- !private ["SQ", "nationality"]
+- !private ["SQ", "passportNumber"]
+- !private ["SQ", "passportNumberIsValid"]
+- !private ["SQ", "personalNumber"]
+- !private ["SQ", "personalNumberIsValid"]
+- !private ["SQ", "print"]
+- !private ["SQ", "process"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "replace"]
+- !private ["SQ", "replacingOccurrences"]
+- !private ["SQ", "sex"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "string"]
+- !private ["SQ", "stringFromDate"]
+- !private ["SQ", "subString"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "substring"]
+- !private ["SQ", "toNumber"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "validate"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "literal"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "replace"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replace"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "substring"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "toNumber"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Index"]
+- !private ["s26ExpressibleByStringLiteralP", "characters"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "index"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replace"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "startIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "subString"]
+- !private ["s26ExpressibleByStringLiteralP", "substring"]
+- !private ["s26ExpressibleByStringLiteralP", "toNumber"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "characters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "startIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "substring"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "toNumber"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "Array"]
+- !private ["SH", "Date"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "Index"]
+- !private ["SH", "Int"]
+- !private ["SH", "Locale"]
+- !private ["SH", "MRZ"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "characters"]
+- !private ["SH", "cleanup"]
+- !private ["SH", "components"]
+- !private ["SH", "count"]
+- !private ["SH", "countryCode"]
+- !private ["SH", "data"]
+- !private ["SH", "dataIsValid"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "dateFromString"]
+- !private ["SH", "dateOfBirth"]
+- !private ["SH", "dateOfBirthIsValid"]
+- !private ["SH", "debug"]
+- !private ["SH", "debugLog"]
+- !private ["SH", "documentSubType"]
+- !private ["SH", "documentType"]
+- !private ["SH", "expirationDate"]
+- !private ["SH", "firstName"]
+- !private ["SH", "index"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isValid"]
+- !private ["SH", "last"]
+- !private ["SH", "lastName"]
+- !private ["SH", "locale"]
+- !private ["SH", "map"]
+- !private ["SH", "nationality"]
+- !private ["SH", "passportNumber"]
+- !private ["SH", "passportNumberIsValid"]
+- !private ["SH", "personalNumber"]
+- !private ["SH", "personalNumberIsValid"]
+- !private ["SH", "print"]
+- !private ["SH", "process"]
+- !private ["SH", "reduce"]
+- !private ["SH", "replace"]
+- !private ["SH", "replacingOccurrences"]
+- !private ["SH", "sex"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "string"]
+- !private ["SH", "stringFromDate"]
+- !private ["SH", "subString"]
+- !private ["SH", "subscript"]
+- !private ["SH", "substring"]
+- !private ["SH", "toNumber"]
+- !private ["SH", "utf8"]
+- !private ["SH", "validate"]
+- !private ["Si", "init"]
+- !private ["s22LazyCollectionProtocolP", "replace"]
+- !private ["s20LazySequenceProtocolP", "replace"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "Index"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "characters"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "index"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replace"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "startIndex"]
+- !private ["s25LosslessStringConvertibleP", "subString"]
+- !private ["s25LosslessStringConvertibleP", "substring"]
+- !private ["s25LosslessStringConvertibleP", "toNumber"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["17PassportScannerNs3MRZC", "Array"]
+- ["17PassportScannerNs3MRZC", "Bool"]
+- ["17PassportScannerNs3MRZC", "Date"]
+- !private ["17PassportScannerNs3MRZC", "DateFormatter"]
+- ["17PassportScannerNs3MRZC", "Dictionary"]
+- ["17PassportScannerNs3MRZC", "Float"]
+- !private ["17PassportScannerNs3MRZC", "Int"]
+- !private ["17PassportScannerNs3MRZC", "Locale"]
+- !private ["17PassportScannerNs3MRZC", "MRZ"]
+- ["17PassportScannerNs3MRZC", "String"]
+- !private ["17PassportScannerNs3MRZC", "UInt8"]
+- !private ["17PassportScannerNs3MRZC", "cleanup"]
+- ["17PassportScannerNs3MRZC", "countryCode"]
+- ["17PassportScannerNs3MRZC", "data"]
+- !private ["17PassportScannerNs3MRZC", "dataIsValid"]
+- !private ["17PassportScannerNs3MRZC", "dateFromString"]
+- ["17PassportScannerNs3MRZC", "dateOfBirth"]
+- !private ["17PassportScannerNs3MRZC", "dateOfBirthIsValid"]
+- !private ["17PassportScannerNs3MRZC", "debug"]
+- !private ["17PassportScannerNs3MRZC", "debugLog"]
+- ["17PassportScannerNs3MRZC", "description"]
+- ["17PassportScannerNs3MRZC", "documentSubType"]
+- ["17PassportScannerNs3MRZC", "documentType"]
+- ["17PassportScannerNs3MRZC", "expirationDate"]
+- !private ["17PassportScannerNs3MRZC", "expirationDateIsValid"]
+- ["17PassportScannerNs3MRZC", "firstName"]
+- ["17PassportScannerNs3MRZC", "init"]
+- ["17PassportScannerNs3MRZC", "isValid"]
+- ["17PassportScannerNs3MRZC", "lastName"]
+- ["17PassportScannerNs3MRZC", "nationality"]
+- ["17PassportScannerNs3MRZC", "passportNumber"]
+- !private ["17PassportScannerNs3MRZC", "passportNumberIsValid"]
+- ["17PassportScannerNs3MRZC", "personalNumber"]
+- !private ["17PassportScannerNs3MRZC", "personalNumberIsValid"]
+- !private ["17PassportScannerNs3MRZC", "print"]
+- !private ["17PassportScannerNs3MRZC", "process"]
+- ["17PassportScannerNs3MRZC", "sex"]
+- !private ["17PassportScannerNs3MRZC", "stringFromDate"]
+- !private ["17PassportScannerNs3MRZC", "validate"]
+- !private ["s10MirrorPathP", "Index"]
+- !private ["s10MirrorPathP", "characters"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "index"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replace"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "startIndex"]
+- !private ["s10MirrorPathP", "subString"]
+- !private ["s10MirrorPathP", "substring"]
+- !private ["s10MirrorPathP", "toNumber"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "reduce"]
+- !private ["SM", "replace"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "characters"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "index"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "replace"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "startIndex"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "subString"]
+- !private ["So8NSCodingP", "substring"]
+- !private ["So8NSCodingP", "toNumber"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "characters"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "index"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "replace"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "startIndex"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "subString"]
+- !private ["So9NSCopyingP", "substring"]
+- !private ["So9NSCopyingP", "toNumber"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "characters"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "index"]
+- !private ["So21NSItemProviderReadingP", "replace"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "startIndex"]
+- !private ["So21NSItemProviderReadingP", "subString"]
+- !private ["So21NSItemProviderReadingP", "substring"]
+- !private ["So21NSItemProviderReadingP", "toNumber"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "characters"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "index"]
+- !private ["So21NSItemProviderWritingP", "replace"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "startIndex"]
+- !private ["So21NSItemProviderWritingP", "subString"]
+- !private ["So21NSItemProviderWritingP", "substring"]
+- !private ["So21NSItemProviderWritingP", "toNumber"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "characters"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "index"]
+- !private ["So16NSMutableCopyingP", "replace"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "startIndex"]
+- !private ["So16NSMutableCopyingP", "subString"]
+- !private ["So16NSMutableCopyingP", "substring"]
+- !private ["So16NSMutableCopyingP", "toNumber"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Dictionary"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "MRZ"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt8"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "characters"]
+- ["So8NSObjectC", "cleanup"]
+- !private ["So8NSObjectC", "components"]
+- ["So8NSObjectC", "countryCode"]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "dataIsValid"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "dateFromString"]
+- ["So8NSObjectC", "dateOfBirth"]
+- ["So8NSObjectC", "dateOfBirthIsValid"]
+- ["So8NSObjectC", "debug"]
+- ["So8NSObjectC", "debugLog"]
+- ["So8NSObjectC", "description"]
+- ["So8NSObjectC", "documentSubType"]
+- ["So8NSObjectC", "documentType"]
+- ["So8NSObjectC", "expirationDate"]
+- ["So8NSObjectC", "expirationDateIsValid"]
+- ["So8NSObjectC", "firstName"]
+- !private ["So8NSObjectC", "index"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isValid"]
+- ["So8NSObjectC", "lastName"]
+- !private ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "nationality"]
+- ["So8NSObjectC", "passportNumber"]
+- ["So8NSObjectC", "passportNumberIsValid"]
+- ["So8NSObjectC", "personalNumber"]
+- ["So8NSObjectC", "personalNumberIsValid"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "process"]
+- !private ["So8NSObjectC", "replace"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- ["So8NSObjectC", "sex"]
+- !private ["So8NSObjectC", "startIndex"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "stringFromDate"]
+- !private ["So8NSObjectC", "subString"]
+- !private ["So8NSObjectC", "substring"]
+- !private ["So8NSObjectC", "toNumber"]
+- !private ["So8NSObjectC", "utf8"]
+- ["So8NSObjectC", "validate"]
+- !private ["So8NSObjectP", "Array"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "Locale"]
+- !private ["So8NSObjectP", "MRZ"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "characters"]
+- !private ["So8NSObjectP", "cleanup"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "countryCode"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataIsValid"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "dateFromString"]
+- !private ["So8NSObjectP", "dateOfBirth"]
+- !private ["So8NSObjectP", "dateOfBirthIsValid"]
+- !private ["So8NSObjectP", "debug"]
+- !private ["So8NSObjectP", "debugLog"]
+- !private ["So8NSObjectP", "documentSubType"]
+- !private ["So8NSObjectP", "documentType"]
+- !private ["So8NSObjectP", "expirationDate"]
+- !private ["So8NSObjectP", "firstName"]
+- !private ["So8NSObjectP", "index"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isValid"]
+- !private ["So8NSObjectP", "lastName"]
+- !private ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "nationality"]
+- !private ["So8NSObjectP", "passportNumber"]
+- !private ["So8NSObjectP", "passportNumberIsValid"]
+- !private ["So8NSObjectP", "personalNumber"]
+- !private ["So8NSObjectP", "personalNumberIsValid"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "process"]
+- !private ["So8NSObjectP", "replace"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So8NSObjectP", "sex"]
+- !private ["So8NSObjectP", "startIndex"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringFromDate"]
+- !private ["So8NSObjectP", "subString"]
+- !private ["So8NSObjectP", "substring"]
+- !private ["So8NSObjectP", "toNumber"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So8NSObjectP", "validate"]
+- !private ["So14NSSecureCodingP", "characters"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "index"]
+- !private ["So14NSSecureCodingP", "replace"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "startIndex"]
+- !private ["So14NSSecureCodingP", "subString"]
+- !private ["So14NSSecureCodingP", "substring"]
+- !private ["So14NSSecureCodingP", "toNumber"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "characters"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "index"]
+- !private ["So8NSStringC", "replace"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "startIndex"]
+- !private ["So8NSStringC", "subString"]
+- !private ["So8NSStringC", "substring"]
+- !private ["So8NSStringC", "toNumber"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "literal"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "replace"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "Index"]
+- !private ["Sm", "append"]
+- !private ["Sm", "characters"]
+- !private ["Sm", "components"]
+- !private ["Sm", "count"]
+- !private ["Sm", "index"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "replace"]
+- !private ["Sm", "replacingOccurrences"]
+- !private ["Sm", "split"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subString"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "substring"]
+- !private ["Sm", "toNumber"]
+- !private ["Sm", "utf8"]
+- !private ["SY", "literal"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "Index"]
+- !private ["ST", "append"]
+- !private ["ST", "characters"]
+- !private ["ST", "components"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "index"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "replace"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["ST", "split"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subString"]
+- !private ["ST", "subscript"]
+- !private ["ST", "substring"]
+- !private ["ST", "toNumber"]
+- !private ["ST", "utf8"]
+- !private ["s10SetAlgebraP", "literal"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s5SliceV", "replace"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "Index"]
+- ["SS", "Int"]
+- ["SS", "String"]
+- !private ["SS", "characters"]
+- !private ["SS", "components"]
+- !private ["SS", "index"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["SS", "replace"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "subString"]
+- !private ["SS", "substring"]
+- ["SS", "toNumber"]
+- !private ["SS", "utf8"]
+- !private ["Sy", "Index"]
+- !private ["Sy", "characters"]
+- !private ["Sy", "components"]
+- !private ["Sy", "index"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["Sy", "replace"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["Sy", "startIndex"]
+- !private ["Sy", "subString"]
+- !private ["Sy", "substring"]
+- !private ["Sy", "toNumber"]
+- !private ["Sy", "utf8"]
+- !private ["s16TextOutputStreamP", "Index"]
+- !private ["s16TextOutputStreamP", "characters"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "index"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replace"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "startIndex"]
+- !private ["s16TextOutputStreamP", "subString"]
+- !private ["s16TextOutputStreamP", "substring"]
+- !private ["s16TextOutputStreamP", "toNumber"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "Index"]
+- !private ["s20TextOutputStreamableP", "characters"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "index"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replace"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "startIndex"]
+- !private ["s20TextOutputStreamableP", "subString"]
+- !private ["s20TextOutputStreamableP", "substring"]
+- !private ["s20TextOutputStreamableP", "toNumber"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["SS8UTF8ViewV", "first"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["SS14_CharacterViewV", "count"]
+- !private ["SS14_CharacterViewV", "split"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "replace"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "index"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replace"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "substring"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "toNumber"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "characters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "index"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replace"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "startIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "substring"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "toNumber"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Index"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "characters"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "components"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "index"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replace"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "startIndex"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "subString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "substring"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "toNumber"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "characters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "index"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "startIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "substring"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "toNumber"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Index"]
+- !private ["s33_ExpressibleByStringInterpolationP", "characters"]
+- !private ["s33_ExpressibleByStringInterpolationP", "components"]
+- !private ["s33_ExpressibleByStringInterpolationP", "index"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replace"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByStringInterpolationP", "startIndex"]
+- !private ["s33_ExpressibleByStringInterpolationP", "subString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "substring"]
+- !private ["s33_ExpressibleByStringInterpolationP", "toNumber"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "characters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replace"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "substring"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "toNumber"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MRZ"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cleanup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "countryCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataIsValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFromString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateOfBirth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateOfBirthIsValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debug"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "documentSubType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "documentType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expirationDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "index"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nationality"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passportNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passportNumberIsValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "personalNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "personalNumberIsValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "process"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringFromDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "substring"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "validate"]
+- !private ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "characters"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "replace"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subString"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "substring"]
+- !private ["s21_ObjectiveCBridgeableP", "toNumber"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s16_SwiftStringViewP", "Index"]
+- !private ["s16_SwiftStringViewP", "characters"]
+- !private ["s16_SwiftStringViewP", "components"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "first"]
+- !private ["s16_SwiftStringViewP", "index"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replace"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "split"]
+- !private ["s16_SwiftStringViewP", "startIndex"]
+- !private ["s16_SwiftStringViewP", "subString"]
+- !private ["s16_SwiftStringViewP", "substring"]
+- !private ["s16_SwiftStringViewP", "toNumber"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "SJ"
+- "Sl"
+- "SL"
+- !private "So22NSStringCompareOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "Si"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "17PassportScannerNs3MRZC"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "SS8UTF8ViewV"
+- !private "s18_BitwiseOperationsP"
+- !private "SS14_CharacterViewV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Debug-iphoneos/EVGPUImage2/EVGPUImage2.framework/Modules/EVGPUImage2.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/TesseractOCR.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/EVGPUImage2/EVGPUImage2-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/TesseractOCRiOS/TesseractOCRiOS-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/GPUImage/GPUImage-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/UIImage-Resize/UIImage-Resize-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/PassportScannerNs/PassportScannerNs-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageStillCamera.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageVideoCamera.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImage.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/GPUImagePicture+TextureSubimage.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFramebufferCache.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMovie.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFilterPipeline.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/GPUImagePicture.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8TesseractDelegate.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/UIImage-Resize/UIImage+Resize.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8RecognizedBlock.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/Framework/GPUImageFramework.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GLProgram.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8RecognitionOperation.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/UIImage+G8FixOrientation.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMovieComposition.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFilterGroup.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageBuffer.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFramebuffer.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/GPUImageMovieWriter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageKuwaharaRadius3Filter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRGBFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHSBFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSepiaFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAmatorkaFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGammaFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageKuwaharaFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMosaicFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLuminanceThresholdFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAverageLuminanceThresholdFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAdaptiveThresholdFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAlphaBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAddBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDifferenceBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDivideBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorDodgeBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHueBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDissolveBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageNormalBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageScreenBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDarkenBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLightenBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageExclusionBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSaturationBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePoissonBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLinearBurnBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorBurnBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSourceOverBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSubtractBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHardLightBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSoftLightBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageOverlayBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageChromaKeyBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMultiplyBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLuminosityBlendFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageCGAColorspaceFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSoftEleganceFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageWhiteBalanceFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLuminanceRangeFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGrayscaleFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMonochromeFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHalftoneFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGlassSphereFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageExposureFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePerlinNoiseFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMissEtikateFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePixellateFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePolarPixellateFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageVignetteFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHueFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageXYDerivativeFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageToneCurveFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHazeFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePosterizeFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorPackingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImage3x3TextureSamplingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTwoPassTextureSamplingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLanczosResamplingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRGBOpeningFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageOpeningFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRGBClosingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageClosingFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageCrosshatchFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageThresholdSketchFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSketchFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageJFAVoronoiFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMaskFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageUnsharpMaskFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageBilateralFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSwirlFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHistogramFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTransformFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLaplacianFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMedianFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSharpenFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRGBErosionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageErosionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageNonMaximumSuppressionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageWeakPixelInclusionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRGBDilationFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDilationFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSaturationFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHistogramEqualizationFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSphereRefractionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageThresholdEdgeDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSobelEdgeDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePrewittEdgeDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFASTCornerDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageNobleCornerDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHarrisCornerDetectionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePixellatePositionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGaussianBlurPositionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageBulgeDistortionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePinchDistortionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageStretchDistortionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImage3x3ConvolutionFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageToonFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSmoothToonFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLocalBinaryPatternFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageCropFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLookupFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageVoronoiConsumerFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageFalseColorFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageiOSBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGaussianSelectiveBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageZoomBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageGaussianBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSingleComponentGaussianBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMotionBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageBoxBlurFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLevelsFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHighPassFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTwoPassFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLowPassFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageBrightnessFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageEmbossFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTiltShiftFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImagePolkaDotFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorInvertFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageContrastFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageThreeInputFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTwoInputFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHighlightShadowFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageColorMatrixFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageChromaKeyFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageOpacityFilter.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageAverageColor.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLineGenerator.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHistogramGenerator.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageCrosshairGenerator.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageSolidColorGenerator.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageHoughTransformLineDetector.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageMotionDetector.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8TesseractParameters.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/UIImage+G8Filters.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8Constants.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/TesseractOCRiOS/TesseractOCR/G8Tesseract.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Debug-iphoneos/EVGPUImage2/EVGPUImage2.framework/Headers/EVGPUImage2-Swift.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageUIElement.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRawDataInput.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTextureInput.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageRawDataOutput.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageOutput.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageTextureOutput.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/GPUImageContext.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/iOS/GPUImageView.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/GPUImage/framework/Source/GPUImageLuminosity.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/PassportScannerNs.build/unextended-module.modulemap"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/EVGPUImage2.build/module.modulemap"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/TesseractOCRiOS.build/module.modulemap"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/GPUImage.build/module.modulemap"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/UIImage-Resize.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "768a8b690aa4cd95e28efa6f04300349"

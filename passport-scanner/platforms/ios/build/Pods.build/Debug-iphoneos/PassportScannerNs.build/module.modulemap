@@ -1,0 +1,11 @@
+framework module PassportScannerNs {
+  umbrella header "PassportScannerNs-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PassportScannerNs.Swift {
+    header "PassportScannerNs-Swift.h"
+    requires objc
+}

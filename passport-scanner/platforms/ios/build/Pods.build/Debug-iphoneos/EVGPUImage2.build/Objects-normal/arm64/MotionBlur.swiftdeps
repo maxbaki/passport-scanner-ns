@@ -1,0 +1,320 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MotionBlur"
+provides-nominal:
+- "11EVGPUImage210MotionBlurC"
+provides-member:
+- ["11EVGPUImage210MotionBlurC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "??"
+- "AssignmentPrecedence"
+- "BasicOperation"
+- !private "Double"
+- "Float"
+- "FloatLiteralType"
+- "Framebuffer"
+- !private "IntegerLiteralType"
+- "MotionBlur"
+- !private "MotionBlurFragmentShader"
+- !private "MotionBlurVertexShader"
+- !private "Position"
+- !private "cos"
+- !private "sin"
+depends-member:
+- !private ["11EVGPUImage214BasicOperationC", "Double"]
+- ["11EVGPUImage214BasicOperationC", "Float"]
+- ["11EVGPUImage214BasicOperationC", "Framebuffer"]
+- !private ["11EVGPUImage214BasicOperationC", "MotionBlurFragmentShader"]
+- !private ["11EVGPUImage214BasicOperationC", "MotionBlurVertexShader"]
+- !private ["11EVGPUImage214BasicOperationC", "Position"]
+- ["11EVGPUImage214BasicOperationC", ""]
+- ["11EVGPUImage214BasicOperationC", "blurAngle"]
+- ["11EVGPUImage214BasicOperationC", "blurSize"]
+- ["11EVGPUImage214BasicOperationC", "configureFramebufferSpecificUniforms"]
+- !private ["11EVGPUImage214BasicOperationC", "cos"]
+- ["11EVGPUImage214BasicOperationC", "init"]
+- !private ["11EVGPUImage214BasicOperationC", "overriddenOutputRotation"]
+- !private ["11EVGPUImage214BasicOperationC", "sin"]
+- !private ["11EVGPUImage214BasicOperationC", "uniformSettings"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["SB", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "pi"]
+- !private ["Sd", "init"]
+- !private ["Sd", "pi"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "pi"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "flipsDimensions"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pi"]
+- !private ["SQ", "portrait"]
+- !private ["SQ", "rotationNeededForOrientation"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SF", "pi"]
+- !private ["11EVGPUImage211FramebufferC", "aspectRatioForRotation"]
+- !private ["11EVGPUImage211FramebufferC", "orientation"]
+- !private ["11EVGPUImage211FramebufferC", "texelSize"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "flipsDimensions"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "pi"]
+- !private ["SH", "portrait"]
+- !private ["SH", "rotationNeededForOrientation"]
+- !private ["11EVGPUImage213ImageConsumerP", "Double"]
+- !private ["11EVGPUImage213ImageConsumerP", "Float"]
+- !private ["11EVGPUImage213ImageConsumerP", "MotionBlurFragmentShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "MotionBlurVertexShader"]
+- !private ["11EVGPUImage213ImageConsumerP", "Position"]
+- ["11EVGPUImage213ImageConsumerP", ""]
+- !private ["11EVGPUImage213ImageConsumerP", "blurAngle"]
+- !private ["11EVGPUImage213ImageConsumerP", "blurSize"]
+- !private ["11EVGPUImage213ImageConsumerP", "cos"]
+- !private ["11EVGPUImage213ImageConsumerP", "init"]
+- !private ["11EVGPUImage213ImageConsumerP", "overriddenOutputRotation"]
+- !private ["11EVGPUImage213ImageConsumerP", "sin"]
+- !private ["11EVGPUImage213ImageConsumerP", "uniformSettings"]
+- !private ["11EVGPUImage216ImageOrientationO", "portrait"]
+- !private ["11EVGPUImage216ImageOrientationO", "rotationNeededForOrientation"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Double"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Float"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "MotionBlurFragmentShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "MotionBlurVertexShader"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "Position"]
+- ["11EVGPUImage224ImageProcessingOperationP", ""]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "blurAngle"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "blurSize"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "cos"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "init"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "overriddenOutputRotation"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "sin"]
+- !private ["11EVGPUImage224ImageProcessingOperationP", "uniformSettings"]
+- !private ["11EVGPUImage211ImageSourceP", "Double"]
+- !private ["11EVGPUImage211ImageSourceP", "Float"]
+- !private ["11EVGPUImage211ImageSourceP", "MotionBlurFragmentShader"]
+- !private ["11EVGPUImage211ImageSourceP", "MotionBlurVertexShader"]
+- !private ["11EVGPUImage211ImageSourceP", "Position"]
+- ["11EVGPUImage211ImageSourceP", ""]
+- !private ["11EVGPUImage211ImageSourceP", "blurAngle"]
+- !private ["11EVGPUImage211ImageSourceP", "blurSize"]
+- !private ["11EVGPUImage211ImageSourceP", "cos"]
+- !private ["11EVGPUImage211ImageSourceP", "init"]
+- !private ["11EVGPUImage211ImageSourceP", "overriddenOutputRotation"]
+- !private ["11EVGPUImage211ImageSourceP", "sin"]
+- !private ["11EVGPUImage211ImageSourceP", "uniformSettings"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["11EVGPUImage210MotionBlurC", "Double"]
+- ["11EVGPUImage210MotionBlurC", "Float"]
+- ["11EVGPUImage210MotionBlurC", "Framebuffer"]
+- !private ["11EVGPUImage210MotionBlurC", "MotionBlurFragmentShader"]
+- !private ["11EVGPUImage210MotionBlurC", "MotionBlurVertexShader"]
+- !private ["11EVGPUImage210MotionBlurC", "Position"]
+- ["11EVGPUImage210MotionBlurC", "blurAngle"]
+- ["11EVGPUImage210MotionBlurC", "blurSize"]
+- ["11EVGPUImage210MotionBlurC", "configureFramebufferSpecificUniforms"]
+- !private ["11EVGPUImage210MotionBlurC", "cos"]
+- ["11EVGPUImage210MotionBlurC", "init"]
+- !private ["11EVGPUImage210MotionBlurC", "overriddenOutputRotation"]
+- !private ["11EVGPUImage210MotionBlurC", "sin"]
+- !private ["11EVGPUImage210MotionBlurC", "uniformSettings"]
+- !private ["Sj", "init"]
+- !private ["Sj", "pi"]
+- !private ["11EVGPUImage28PositionV", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["11EVGPUImage28RotationO", "flipsDimensions"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["11EVGPUImage221ShaderUniformSettingsV", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["11EVGPUImage24SizeV", "width"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pi"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "11EVGPUImage214BasicOperationC"
+- !private "SK"
+- !private "SB"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "11EVGPUImage211FramebufferC"
+- !private "SH"
+- "11EVGPUImage213ImageConsumerP"
+- !private "11EVGPUImage216ImageOrientationO"
+- "11EVGPUImage224ImageProcessingOperationP"
+- "11EVGPUImage211ImageSourceP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "11EVGPUImage210MotionBlurC"
+- !private "Sj"
+- !private "11EVGPUImage28PositionV"
+- !private "Sm"
+- !private "11EVGPUImage28RotationO"
+- !private "ST"
+- !private "11EVGPUImage221ShaderUniformSettingsV"
+- !private "s13SignedNumericP"
+- !private "11EVGPUImage24SizeV"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/Target Support Files/EVGPUImage2/EVGPUImage2-umbrella.h"
+- "/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/EVGPUImage2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "81911b5791709376b06e2708f3493ed5"

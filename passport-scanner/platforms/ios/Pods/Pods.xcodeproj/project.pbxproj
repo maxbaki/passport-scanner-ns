@@ -75,7 +75,7 @@
 		0E0FC64314ADFF92ED89641ED4210327 /* con_comp.h in Headers */ = {isa = PBXBuildFile; fileRef = AB578E4953C2DE7E6D4F47F2BB8F1C0C /* con_comp.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0E1BF68FAD7DDE6EE1A7B971297C7F5E /* Haze_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B51CE92D07674488AB650C6350267767 /* Haze_GL.fsh */; };
 		0E8727FD89E5215F1A1B450DBF75D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B819200BBC048EA68B1A6F2BFE3FC303 /* UIKit.framework */; };
-		0F16DD0984C7D98FAEFDA6BB48B34211 /* EVGPUImage2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850D1BBD73834A76340B6AC91C9A936 /* EVGPUImage2-dummy.m */; };
+		0F16DD0984C7D98FAEFDA6BB48B34211 /* EVGPUImage2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D28DC62207BA242529D2230FCCF6D251 /* EVGPUImage2-dummy.m */; };
 		0F2286251145F27F065027E4766E3044 /* BilateralBlur_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BC2BFCA619B75B2D905073CBB37B26AD /* BilateralBlur_GLES.fsh */; };
 		0F32C1D80C4239BD94BCE2A5281AA581 /* GPUImageFilterGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00AEBFF9DD660ED05F5E103BFA1B29 /* GPUImageFilterGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0FF16F0760DB0B88604DCB2E35BE2FFB /* GPUImagePrewittEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C009830346B7F93D5E90B9981ECE397E /* GPUImagePrewittEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -172,7 +172,7 @@
 		26C50B9DB81550F0FDC336373787BC66 /* LevelsAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07ED1EF471319120FE3B6F5C8B059F5 /* LevelsAdjustment.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		26FB0A40F2F637538B93F7EDA6C1F83C /* GPUImageVoronoiConsumerFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F1AA1968EE6064370733EC6C27C26 /* GPUImageVoronoiConsumerFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2776BB704E5EE4E721C9F89E939CC0EA /* GPUImageContrastFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4693F059F6AFDA71E33EAB90B4EDC9A6 /* GPUImageContrastFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27F6D5686D116D6928DFD06A87E8DAB8 /* UIImage-Resize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA89B9D10AE7B1431807B2FC3053CB72 /* UIImage-Resize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27F6D5686D116D6928DFD06A87E8DAB8 /* UIImage-Resize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD2D9731A1E8A5CB2423982D817C7B2 /* UIImage-Resize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28294DE47CA23E32FE066F444FEAF79E /* GPUImageSobelEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E3E2D20461819B6C6B49E9017873A6 /* GPUImageSobelEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2879604E2345F3D4FF041F825773D955 /* shapetable.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF6FBFFBDA99F02424CCC52DCBF30B6 /* shapetable.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28B19A1FB5268FA90118D1F42DFD6C99 /* GPUImageLevelsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A674CF2886619AB2BAD29F9C1EADFE5 /* GPUImageLevelsFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -184,7 +184,7 @@
 		29D94E7FCEF9A9E9094ED985D3571BE0 /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = EA57FEF35DF0408293AFBA2FE80EB243 /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2A1A1DBF9F95C5F81A175D6A7138F915 /* Vignette_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 385DBBCA55F9F3B699C8696851756BF9 /* Vignette_GL.fsh */; };
 		2A60F9BA434140BBD48AB9F8FD5ACE17 /* GPUImageSingleComponentGaussianBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5002EA38635B509904A3BB85DC1C234 /* GPUImageSingleComponentGaussianBlurFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A71A37C515C9B0C4A2F61D3228ACBC2 /* GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B1996F9142C8A52895FE5244D7D10D /* GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A71A37C515C9B0C4A2F61D3228ACBC2 /* GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F99E7B86E6724DB2C890FB998CBEADF /* GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AA3C881E490805B97A9A319AA14E4C6 /* tessdatamanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C206E9C11B1D1CB5848D1D2144FFEB9 /* tessdatamanager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2ABCBF5BB020419B77F15B6D30C7C051 /* language_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 4951833797C7932F6124F8C9C5E3568F /* language_model.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2AC6D14B804AAB62736C3D222C6F4D0D /* GPUImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3A41FB75ADFF8B1DD389AF03B15BA /* GPUImageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,7 +241,7 @@
 		360A4B90211DCD94EBFA26A5E58FEFF9 /* bmp_8.h in Headers */ = {isa = PBXBuildFile; fileRef = 707DDD9BE6835B155F56C1E44DBA5F5E /* bmp_8.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3631E78CCFA5A7A95497F749F2076DA7 /* ShaderProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B188A7EA72E1F9A3374C5C8844FF3FE /* ShaderProgram.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		36CCBF944587CC2D9FC175AE0C2F7513 /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D0E4B517A51EC1B5A58251B282B805 /* host.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		36FA90C8D8B6E5F416863C9EF0E1202F /* PassportScannerNs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A583C6B84B7E37F39C0657C1EF7EE201 /* PassportScannerNs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36FA90C8D8B6E5F416863C9EF0E1202F /* PassportScannerNs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9D60D8F8419B20BCDB5A0E584092E4 /* PassportScannerNs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37291AFE7CACBEDE6DC22296F57B5F2B /* Monochrome_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2DB55C56AA1D0F8C66BB2815B910558E /* Monochrome_GLES.fsh */; };
 		373D981E74504C765101CD8FE367D75F /* GPUImageDilationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48450876F4C000A6768E486A0CEBD0 /* GPUImageDilationFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		375C3A9A61352EFA73D1A657FD65C9AD /* efio.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DD9B7887AFB40F92500B59BFC7B7A7 /* efio.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -253,7 +253,7 @@
 		38D4C04BECD69A9A7F45F20C04652764 /* GPUImageRGBErosionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C420FD50B5102E4D24968A0FCE864 /* GPUImageRGBErosionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38FBADD70C741C974A4BEA603245493A /* GPUImageMosaicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7460FCBF8F03A79D1ABF371629195056 /* GPUImageMosaicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		391261BB259B6D67AA2E844CC03CD1EC /* GPUImageHoughTransformLineDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6D904EB32ECCEF7D651D3647DEF195 /* GPUImageHoughTransformLineDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39381A445C92671538D40C803E57A864 /* TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F4DB7219FE62E7D37305AF49EED32 /* TesseractOCRiOS-dummy.m */; };
+		39381A445C92671538D40C803E57A864 /* TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C2C0D4471D341ED7E03FE1C7DA4DB /* TesseractOCRiOS-dummy.m */; };
 		393C39D00ABC3376C18FB099D4FAFD64 /* globaloc.h in Headers */ = {isa = PBXBuildFile; fileRef = DF49ADD2C36A3CE9D7EED41CD53956A0 /* globaloc.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		393F0A11C1E7CF04F2BBB127C53DCB4E /* FalseColor_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B274C4C26135368A1D95A9026E28A80 /* FalseColor_GLES.fsh */; };
 		397FEA568173AFF3175A2241ECDE257B /* GPUImageColorDodgeBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A424235CC9500445B577806AE104A0 /* GPUImageColorDodgeBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -625,7 +625,7 @@
 		8E0734E9EF62EB0742F321B8FB8496DF /* structures.h in Headers */ = {isa = PBXBuildFile; fileRef = F41DC847C4E6E37096126B304AD4C78E /* structures.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8E134CC8291F284CD55D42BE16EF8B07 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = FE24CC0C0C4BCBA0D39770974C51998E /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8E3C7C6CE032FE92570118FF14C21106 /* fixspace.h in Headers */ = {isa = PBXBuildFile; fileRef = 6805621635DCA15CD206DE4BFBF613DA /* fixspace.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8E57661FB6B45D775724BD140ADEA607 /* TesseractOCRiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B0EB1E35EE35C666B16A703CFB7D7A /* TesseractOCRiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E57661FB6B45D775724BD140ADEA607 /* TesseractOCRiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C24D3C457B13F4B5C4B27ABC29F0B64 /* TesseractOCRiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E726535646A92C051D125878E3DD2DB /* GPUImageSubtractBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141EC50909D01C69FDE92A236A9616EA /* GPUImageSubtractBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8EAEDCA4EA0AC0BEEB4532CC0B9CFD45 /* Passthrough_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 31616E2C343486FC95F59B84FD4F0EE7 /* Passthrough_GLES.fsh */; };
 		8EBF5D7EFB8919CA63891CB41143D2C8 /* NobleCornerDetector_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D3D8266762776D8A9C24670FF62A5100 /* NobleCornerDetector_GLES.fsh */; };
@@ -688,7 +688,7 @@
 		9CAB095DA825997217C663653C9457D9 /* cached_file.h in Headers */ = {isa = PBXBuildFile; fileRef = B61C5BF80FD4D04342F2270767C3B4A2 /* cached_file.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D0411CBD35F484986DA32A718B9A5CC /* Lookup_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BD991CAF717AFD6059C516760BF7E7FE /* Lookup_GL.fsh */; };
 		9D690CF695880C4A154E8809D310B479 /* GPUImageColorPackingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 431973DCC97AFB77DE50B6FBC1096438 /* GPUImageColorPackingFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9DDC5A3C86C6BBABE4C3481E7150B63B /* EVGPUImage2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C528DECFF348E6F891E6F813ECB4A0 /* EVGPUImage2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDC5A3C86C6BBABE4C3481E7150B63B /* EVGPUImage2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7051495374BE29A200B003039D4C3D31 /* EVGPUImage2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E317403DB1E1916C1671993CE1894E5 /* DarkenBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DB8DAEF57134F193FD5187120D17FCD0 /* DarkenBlend_GL.fsh */; };
 		9E6CAEE3FC1722341086C5D94CA0E229 /* freetype.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBD4A7E00FCFA24E0159680376AC0BA /* freetype.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9E80A734CB238599C47A5B1A6A25D907 /* Swirl_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 46D9F900B78D61CB39D8FD45950770F2 /* Swirl_GL.fsh */; };
@@ -804,7 +804,7 @@
 		B65753F12A1595751DD696E0698ADF6E /* ocrpara.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE3EE65A0A5D4A02991F48A03556D94 /* ocrpara.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B6613513FDAAB36BB7B697A46DD40280 /* GPUImageSoftEleganceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A16A673C188B00545E41B44CD636 /* GPUImageSoftEleganceFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B69326EB0CE9B237E7866BB4D05AFC43 /* PinchDistortion_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 049E47C587709A782CB53458D5D16C3B /* PinchDistortion_GLES.fsh */; };
-		B698350F454C51755D62779A977271D9 /* UIImage-Resize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2E008BA38046A2E5A48DE2B6DDC92 /* UIImage-Resize-dummy.m */; };
+		B698350F454C51755D62779A977271D9 /* UIImage-Resize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4704ECB5A42225FC2F2478C515237E /* UIImage-Resize-dummy.m */; };
 		B6EBBCAE216B43C78B72D4CF7A1409C5 /* neural_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 173735C7C9395256D3AB5780E2078DEE /* neural_net.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B6F05B8FBD02E38698B3D162710197EF /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = 86773D13B13D4B957EB79BF8E5F3B27E /* basedir.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B7048A8F948F5D97E713C88FD7535CA7 /* ccutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 394100BE5C2661F66A7E94FF8ACD8B40 /* ccutil.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -884,7 +884,7 @@
 		C87008C05AC9FFFC74274ABAD67F21E5 /* colfind.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB89E2343ADEC7E36C2F5072E24B306 /* colfind.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C8753D24AD2ADAFA366125CC2A5A3FFC /* Luminance_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 16E641BABA5717E38370A8ACBE71AF2C /* Luminance_GL.fsh */; };
 		C8B75712C78C8C562147F902A4353664 /* wordseg.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF0F7D0C6EBC30CE5129C5190806380 /* wordseg.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C91F6712F51EE2ED6D64E8AC66FD7C14 /* PassportScannerNs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AB2BCEADB47AA4B95D9E1FA710799 /* PassportScannerNs-dummy.m */; };
+		C91F6712F51EE2ED6D64E8AC66FD7C14 /* PassportScannerNs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99251A3A9635540930C50543BD6C4B /* PassportScannerNs-dummy.m */; };
 		C93DA4DC66A67236F6BFD3E81858CA12 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 753693C319EF54AB30A5D964B111637F /* G8Tesseract.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C9700A42403114AF3A2BA9B16ACE24E1 /* GPUImageContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C64959D9E47BD6D4B185AC351251273 /* GPUImageContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9ADF81E955B5C8E1AB0704D4603D0BC /* GPUImagePosterizeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7A5326C023E43AB854FC79C434E86F /* GPUImagePosterizeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -955,7 +955,7 @@
 		D952F3C8137E69D1819B4C326193E7D2 /* tuning_params.h in Headers */ = {isa = PBXBuildFile; fileRef = 5880002D3A9465243369617E211F6C5F /* tuning_params.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA0936C741C76487B75266CF025E5BBB /* hashfn.h in Headers */ = {isa = PBXBuildFile; fileRef = D2224DA8213460FEA0CB1095EC1B01F1 /* hashfn.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA16BD821A34E74F055AE5AD011B80E7 /* float2int.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDC08F740F44B7F45071F69661B453D /* float2int.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DA35A01E930528088E09CAF376B4E655 /* Pods-passportscanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 402F1466C6D3EE73BA7D8D02026ADC81 /* Pods-passportscanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA35A01E930528088E09CAF376B4E655 /* Pods-passportscanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEF5EAB056DA9670BEF74044B8BB527 /* Pods-passportscanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC64E28A2BABB251E251DAE8358DF66 /* PassportScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835EF3DD4C1FFE00974B029637E7A8E9 /* PassportScannerController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DB1F0055CEC1296A7817DB69A0343ABD /* GPUImageOverlayBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5F26579298A271C80F06D0E34FF126 /* GPUImageOverlayBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4D5894AC498F0CC166E8850C69D649 /* SoftLightBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC76FDB352A0F1179B7A0197DDD8A5D /* SoftLightBlend.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -1030,7 +1030,7 @@
 		E9AC31E3C09EDDF58B10ED461278B12D /* HistogramEqualizationLuminance_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 967EBB146494EE70242551EEB781FD0E /* HistogramEqualizationLuminance_GLES.fsh */; };
 		E9EA2B2EE4226CA4C4C5F0968F07DEF7 /* GPUImageMultiplyBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EB1CB5B137314C51E35E1A1F8FDBD7 /* GPUImageMultiplyBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EA0C14B5181860A30647415B0E558B14 /* G8RecognizedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A28FDF41FCE1E40CBEC502807B456 /* G8RecognizedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB28BAF30D27142D586A19492408240A /* Pods-passportscanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D2016F85A78472E55C06F64C55316 /* Pods-passportscanner-dummy.m */; };
+		EB28BAF30D27142D586A19492408240A /* Pods-passportscanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F0D5862F1B5324520821BD3F4CE51F /* Pods-passportscanner-dummy.m */; };
 		EB5D44EE8E06B96B225347135671261F /* Laplacian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0F0D05585FBE6CFA1835B603141A9 /* Laplacian.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EB7C7A6F09C0ED70AEAE959F0CE67E3B /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76691CA582D06FE8CFA65FA2DD64B5C /* RenderView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EBC8AB105358951C7E87881A94A078CD /* GPUImageCrosshatchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B124642A6F9D9B949675B6FF55371C4A /* GPUImageCrosshatchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1051,7 +1051,7 @@
 		F2A841A4BB39F8D0A1A2221862CD974D /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA0297AC98133FC262F0D78F7EEC208 /* params.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F2C96F2C9C8EB781913794AB17D96253 /* GPUImageSepiaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5255E491EA90F57DCF3355988F47120 /* GPUImageSepiaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2CBBDCBC3C75983D6994B01EC3E81D5 /* Posterize_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9A20680DE4C3A23C1458C327B5CF29BD /* Posterize_GL.fsh */; };
-		F31957D75B8FCA8F360E16BAD22DE2E0 /* GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DC83C371609BAE25C7B46828A2B4EF /* GPUImage-dummy.m */; };
+		F31957D75B8FCA8F360E16BAD22DE2E0 /* GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C34779ABBBD7057D3AA099F303F1 /* GPUImage-dummy.m */; };
 		F42F503306047AE6F6FCBEEFAC01E94C /* config_auto.h in Headers */ = {isa = PBXBuildFile; fileRef = D270773C3A67E4E43356FE5895FE76F3 /* config_auto.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F479DDD087C556801E7D6EE8EE99458C /* Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352F3B65B5E6E8CFE2327C4D304B4D6 /* Histogram.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F492A95C94148B8051442A0F99951574 /* GPUImageSmoothToonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7579975BDE147CBB3927F89478B3CAA4 /* GPUImageSmoothToonFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -1190,13 +1190,11 @@
 		01DECBA4D014F59118C597D13530BB24 /* LuminosityBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LuminosityBlend_GLES.fsh; path = framework/Source/Operations/Shaders/LuminosityBlend_GLES.fsh; sourceTree = "<group>"; };
 		02532ABAEFC8ACB8837C81CA1ACDBEED /* classifier_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_factory.h; path = TesseractOCR/include/tesseract/classifier_factory.h; sourceTree = "<group>"; };
 		0292D95B0FC716D1027CF8845F2D20FA /* Contrast_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Contrast_GL.fsh; path = framework/Source/Operations/Shaders/Contrast_GL.fsh; sourceTree = "<group>"; };
-		02CA70A4B9BF35FFCE5622327540EEDA /* GPUImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPUImage.xcconfig; sourceTree = "<group>"; };
 		02F77DD77B725B05DD8C351008EBB2C8 /* ThresholdSketch_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ThresholdSketch_GLES.fsh; path = framework/Source/Operations/Shaders/ThresholdSketch_GLES.fsh; sourceTree = "<group>"; };
 		035E5E39A7A198DAD731C1417DF18434 /* GPUImageDilationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDilationFilter.h; path = framework/Source/GPUImageDilationFilter.h; sourceTree = "<group>"; };
 		03D8557A9D724D9D0268B79338068619 /* GPUImageHueFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHueFilter.m; path = framework/Source/GPUImageHueFilter.m; sourceTree = "<group>"; };
 		04057AA2EF537C42E901C4552E3B4CF5 /* GPUImageLightenBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLightenBlendFilter.m; path = framework/Source/GPUImageLightenBlendFilter.m; sourceTree = "<group>"; };
 		04104DBA41F714A6DB45E5E182AE8B72 /* LuminanceRange_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LuminanceRange_GLES.fsh; path = framework/Source/Operations/Shaders/LuminanceRange_GLES.fsh; sourceTree = "<group>"; };
-		042AB2BCEADB47AA4B95D9E1FA710799 /* PassportScannerNs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PassportScannerNs-dummy.m"; sourceTree = "<group>"; };
 		044488E0065D414DF891E61EB0A5EE67 /* Circle_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Circle_GLES.fsh; path = framework/Source/Operations/Shaders/Circle_GLES.fsh; sourceTree = "<group>"; };
 		049522E21CC262B8D0AFA2562DF662E1 /* YUVConversionFullRange_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = YUVConversionFullRange_GL.fsh; path = framework/Source/Operations/Shaders/YUVConversionFullRange_GL.fsh; sourceTree = "<group>"; };
 		049E47C587709A782CB53458D5D16C3B /* PinchDistortion_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PinchDistortion_GLES.fsh; path = framework/Source/Operations/Shaders/PinchDistortion_GLES.fsh; sourceTree = "<group>"; };
@@ -1204,7 +1202,7 @@
 		059C47AF90C036AC97C490DAFE1F46A9 /* GPUImageAlphaBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAlphaBlendFilter.m; path = framework/Source/GPUImageAlphaBlendFilter.m; sourceTree = "<group>"; };
 		05A05972C9C7057A954E09132911CA98 /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/tesseract/config_auto.h; sourceTree = "<group>"; };
 		05B8BA42BB7F74382BD5EB934E26D8EC /* Dilation3_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Dilation3_GLES.fsh; path = framework/Source/Operations/Shaders/Dilation3_GLES.fsh; sourceTree = "<group>"; };
-		0614282C2C05EAC32A887BA733D7FEE0 /* GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPUImage.modulemap; sourceTree = "<group>"; };
+		05F1D26BEF624A1F330402322B8E2FC8 /* EVGPUImage2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVGPUImage2.xcconfig; sourceTree = "<group>"; };
 		062ED76E7728F63641EBDED98531941D /* GLProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLProgram.h; path = framework/Source/GLProgram.h; sourceTree = "<group>"; };
 		06346A3633DCB1096E604214E8ACE7F2 /* BulgeDistortion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulgeDistortion.swift; path = framework/Source/Operations/BulgeDistortion.swift; sourceTree = "<group>"; };
 		0634DC5B6C72172A1676DF80E0FE6D09 /* GPUImageHarrisCornerDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHarrisCornerDetectionFilter.m; path = framework/Source/GPUImageHarrisCornerDetectionFilter.m; sourceTree = "<group>"; };
@@ -1216,7 +1214,6 @@
 		070C67F274E5BD005F9E0D62695DFDC0 /* bbgrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbgrid.h; path = TesseractOCR/include/tesseract/bbgrid.h; sourceTree = "<group>"; };
 		07311BD5FD870800BAE9502681571C8D /* G8Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Constants.h; path = TesseractOCR/G8Constants.h; sourceTree = "<group>"; };
 		07392B1FD1CA535C0B2A64332EB8B4B1 /* GPUImageNonMaximumSuppressionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageNonMaximumSuppressionFilter.h; path = framework/Source/GPUImageNonMaximumSuppressionFilter.h; sourceTree = "<group>"; };
-		07770A4D17704E00FAF1845085808DF3 /* Pods-passportscanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-passportscanner-Info.plist"; sourceTree = "<group>"; };
 		078BA9F165D9E59F1E6F834695C02A73 /* flexfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = flexfx.h; path = TesseractOCR/include/tesseract/flexfx.h; sourceTree = "<group>"; };
 		07FA17F6A671CF5F98FA2CE0037B584A /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
 		086E8343C8C597C3CABB2B18AB300608 /* tabfind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabfind.h; path = TesseractOCR/include/tesseract/tabfind.h; sourceTree = "<group>"; };
@@ -1226,6 +1223,7 @@
 		08F9E123505AB954216013834F64568B /* DissolveBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DissolveBlend_GLES.fsh; path = framework/Source/Operations/Shaders/DissolveBlend_GLES.fsh; sourceTree = "<group>"; };
 		08FD36B2A4AD42E04033560154ED48D1 /* cjkpitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cjkpitch.h; path = TesseractOCR/include/tesseract/cjkpitch.h; sourceTree = "<group>"; };
 		0936283EB94965F14EF2738C254D14B2 /* AlphaBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaBlend.swift; path = framework/Source/Operations/AlphaBlend.swift; sourceTree = "<group>"; };
+		0947A7AFC9BC472FB464AE6BA9350257 /* GPUImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPUImage.xcconfig; sourceTree = "<group>"; };
 		095DC4B38EC3C4E227AA07B528AC3AC8 /* universalambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = universalambigs.h; path = TesseractOCR/include/tesseract/universalambigs.h; sourceTree = "<group>"; };
 		09665E96D191029607126406C4598043 /* listio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listio.h; path = TesseractOCR/include/tesseract/listio.h; sourceTree = "<group>"; };
 		0974A61E360B18D4A21B312F58A6BA7F /* KuwaharaRadius3_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = KuwaharaRadius3_GL.fsh; path = framework/Source/Operations/Shaders/KuwaharaRadius3_GL.fsh; sourceTree = "<group>"; };
@@ -1262,6 +1260,8 @@
 		0F8F4A98DD220E7E8BD1239BEE4CE7D3 /* YUVConversionFullRange_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = YUVConversionFullRange_GLES.fsh; path = framework/Source/Operations/Shaders/YUVConversionFullRange_GLES.fsh; sourceTree = "<group>"; };
 		104F22D3BF9BFA4A6C43D8C0000AE528 /* NormalBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalBlend.swift; path = framework/Source/Operations/NormalBlend.swift; sourceTree = "<group>"; };
 		10985DDFAAF59F6073E3E199FA35AFB7 /* baselinedetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baselinedetect.h; path = TesseractOCR/include/tesseract/baselinedetect.h; sourceTree = "<group>"; };
+		10D62C5E5C229066A5560669AF748B44 /* TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TesseractOCRiOS.xcconfig; sourceTree = "<group>"; };
+		11326FC93A828F4B9B326A52D2FDD9D7 /* Pods-passportscanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-passportscanner-resources.sh"; sourceTree = "<group>"; };
 		113B734A11F59BEF35168728BE4395D2 /* callcpp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = callcpp.h; path = TesseractOCR/include/tesseract/callcpp.h; sourceTree = "<group>"; };
 		114F4D856F419E9E959246591635E7AD /* Posterize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Posterize.swift; path = framework/Source/Operations/Posterize.swift; sourceTree = "<group>"; };
 		115EF404C2DFF41FF0FECA23365783BC /* GPUImageHSBFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHSBFilter.h; path = framework/Source/GPUImageHSBFilter.h; sourceTree = "<group>"; };
@@ -1300,7 +1300,6 @@
 		181DA232F1EE833FA76B1EE26AB16004 /* GPUImageBulgeDistortionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageBulgeDistortionFilter.m; path = framework/Source/GPUImageBulgeDistortionFilter.m; sourceTree = "<group>"; };
 		18303EAFBB8FB67C346A67D4E558ABB5 /* extract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extract.h; path = TesseractOCR/include/tesseract/extract.h; sourceTree = "<group>"; };
 		1846C318EA58C2E2C85E98B914742502 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
-		1850D1BBD73834A76340B6AC91C9A936 /* EVGPUImage2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVGPUImage2-dummy.m"; sourceTree = "<group>"; };
 		189B807059856F4E8894AD57E0EBCBB7 /* ColorBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorBlend.swift; path = framework/Source/Operations/ColorBlend.swift; sourceTree = "<group>"; };
 		18A842B3DB4FE519C0FE726059B7BE77 /* tess_lang_mod_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_mod_edge.h; path = TesseractOCR/include/tesseract/tess_lang_mod_edge.h; sourceTree = "<group>"; };
 		195AAAF4513480C9A9ABA366B3CC14CE /* GPUImageBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageBilateralFilter.h; path = framework/Source/GPUImageBilateralFilter.h; sourceTree = "<group>"; };
@@ -1311,6 +1310,8 @@
 		1A504AD96236E3A871B9E8E899D519A2 /* ZoomBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomBlur.swift; path = framework/Source/Operations/ZoomBlur.swift; sourceTree = "<group>"; };
 		1B2A00F57178B73EE5E064534805D7A2 /* ColorMatrix_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorMatrix_GLES.fsh; path = framework/Source/Operations/Shaders/ColorMatrix_GLES.fsh; sourceTree = "<group>"; };
 		1BA7DA729D6B4FFD72F66C667F893DA9 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		1C06726CC6374C282FFC808C79143323 /* Pods-passportscanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-passportscanner-frameworks.sh"; sourceTree = "<group>"; };
+		1C24D3C457B13F4B5C4B27ABC29F0B64 /* TesseractOCRiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-umbrella.h"; sourceTree = "<group>"; };
 		1C88FB56766872EA7A18652C190A6341 /* werdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werdit.h; path = TesseractOCR/include/tesseract/werdit.h; sourceTree = "<group>"; };
 		1C9EEC3724C0F4432DC67E9C262C6E92 /* Crosshair_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Crosshair_GLES.fsh; path = framework/Source/Operations/Shaders/Crosshair_GLES.fsh; sourceTree = "<group>"; };
 		1CCB6E23E3133EDDD6B9D8FD389FB5D4 /* clst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clst.h; path = TesseractOCR/include/tesseract/clst.h; sourceTree = "<group>"; };
@@ -1331,6 +1332,7 @@
 		20BDF99C84C80CBE2D564F0526033754 /* GPUImageKuwaharaFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageKuwaharaFilter.m; path = framework/Source/GPUImageKuwaharaFilter.m; sourceTree = "<group>"; };
 		20C53F22F26FF44DBE2BAC56D61C11D5 /* Median_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Median_GLES.fsh; path = framework/Source/Operations/Shaders/Median_GLES.fsh; sourceTree = "<group>"; };
 		20CC5FAC1B038E86D2BB48AA42A39AA2 /* RGBAdjustment_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = RGBAdjustment_GL.fsh; path = framework/Source/Operations/Shaders/RGBAdjustment_GL.fsh; sourceTree = "<group>"; };
+		20E98CE1DA4F81D41CFB5DD41B3E90CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21334562F509B15C6EF667C69A55333D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		21E2A7EE47F7B5828E1CA86384AA1AFD /* ThresholdSketch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThresholdSketch.swift; path = framework/Source/Operations/ThresholdSketch.swift; sourceTree = "<group>"; };
 		222F4ECF661EC1E2672D0909BAC4E9AA /* GPUImageTiltShiftFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTiltShiftFilter.h; path = framework/Source/GPUImageTiltShiftFilter.h; sourceTree = "<group>"; };
@@ -1340,6 +1342,7 @@
 		22E28AE71DC701F43D934110C5772A24 /* G8TesseractParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8TesseractParameters.m; path = TesseractOCR/G8TesseractParameters.m; sourceTree = "<group>"; };
 		2363997040208B30AEA48F291EC30C84 /* PictureInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PictureInput.swift; path = framework/Source/iOS/PictureInput.swift; sourceTree = "<group>"; };
 		236DCCABB64308AA5EF3B1A71D73B829 /* PolkaDot_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PolkaDot_GLES.fsh; path = framework/Source/Operations/Shaders/PolkaDot_GLES.fsh; sourceTree = "<group>"; };
+		23C0F760EAE757FF7A417B41835029E6 /* Pods-passportscanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-passportscanner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23EB1CB5B137314C51E35E1A1F8FDBD7 /* GPUImageMultiplyBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMultiplyBlendFilter.m; path = framework/Source/GPUImageMultiplyBlendFilter.m; sourceTree = "<group>"; };
 		249264B37D0E1C9205F8FBBB3240D8F8 /* GPUImageZoomBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageZoomBlurFilter.h; path = framework/Source/GPUImageZoomBlurFilter.h; sourceTree = "<group>"; };
 		24A191F6975E9A28BCA07CA5099D29D6 /* scrollview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scrollview.h; path = TesseractOCR/include/tesseract/scrollview.h; sourceTree = "<group>"; };
@@ -1350,8 +1353,8 @@
 		25E47A79E06DEEC48EFB623A5B9E81B3 /* GPUImageChromaKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageChromaKeyFilter.h; path = framework/Source/GPUImageChromaKeyFilter.h; sourceTree = "<group>"; };
 		25FA83291B4611811D1A1F2DDC3CF8DF /* WhiteBalance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhiteBalance.swift; path = framework/Source/Operations/WhiteBalance.swift; sourceTree = "<group>"; };
 		2631BAD05BFAFB72C1E6188320B59EBF /* Brightness_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Brightness_GL.fsh; path = framework/Source/Operations/Shaders/Brightness_GL.fsh; sourceTree = "<group>"; };
+		26F0D5862F1B5324520821BD3F4CE51F /* Pods-passportscanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-passportscanner-dummy.m"; sourceTree = "<group>"; };
 		271E71EB2507FE95279418C7A0CD0B5F /* dppoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dppoint.h; path = TesseractOCR/include/tesseract/dppoint.h; sourceTree = "<group>"; };
-		28468C0D4716D8F404A0BDBD0B78E246 /* PassportScannerNs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PassportScannerNs.modulemap; sourceTree = "<group>"; };
 		2875F7B190D37CE9F0A91061401EAEC6 /* cube_reco_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_reco_context.h; path = TesseractOCR/include/tesseract/cube_reco_context.h; sourceTree = "<group>"; };
 		28E8802A2D9E6C82619D69C5ACBF81C1 /* mutableiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutableiterator.h; path = TesseractOCR/include/tesseract/mutableiterator.h; sourceTree = "<group>"; };
 		2908ED0E89CFDC27F671AC32647A7022 /* ColorBurnBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorBurnBlend.swift; path = framework/Source/Operations/ColorBurnBlend.swift; sourceTree = "<group>"; };
@@ -1366,6 +1369,7 @@
 		2BE4A16A673C188B00545E41B44CD636 /* GPUImageSoftEleganceFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSoftEleganceFilter.m; path = framework/Source/GPUImageSoftEleganceFilter.m; sourceTree = "<group>"; };
 		2BE7C298206ABFAA686E530FABC8C91C /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1F835D237C29D44EB75DB9234E784E /* cube_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_const.h; path = TesseractOCR/include/tesseract/cube_const.h; sourceTree = "<group>"; };
+		2C2DAD1A3EB1722E49D30AFA258F1DE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C48944603CF070018DFB3FACC63663E /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
 		2D00AEBFF9DD660ED05F5E103BFA1B29 /* GPUImageFilterGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFilterGroup.m; path = framework/Source/GPUImageFilterGroup.m; sourceTree = "<group>"; };
 		2DB55C56AA1D0F8C66BB2815B910558E /* Monochrome_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Monochrome_GLES.fsh; path = framework/Source/Operations/Shaders/Monochrome_GLES.fsh; sourceTree = "<group>"; };
@@ -1377,6 +1381,7 @@
 		2F85B61F95F48A4AE441678F26A6266C /* Vignette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vignette.swift; path = framework/Source/Operations/Vignette.swift; sourceTree = "<group>"; };
 		2F860FD56526ACB378FA679BA4395FFA /* HarrisCornerDetector_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HarrisCornerDetector_GLES.fsh; path = framework/Source/Operations/Shaders/HarrisCornerDetector_GLES.fsh; sourceTree = "<group>"; };
 		2FA0927A5055DE2A62CCCF6053EC7B02 /* kdpair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdpair.h; path = TesseractOCR/include/tesseract/kdpair.h; sourceTree = "<group>"; };
+		3045E11730206DFC035F9578D003CED2 /* UIImage-Resize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage-Resize.xcconfig"; sourceTree = "<group>"; };
 		3061FF4C9BF70BCD9C2811377E172BFA /* Erosion1_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Erosion1_GLES.fsh; path = framework/Source/Operations/Shaders/Erosion1_GLES.fsh; sourceTree = "<group>"; };
 		310AD42657E7AC6EC06C0292CA8A891A /* colpartitionset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartitionset.h; path = TesseractOCR/include/tesseract/colpartitionset.h; sourceTree = "<group>"; };
 		31616E2C343486FC95F59B84FD4F0EE7 /* Passthrough_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Passthrough_GLES.fsh; path = framework/Source/Operations/Shaders/Passthrough_GLES.fsh; sourceTree = "<group>"; };
@@ -1411,7 +1416,6 @@
 		377CC6FC65386ED4C71F680BFD6B0A48 /* quadlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadlsq.h; path = TesseractOCR/include/tesseract/quadlsq.h; sourceTree = "<group>"; };
 		37970E16239ED8441C9C795FBE856A7F /* points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = points.h; path = TesseractOCR/include/tesseract/points.h; sourceTree = "<group>"; };
 		37A225E1E6B6A27887A5DE0ACF774F9A /* LuminanceRange_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LuminanceRange_GL.fsh; path = framework/Source/Operations/Shaders/LuminanceRange_GL.fsh; sourceTree = "<group>"; };
-		37D8C3BCAA5C43CE15EFCE2A86E7BE9E /* PassportScannerNs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PassportScannerNs-prefix.pch"; sourceTree = "<group>"; };
 		37DB2B83BE9E11497EFDD3705E75A905 /* Dilation3_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Dilation3_GL.fsh; path = framework/Source/Operations/Shaders/Dilation3_GL.fsh; sourceTree = "<group>"; };
 		383D232AB783EA1AA0D41BECC456B837 /* GaussianBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaussianBlur.swift; path = framework/Source/Operations/GaussianBlur.swift; sourceTree = "<group>"; };
 		385DBBCA55F9F3B699C8696851756BF9 /* Vignette_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Vignette_GL.fsh; path = framework/Source/Operations/Shaders/Vignette_GL.fsh; sourceTree = "<group>"; };
@@ -1421,14 +1425,13 @@
 		3922A3C66037857379403F3D8A103ACD /* Line_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Line_GLES.fsh; path = framework/Source/Operations/Shaders/Line_GLES.fsh; sourceTree = "<group>"; };
 		394100BE5C2661F66A7E94FF8ACD8B40 /* ccutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccutil.h; path = TesseractOCR/include/tesseract/ccutil.h; sourceTree = "<group>"; };
 		39588E2F7772C33D2932B2FC28D09189 /* qrsequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrsequence.h; path = TesseractOCR/include/tesseract/qrsequence.h; sourceTree = "<group>"; };
-		396AB2B140248CB5E833FD95B88C57B5 /* UIImage-Resize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage-Resize.xcconfig"; sourceTree = "<group>"; };
-		398D2016F85A78472E55C06F64C55316 /* Pods-passportscanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-passportscanner-dummy.m"; sourceTree = "<group>"; };
 		3A0EE6889903735A8D04AFB83F402B62 /* resource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resource.h; path = TesseractOCR/include/tesseract/resource.h; sourceTree = "<group>"; };
 		3A12B92B641C711106CFFF7CE53A592F /* tabvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabvector.h; path = TesseractOCR/include/tesseract/tabvector.h; sourceTree = "<group>"; };
 		3A339CCB7BACC6A9D864E7DE45147502 /* char_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_set.h; path = TesseractOCR/include/tesseract/char_set.h; sourceTree = "<group>"; };
 		3A3F16E8C48BCD928AD03E9CE3BC8833 /* OpenGLContext_Shared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenGLContext_Shared.swift; path = framework/Source/OpenGLContext_Shared.swift; sourceTree = "<group>"; };
 		3ADD8F143F5EC639709E362ADAA63235 /* icuerrorcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icuerrorcode.h; path = TesseractOCR/include/tesseract/icuerrorcode.h; sourceTree = "<group>"; };
 		3B122D96F0D5ED313E6400457165F843 /* MotionDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionDetector.swift; path = framework/Source/Operations/MotionDetector.swift; sourceTree = "<group>"; };
+		3B35D67809E87E920FB119D769A48073 /* Pods-passportscanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-passportscanner.release.xcconfig"; sourceTree = "<group>"; };
 		3B3EDE7D776047D62F39C8255C774ABC /* GPUImagePoissonBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePoissonBlendFilter.m; path = framework/Source/GPUImagePoissonBlendFilter.m; sourceTree = "<group>"; };
 		3BED2C4220052DFDAA5A3F58B0AF7733 /* tessopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessopt.h; path = TesseractOCR/include/tesseract/tessopt.h; sourceTree = "<group>"; };
 		3C028F4BD39EE3556F987E3693FD6C6F /* feature_hybrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_hybrid.h; path = TesseractOCR/include/tesseract/feature_hybrid.h; sourceTree = "<group>"; };
@@ -1454,7 +1457,6 @@
 		3F7151B7B0BCB34C79AA5A9C7ACBB8AC /* tessedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessedit.h; path = TesseractOCR/include/tesseract/tessedit.h; sourceTree = "<group>"; };
 		3F7FB6CC7C50590C72382282A9BDEDB4 /* intproto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intproto.h; path = TesseractOCR/include/tesseract/intproto.h; sourceTree = "<group>"; };
 		40154E48BCE74598E702DD4D230877C8 /* Toon_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Toon_GLES.fsh; path = framework/Source/Operations/Shaders/Toon_GLES.fsh; sourceTree = "<group>"; };
-		402F1466C6D3EE73BA7D8D02026ADC81 /* Pods-passportscanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-passportscanner-umbrella.h"; sourceTree = "<group>"; };
 		4070A813BD72DE9E4D2DF0CDBDC6ABE0 /* openclwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openclwrapper.h; path = TesseractOCR/include/tesseract/openclwrapper.h; sourceTree = "<group>"; };
 		4126597C799E420936342BDE0139CDCA /* GPUImageAddBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAddBlendFilter.m; path = framework/Source/GPUImageAddBlendFilter.m; sourceTree = "<group>"; };
 		41B06E09A4362F13AD20D404093BB825 /* Levels_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Levels_GLES.fsh; path = framework/Source/Operations/Shaders/Levels_GLES.fsh; sourceTree = "<group>"; };
@@ -1484,7 +1486,6 @@
 		45387B46BED9D00C43D8B7C3711E0CAB /* extern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extern.h; path = TesseractOCR/include/tesseract/extern.h; sourceTree = "<group>"; };
 		459989AF10C19B3A357D345707687EAB /* findseam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = findseam.h; path = TesseractOCR/include/tesseract/findseam.h; sourceTree = "<group>"; };
 		45A107B38A7F199944222392C71807AF /* MovieInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MovieInput.swift; path = framework/Source/iOS/MovieInput.swift; sourceTree = "<group>"; };
-		45B1996F9142C8A52895FE5244D7D10D /* GPUImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPUImage-umbrella.h"; sourceTree = "<group>"; };
 		45E080950FE96F1616933CC19D30EC94 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
 		45F34FBB51505EEF7B5C735A04F34851 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractDelegate.h; path = TesseractOCR/G8TesseractDelegate.h; sourceTree = "<group>"; };
 		460F8E6761D56F5750C9AFF9912487F6 /* LanczosResampling_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LanczosResampling_GL.fsh; path = framework/Source/Operations/Shaders/LanczosResampling_GL.fsh; sourceTree = "<group>"; };
@@ -1493,6 +1494,7 @@
 		468E4621FD0C671060CF05AD3125039E /* LocalBinaryPattern_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LocalBinaryPattern_GLES.fsh; path = framework/Source/Operations/Shaders/LocalBinaryPattern_GLES.fsh; sourceTree = "<group>"; };
 		4693F059F6AFDA71E33EAB90B4EDC9A6 /* GPUImageContrastFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageContrastFilter.h; path = framework/Source/GPUImageContrastFilter.h; sourceTree = "<group>"; };
 		46D9F900B78D61CB39D8FD45950770F2 /* Swirl_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Swirl_GL.fsh; path = framework/Source/Operations/Shaders/Swirl_GL.fsh; sourceTree = "<group>"; };
+		46E2F43DA8995DE310E53DD1DE968F13 /* PassportScannerNs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PassportScannerNs.modulemap; sourceTree = "<group>"; };
 		472B875341354DF34950B21BD5D04E7A /* GPUImageMovieComposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieComposition.h; path = framework/Source/GPUImageMovieComposition.h; sourceTree = "<group>"; };
 		47C68D3543AFADABE8A50FBA24361092 /* ocrfeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrfeatures.h; path = TesseractOCR/include/tesseract/ocrfeatures.h; sourceTree = "<group>"; };
 		47D54F6B61D4A17129574E73674934A3 /* GPUImageToonFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageToonFilter.h; path = framework/Source/GPUImageToonFilter.h; sourceTree = "<group>"; };
@@ -1510,13 +1512,13 @@
 		4A34EAB54BB53103913F12469C849078 /* char_altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_altlist.h; path = TesseractOCR/include/tesseract/char_altlist.h; sourceTree = "<group>"; };
 		4A63C56C291C81024534460DABFFA051 /* TiltShift_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = TiltShift_GL.fsh; path = framework/Source/Operations/Shaders/TiltShift_GL.fsh; sourceTree = "<group>"; };
 		4AC948FB81C12521ECD15CA546F11117 /* GPUImageSketchFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSketchFilter.h; path = framework/Source/GPUImageSketchFilter.h; sourceTree = "<group>"; };
+		4AEBACFB1FE388DCC69F5EBCCB66B529 /* UIImage-Resize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIImage-Resize.modulemap"; sourceTree = "<group>"; };
 		4B1AB5C34A880F1EE5DBCE9647A831F3 /* LuminanceThreshold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminanceThreshold.swift; path = framework/Source/Operations/LuminanceThreshold.swift; sourceTree = "<group>"; };
 		4B23C3AD58CFB00836FF0BAA00986853 /* const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = const.h; path = TesseractOCR/include/tesseract/const.h; sourceTree = "<group>"; };
 		4B8952753EE788DE56B7F372B067AA54 /* elst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst.h; path = TesseractOCR/include/tesseract/elst.h; sourceTree = "<group>"; };
 		4B8CEAE771B27274EF6168107DD2A5B8 /* GPUImageThreeInputFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageThreeInputFilter.m; path = framework/Source/GPUImageThreeInputFilter.m; sourceTree = "<group>"; };
 		4C249B757A2CEFE73F85AC5E4B639E27 /* ThresholdEdgeDetection_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ThresholdEdgeDetection_GL.fsh; path = framework/Source/Operations/Shaders/ThresholdEdgeDetection_GL.fsh; sourceTree = "<group>"; };
 		4C325336D4B9EF8475F98D08ADCB1A2C /* char_bigrams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_bigrams.h; path = TesseractOCR/include/tesseract/char_bigrams.h; sourceTree = "<group>"; };
-		4C552AFE5ABE874A1C54F34BE386F6D0 /* Pods-passportscanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-passportscanner-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C7EFDACC2297A895D4DF50A860D8198 /* GPUImageFramebufferCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFramebufferCache.h; path = framework/Source/GPUImageFramebufferCache.h; sourceTree = "<group>"; };
 		4CC85B531E10CC458A8531FED91E573C /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lookup_soft_elegance_2.png; path = framework/Resources/lookup_soft_elegance_2.png; sourceTree = "<group>"; };
 		4CD7980F75A53FBE96C2EFE079286EF6 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
@@ -1526,6 +1528,7 @@
 		4E14CC92974ABE2D1572F3BABB1D8201 /* GPUImage3x3TextureSamplingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImage3x3TextureSamplingFilter.m; path = framework/Source/GPUImage3x3TextureSamplingFilter.m; sourceTree = "<group>"; };
 		4E2D0912BD88505403419117DE406067 /* SaturationAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaturationAdjustment.swift; path = framework/Source/Operations/SaturationAdjustment.swift; sourceTree = "<group>"; };
 		4E3B8DFC1539DEC805BA3092B8D974D9 /* SubtractBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubtractBlend.swift; path = framework/Source/Operations/SubtractBlend.swift; sourceTree = "<group>"; };
+		4E6FBCA35F77AC7B8775A6E89FC4C7C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0AF1CC9F3BEFB87D79D4E752328039 /* measure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measure.h; path = TesseractOCR/include/tesseract/measure.h; sourceTree = "<group>"; };
 		4FE3A41FB75ADFF8B1DD389AF03B15BA /* GPUImageFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFramework.h; path = framework/Source/iOS/Framework/GPUImageFramework.h; sourceTree = "<group>"; };
 		5008F943CFD10BC4799D9BF43EF7E356 /* GPUImageUIElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageUIElement.h; path = framework/Source/GPUImageUIElement.h; sourceTree = "<group>"; };
@@ -1567,7 +1570,6 @@
 		587EB00A1E75783F8C6A340E82CB4390 /* AdaptiveThreshold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveThreshold.swift; path = framework/Source/Operations/AdaptiveThreshold.swift; sourceTree = "<group>"; };
 		5880002D3A9465243369617E211F6C5F /* tuning_params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tuning_params.h; path = TesseractOCR/include/tesseract/tuning_params.h; sourceTree = "<group>"; };
 		58CD5B523CB799B5038DCB7C0EF5C9FE /* UnsharpMask_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = UnsharpMask_GL.fsh; path = framework/Source/Operations/Shaders/UnsharpMask_GL.fsh; sourceTree = "<group>"; };
-		58D1FDCC3D40F9EDC3B98ACF1E7F36F0 /* PassportScannerNs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PassportScannerNs-Info.plist"; sourceTree = "<group>"; };
 		58E32CE1CC01748CAA89AD490C680CDB /* GPUImageLevelsFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLevelsFilter.h; path = framework/Source/GPUImageLevelsFilter.h; sourceTree = "<group>"; };
 		592B6E453C73908639B235BB3EF56A73 /* olutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = olutil.h; path = TesseractOCR/include/tesseract/olutil.h; sourceTree = "<group>"; };
 		592D0ED666CAA77D48A558265C7BE54C /* chop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chop.h; path = TesseractOCR/include/tesseract/chop.h; sourceTree = "<group>"; };
@@ -1596,6 +1598,7 @@
 		5D6E202F9AF343402545A10930555D3D /* char_samp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp.h; path = TesseractOCR/include/tesseract/char_samp.h; sourceTree = "<group>"; };
 		5DBECE3E0FAA6937115741D4473DA406 /* GPUImageCropFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageCropFilter.h; path = framework/Source/GPUImageCropFilter.h; sourceTree = "<group>"; };
 		5DD5EE864BC5F626123F83D38C2F778A /* HistogramDisplay_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramDisplay_GL.fsh; path = framework/Source/Operations/Shaders/HistogramDisplay_GL.fsh; sourceTree = "<group>"; };
+		5DEF5EAB056DA9670BEF74044B8BB527 /* Pods-passportscanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-passportscanner-umbrella.h"; sourceTree = "<group>"; };
 		5DFADE24AB5D916213C22272AE61E9C3 /* LookupFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LookupFilter.swift; path = framework/Source/Operations/LookupFilter.swift; sourceTree = "<group>"; };
 		5E1B29E8D3962591C31965C2B504A859 /* pgedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pgedit.h; path = TesseractOCR/include/tesseract/pgedit.h; sourceTree = "<group>"; };
 		5EA0297AC98133FC262F0D78F7EEC208 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
@@ -1613,7 +1616,6 @@
 		6182871D69C65BC26A0C523298CAF1DE /* mastertrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastertrainer.h; path = TesseractOCR/include/tesseract/mastertrainer.h; sourceTree = "<group>"; };
 		6194945003289BA1A05D06644F769737 /* GPUImageTextureOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTextureOutput.h; path = framework/Source/GPUImageTextureOutput.h; sourceTree = "<group>"; };
 		61B1A7F9E1F9DDF2B1A88ECEDA75CC92 /* GPUImageGammaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGammaFilter.h; path = framework/Source/GPUImageGammaFilter.h; sourceTree = "<group>"; };
-		61C222BF134ACCBDBC13B33C561448CA /* EVGPUImage2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVGPUImage2-prefix.pch"; sourceTree = "<group>"; };
 		6222ACB2BBC556C922A22536A171A455 /* HardLightBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HardLightBlend.swift; path = framework/Source/Operations/HardLightBlend.swift; sourceTree = "<group>"; };
 		625ADEFC44D74C93E9762E92E35336D0 /* DifferenceBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DifferenceBlend_GL.fsh; path = framework/Source/Operations/Shaders/DifferenceBlend_GL.fsh; sourceTree = "<group>"; };
 		62ABDB6948F4B439D188A2084B04E350 /* docqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docqual.h; path = TesseractOCR/include/tesseract/docqual.h; sourceTree = "<group>"; };
@@ -1633,12 +1635,14 @@
 		63ED783F8001CC1CAB9B8A9A6D81CC98 /* oldbasel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldbasel.h; path = TesseractOCR/include/tesseract/oldbasel.h; sourceTree = "<group>"; };
 		643BC192D61D8FD1550F5A8D2D1D3F56 /* Crosshatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crosshatch.swift; path = framework/Source/Operations/Crosshatch.swift; sourceTree = "<group>"; };
 		645B3D01A063C4DB59BBDA586E8E17C5 /* tessbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessbox.h; path = TesseractOCR/include/tesseract/tessbox.h; sourceTree = "<group>"; };
+		6463A184F98B87BDDC153B46D21DC8BF /* TesseractOCRiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TesseractOCRiOS.modulemap; sourceTree = "<group>"; };
 		64D8B365FC3C4BCB1157965C111D6FBE /* Luminance_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Luminance_GLES.fsh; path = framework/Source/Operations/Shaders/Luminance_GLES.fsh; sourceTree = "<group>"; };
 		64D8E06B1912E638E9782E6D689774E4 /* GPUImageThresholdedNonMaximumSuppressionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageThresholdedNonMaximumSuppressionFilter.m; path = framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.m; sourceTree = "<group>"; };
 		64FE2CF6E899C7FC46C2F39872854A02 /* search_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_column.h; path = TesseractOCR/include/tesseract/search_column.h; sourceTree = "<group>"; };
 		651115B09C6629BD644F5C28391AF850 /* GPUImageHarrisCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHarrisCornerDetectionFilter.h; path = framework/Source/GPUImageHarrisCornerDetectionFilter.h; sourceTree = "<group>"; };
 		65690A4BF97A9F0F753AEF8795EDB826 /* HighlightShadowTint_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HighlightShadowTint_GL.fsh; path = framework/Source/Operations/Shaders/HighlightShadowTint_GL.fsh; sourceTree = "<group>"; };
 		65D3937CF315EA13CEA9813D5F8934D6 /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		65F537245B158DCEAC59C9150D550DA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663922A5804C51DD3C1959B1090929F1 /* tprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tprintf.h; path = TesseractOCR/include/tesseract/tprintf.h; sourceTree = "<group>"; };
 		666864437AC434AD6203E23D0C0A704C /* wordrec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wordrec.h; path = TesseractOCR/include/tesseract/wordrec.h; sourceTree = "<group>"; };
 		6682366657251BFB6D2D2369DE565B92 /* TiltShift_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = TiltShift_GLES.fsh; path = framework/Source/Operations/Shaders/TiltShift_GLES.fsh; sourceTree = "<group>"; };
@@ -1649,6 +1653,7 @@
 		677A7FDC0D24DE4C1F1F5C6CAAFE8A77 /* intmatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intmatcher.h; path = TesseractOCR/include/tesseract/intmatcher.h; sourceTree = "<group>"; };
 		67F602705C90C8147D3A3805310217FB /* ratngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ratngs.h; path = TesseractOCR/include/tesseract/ratngs.h; sourceTree = "<group>"; };
 		6805621635DCA15CD206DE4BFBF613DA /* fixspace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fixspace.h; path = TesseractOCR/include/tesseract/fixspace.h; sourceTree = "<group>"; };
+		681480EFB600002E2DCA3D3D875EE241 /* EVGPUImage2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVGPUImage2-prefix.pch"; sourceTree = "<group>"; };
 		683B138A89C592F44A3A908FD4F0EBA5 /* indexmapbidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = indexmapbidi.h; path = TesseractOCR/include/tesseract/indexmapbidi.h; sourceTree = "<group>"; };
 		68F52AB6EDBF8EC91269867821444067 /* Brightness_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Brightness_GLES.fsh; path = framework/Source/Operations/Shaders/Brightness_GLES.fsh; sourceTree = "<group>"; };
 		698A45E8C1EA5856044A07FBFE19C299 /* tablerecog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tablerecog.h; path = TesseractOCR/include/tesseract/tablerecog.h; sourceTree = "<group>"; };
@@ -1671,6 +1676,7 @@
 		6C2211935FD3BECFBB088E167B5D81BF /* imagefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imagefind.h; path = TesseractOCR/include/tesseract/imagefind.h; sourceTree = "<group>"; };
 		6C48467E5A0A0757AAAA0F88F508B9A2 /* GPUImageParallelCoordinateLineTransformFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageParallelCoordinateLineTransformFilter.h; path = framework/Source/GPUImageParallelCoordinateLineTransformFilter.h; sourceTree = "<group>"; };
 		6C4F987A9FF91ED1AFB5E53EE7CCDC34 /* LanczosResampling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanczosResampling.swift; path = framework/Source/Operations/LanczosResampling.swift; sourceTree = "<group>"; };
+		6C9D60D8F8419B20BCDB5A0E584092E4 /* PassportScannerNs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PassportScannerNs-umbrella.h"; sourceTree = "<group>"; };
 		6CF360C41692534344D6B7ABCED79044 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
 		6D2AAED9D13E4FF93190894211FAF9AD /* GPUImageGaussianBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageGaussianBlurFilter.m; path = framework/Source/GPUImageGaussianBlurFilter.m; sourceTree = "<group>"; };
 		6D30E9CDBEA9EB611C25D6594F5C5D77 /* GPUImageGammaFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageGammaFilter.m; path = framework/Source/GPUImageGammaFilter.m; sourceTree = "<group>"; };
@@ -1687,8 +1693,9 @@
 		6EFA5DAED1341D8C90D08C98E541460A /* AverageColorExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AverageColorExtractor.swift; path = framework/Source/Operations/AverageColorExtractor.swift; sourceTree = "<group>"; };
 		6EFF1FD5234545FF2162B2FF12148A9D /* GPUImageErosionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageErosionFilter.h; path = framework/Source/GPUImageErosionFilter.h; sourceTree = "<group>"; };
 		6F683BD6E3BD57EB48CAFEE2AE3B1843 /* UnsharpMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsharpMask.swift; path = framework/Source/Operations/UnsharpMask.swift; sourceTree = "<group>"; };
-		6F73D76C5295812258CEF249C0DE79FF /* UIImage-Resize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIImage-Resize-Info.plist"; sourceTree = "<group>"; };
+		6F99E7B86E6724DB2C890FB998CBEADF /* GPUImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPUImage-umbrella.h"; sourceTree = "<group>"; };
 		6FA28B72B864F5FF1F04F5F1E3D5D981 /* GPUImageKuwaharaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageKuwaharaFilter.h; path = framework/Source/GPUImageKuwaharaFilter.h; sourceTree = "<group>"; };
+		7051495374BE29A200B003039D4C3D31 /* EVGPUImage2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVGPUImage2-umbrella.h"; sourceTree = "<group>"; };
 		706E9AD26CDB3CDDED0439AECA2FF58D /* Camera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = framework/Source/iOS/Camera.swift; sourceTree = "<group>"; };
 		707162A74913A1DF06AE66B4217C7159 /* tess_lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_model.h; path = TesseractOCR/include/tesseract/tess_lang_model.h; sourceTree = "<group>"; };
 		707DDD9BE6835B155F56C1E44DBA5F5E /* bmp_8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp_8.h; path = TesseractOCR/include/tesseract/bmp_8.h; sourceTree = "<group>"; };
@@ -1696,16 +1703,17 @@
 		70ECD3D275FB2D832FF9BBE1EAB0EA63 /* GPUImageOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageOutput.m; path = framework/Source/GPUImageOutput.m; sourceTree = "<group>"; };
 		71CAD5DF6FE20D6B698D459871A15923 /* bits16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bits16.h; path = TesseractOCR/include/tesseract/bits16.h; sourceTree = "<group>"; };
 		7251C68580C707FB8DBB0E9DA3FDF81E /* neuron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neuron.h; path = TesseractOCR/include/tesseract/neuron.h; sourceTree = "<group>"; };
+		729220EAEDF92A91084330E373890AFE /* Pods-passportscanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-passportscanner.modulemap"; sourceTree = "<group>"; };
 		729B9DBF05653614F5AB7CBAC06F006F /* GPUImageMedianFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMedianFilter.m; path = framework/Source/GPUImageMedianFilter.m; sourceTree = "<group>"; };
 		7307F6992525328D4887B275C0C6AB55 /* SaturationBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SaturationBlend_GLES.fsh; path = framework/Source/Operations/Shaders/SaturationBlend_GLES.fsh; sourceTree = "<group>"; };
 		7333BB1B10E9BA6ED2394155FEAEC605 /* DissolveBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DissolveBlend.swift; path = framework/Source/Operations/DissolveBlend.swift; sourceTree = "<group>"; };
 		73C898F61228E2ED9EA5382AEF52636D /* mfoutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfoutline.h; path = TesseractOCR/include/tesseract/mfoutline.h; sourceTree = "<group>"; };
 		73F931E783935C115B16CB4881613753 /* featdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = featdefs.h; path = TesseractOCR/include/tesseract/featdefs.h; sourceTree = "<group>"; };
 		7418EBEEDDCA1DD8BE7A57A67800BF5F /* Framebuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framebuffer.swift; path = framework/Source/Framebuffer.swift; sourceTree = "<group>"; };
-		7428589F5E0E82631D3EA8C3CAB235B3 /* TesseractOCRiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TesseractOCRiOS.modulemap; sourceTree = "<group>"; };
 		7460FCBF8F03A79D1ABF371629195056 /* GPUImageMosaicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMosaicFilter.h; path = framework/Source/GPUImageMosaicFilter.h; sourceTree = "<group>"; };
 		747E632A1C44FED4F816C03081A0498E /* ColorSwizzling_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorSwizzling_GLES.fsh; path = framework/Source/Operations/Shaders/ColorSwizzling_GLES.fsh; sourceTree = "<group>"; };
 		74BF395BEDC3A8FF7A61DC068FF17085 /* KuwaharaRadius3Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KuwaharaRadius3Filter.swift; path = framework/Source/Operations/KuwaharaRadius3Filter.swift; sourceTree = "<group>"; };
+		74E3B6DA632A66F31EAD9D62CB5A1E07 /* PassportScannerNs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PassportScannerNs-prefix.pch"; sourceTree = "<group>"; };
 		750F304839FDFAE01E5B2C8464A535C0 /* LightenBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LightenBlend_GLES.fsh; path = framework/Source/Operations/Shaders/LightenBlend_GLES.fsh; sourceTree = "<group>"; };
 		753693C319EF54AB30A5D964B111637F /* G8Tesseract.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = G8Tesseract.mm; path = TesseractOCR/G8Tesseract.mm; sourceTree = "<group>"; };
 		754984E8819C2A283999278020C59465 /* GPUImagePerlinNoiseFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePerlinNoiseFilter.m; path = framework/Source/GPUImagePerlinNoiseFilter.m; sourceTree = "<group>"; };
@@ -1719,10 +1727,10 @@
 		772AF03CFE1B259FBA0D53FED6FF0327 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
 		775ED72D9F3994C9CF37A2B409483620 /* HistogramEqualizationLuminance_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationLuminance_GL.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationLuminance_GL.fsh; sourceTree = "<group>"; };
 		7775A7C4845AB986C9FAF925CD8FD1C7 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
-		77DC83C371609BAE25C7B46828A2B4EF /* GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPUImage-dummy.m"; sourceTree = "<group>"; };
 		7807C3701FF6C03BB7B1E15CDB10C6C7 /* GPUImageCrosshairGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageCrosshairGenerator.h; path = framework/Source/GPUImageCrosshairGenerator.h; sourceTree = "<group>"; };
 		7809FE6D5B31807759E086B043BDABF9 /* LuminosityBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminosityBlend.swift; path = framework/Source/Operations/LuminosityBlend.swift; sourceTree = "<group>"; };
 		781EB40C38BF75C1A54A8D58C095C061 /* PassportScannerNs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PassportScannerNs.framework; path = PassportScannerNs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E7602707B18515367F73C5301968D /* Pods-passportscanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-passportscanner-acknowledgements.plist"; sourceTree = "<group>"; };
 		7839F4587C19ACEB0254ECF648F11279 /* opencl_device_selection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencl_device_selection.h; path = TesseractOCR/include/tesseract/opencl_device_selection.h; sourceTree = "<group>"; };
 		786689B34CDE28359575302699AC68DB /* fpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpoint.h; path = TesseractOCR/include/tesseract/fpoint.h; sourceTree = "<group>"; };
 		78880A493C7982949B94178FEAC5C1B3 /* TextureInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextureInput.swift; path = framework/Source/TextureInput.swift; sourceTree = "<group>"; };
@@ -1735,6 +1743,7 @@
 		7A8728848E3DCCE872C8513509CB438E /* cube_line_segmenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_line_segmenter.h; path = TesseractOCR/include/tesseract/cube_line_segmenter.h; sourceTree = "<group>"; };
 		7A98E00BE568890443F75F55173ECBB1 /* strokewidth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strokewidth.h; path = TesseractOCR/include/tesseract/strokewidth.h; sourceTree = "<group>"; };
 		7AD96C7F692AA5592B1E47CF7C7167EA /* ColorInvert_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorInvert_GLES.fsh; path = framework/Source/Operations/Shaders/ColorInvert_GLES.fsh; sourceTree = "<group>"; };
+		7B99251A3A9635540930C50543BD6C4B /* PassportScannerNs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PassportScannerNs-dummy.m"; sourceTree = "<group>"; };
 		7BA0BA422DB354FC11868C13817F8C4A /* LuminanceRangeReduction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminanceRangeReduction.swift; path = framework/Source/Operations/LuminanceRangeReduction.swift; sourceTree = "<group>"; };
 		7BBCCEF32443B4253E819EDA0FA585DE /* Sketch_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Sketch_GL.fsh; path = framework/Source/Operations/Shaders/Sketch_GL.fsh; sourceTree = "<group>"; };
 		7BBF5672FD77B6362EE23461B5B8756B /* GPUImageHalftoneFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHalftoneFilter.m; path = framework/Source/GPUImageHalftoneFilter.m; sourceTree = "<group>"; };
@@ -1752,7 +1761,6 @@
 		7FDD847CE6C482231EA3A82D0A6BF871 /* commandlineflags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commandlineflags.h; path = TesseractOCR/include/tesseract/commandlineflags.h; sourceTree = "<group>"; };
 		7FE8CE16DEAF1EE5987BA4E37D5EF421 /* Levels_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Levels_GL.fsh; path = framework/Source/Operations/Shaders/Levels_GL.fsh; sourceTree = "<group>"; };
 		800AD4DC47B804D1B6D2ABA2053247C4 /* DarkenBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DarkenBlend_GLES.fsh; path = framework/Source/Operations/Shaders/DarkenBlend_GLES.fsh; sourceTree = "<group>"; };
-		802F4DB7219FE62E7D37305AF49EED32 /* TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
 		803F55EA68C26CED86BF3E867F0232E5 /* ScreenBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ScreenBlend_GL.fsh; path = framework/Source/Operations/Shaders/ScreenBlend_GL.fsh; sourceTree = "<group>"; };
 		80522437D42E55FED7C86E7D917F6FC6 /* DirectionalSobelEdgeDetection_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DirectionalSobelEdgeDetection_GL.fsh; path = framework/Source/Operations/Shaders/DirectionalSobelEdgeDetection_GL.fsh; sourceTree = "<group>"; };
 		805239F957F93BC9195D191376991AE4 /* GPUImageMosaicFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMosaicFilter.m; path = framework/Source/GPUImageMosaicFilter.m; sourceTree = "<group>"; };
@@ -1767,10 +1775,8 @@
 		82B9D201EB8CC71C757633E1BFA8C415 /* GPUImageBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageBuffer.h; path = framework/Source/GPUImageBuffer.h; sourceTree = "<group>"; };
 		8332462791055FE9B9CBCC24708A9CE3 /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
 		835EF3DD4C1FFE00974B029637E7A8E9 /* PassportScannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassportScannerController.swift; path = Pod/PassportScannerController.swift; sourceTree = "<group>"; };
-		838292E6038BD7C4469D13D607422FC5 /* EVGPUImage2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EVGPUImage2.modulemap; sourceTree = "<group>"; };
 		83DEDA0FB81019D0757CACCCA04FA325 /* HistogramEqualizationGreen_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationGreen_GL.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationGreen_GL.fsh; sourceTree = "<group>"; };
 		83F899B94679105D43F7AEEA37E85AC7 /* GPUImageGrayscaleFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGrayscaleFilter.h; path = framework/Source/GPUImageGrayscaleFilter.h; sourceTree = "<group>"; };
-		846ED62F7D460D0BC2558264801221E9 /* UIImage-Resize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIImage-Resize.modulemap"; sourceTree = "<group>"; };
 		848733C0AE3C138EAE88BFB4D01E03F9 /* GPUImageRGBOpeningFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageRGBOpeningFilter.m; path = framework/Source/GPUImageRGBOpeningFilter.m; sourceTree = "<group>"; };
 		84D8C9A6C774F038F8BC14E5ACCEFFAB /* GPUImageLaplacianFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLaplacianFilter.h; path = framework/Source/GPUImageLaplacianFilter.h; sourceTree = "<group>"; };
 		84E2A46EF0BE4BDB3D57E3798042B8B2 /* GPUImageNonMaximumSuppressionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageNonMaximumSuppressionFilter.m; path = framework/Source/GPUImageNonMaximumSuppressionFilter.m; sourceTree = "<group>"; };
@@ -1785,6 +1791,7 @@
 		86C5F4D057068EE35D745D3FE159C954 /* scanutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanutils.h; path = TesseractOCR/include/tesseract/scanutils.h; sourceTree = "<group>"; };
 		8715A8F02945F26D9E82F207BB956F41 /* GPUImageSourceOverBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSourceOverBlendFilter.h; path = framework/Source/GPUImageSourceOverBlendFilter.h; sourceTree = "<group>"; };
 		87234D0E5221682A204495AF655E5526 /* stepblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stepblob.h; path = TesseractOCR/include/tesseract/stepblob.h; sourceTree = "<group>"; };
+		87425F94B644D9F62D7EABF589F03E47 /* GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPUImage.modulemap; sourceTree = "<group>"; };
 		875249F3E68AE76911A49279D9A3018B /* conv_net_classifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conv_net_classifier.h; path = TesseractOCR/include/tesseract/conv_net_classifier.h; sourceTree = "<group>"; };
 		8761ACF19B1DB594EAB2C990865CA472 /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
 		87E3E2D20461819B6C6B49E9017873A6 /* GPUImageSobelEdgeDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSobelEdgeDetectionFilter.m; path = framework/Source/GPUImageSobelEdgeDetectionFilter.m; sourceTree = "<group>"; };
@@ -1831,6 +1838,7 @@
 		8F927DB29C36205D659193DA78C2A243 /* Convolution3x3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convolution3x3.swift; path = framework/Source/Operations/Convolution3x3.swift; sourceTree = "<group>"; };
 		8FCB78A99465D53363F1E8542F974929 /* GPUImageTwoPassTextureSamplingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTwoPassTextureSamplingFilter.m; path = framework/Source/GPUImageTwoPassTextureSamplingFilter.m; sourceTree = "<group>"; };
 		8FE9030FFEBFE143E80F2B1C9C2D2C4C /* Convolution3x3_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Convolution3x3_GL.fsh; path = framework/Source/Operations/Shaders/Convolution3x3_GL.fsh; sourceTree = "<group>"; };
+		90288BA8A25DFC69433BC415030A8DF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903050001B986EC41F36DD7EA8B0C7B7 /* Gamma_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Gamma_GL.fsh; path = framework/Source/Operations/Shaders/Gamma_GL.fsh; sourceTree = "<group>"; };
 		903879F1D5174432F0C59B4B873478E9 /* ContrastAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastAdjustment.swift; path = framework/Source/Operations/ContrastAdjustment.swift; sourceTree = "<group>"; };
 		90515138F80C7CF3E769D3C843B9F9BB /* GPUImageChromaKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageChromaKeyFilter.m; path = framework/Source/GPUImageChromaKeyFilter.m; sourceTree = "<group>"; };
@@ -1845,7 +1853,6 @@
 		92623FEF568DD703C79202A37648D40E /* DissolveBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DissolveBlend_GL.fsh; path = framework/Source/Operations/Shaders/DissolveBlend_GL.fsh; sourceTree = "<group>"; };
 		930E2C1D7B17B528715E499E8DCC60A3 /* GPUImageSharpenFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSharpenFilter.h; path = framework/Source/GPUImageSharpenFilter.h; sourceTree = "<group>"; };
 		931AEB014DA392EE277AF707627E7F18 /* GPUImageFalseColorFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFalseColorFilter.m; path = framework/Source/GPUImageFalseColorFilter.m; sourceTree = "<group>"; };
-		937E2F4CC0CC18D62B8BD9985C9E99CA /* Pods-passportscanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-passportscanner-frameworks.sh"; sourceTree = "<group>"; };
 		938CE0A3D834D6B74433147A25564744 /* GPUImageMonochromeFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMonochromeFilter.m; path = framework/Source/GPUImageMonochromeFilter.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D90AE17900753B30D00D86B8799BBD /* AlphaTest_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AlphaTest_GLES.fsh; path = framework/Source/Operations/Shaders/AlphaTest_GLES.fsh; sourceTree = "<group>"; };
@@ -1871,9 +1878,9 @@
 		991C6E8BD352D70DDACE79C08139CFB9 /* crakedge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crakedge.h; path = TesseractOCR/include/tesseract/crakedge.h; sourceTree = "<group>"; };
 		99A43B1703445FA99619AF3EB4450ECD /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
 		9A20680DE4C3A23C1458C327B5CF29BD /* Posterize_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Posterize_GL.fsh; path = framework/Source/Operations/Shaders/Posterize_GL.fsh; sourceTree = "<group>"; };
-		9A2B5F48B296AD5D3F74A0171DC58829 /* Pods-passportscanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-passportscanner.modulemap"; sourceTree = "<group>"; };
 		9A3569CE8B951235BAD00911155D295E /* ShiTomasiFeatureDetector_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ShiTomasiFeatureDetector_GL.fsh; path = framework/Source/Operations/Shaders/ShiTomasiFeatureDetector_GL.fsh; sourceTree = "<group>"; };
 		9A532C07DCB056335EBEE7652579AA94 /* SoftLightBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SoftLightBlend_GL.fsh; path = framework/Source/Operations/Shaders/SoftLightBlend_GL.fsh; sourceTree = "<group>"; };
+		9AB0C34779ABBBD7057D3AA099F303F1 /* GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPUImage-dummy.m"; sourceTree = "<group>"; };
 		9B8075150A2609B787FC62E7F143BA72 /* Crosshair_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Crosshair_GL.fsh; path = framework/Source/Operations/Shaders/Crosshair_GL.fsh; sourceTree = "<group>"; };
 		9C06832F85E364A7B1DAB249AB606F0F /* GPUImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageView.m; path = framework/Source/iOS/GPUImageView.m; sourceTree = "<group>"; };
 		9C1B06601C508BE5809A41D6502191DB /* AddBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AddBlend_GLES.fsh; path = framework/Source/Operations/Shaders/AddBlend_GLES.fsh; sourceTree = "<group>"; };
@@ -1886,6 +1893,7 @@
 		9E555E3212FA9FB63848A257B539D3B5 /* LineGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineGenerator.swift; path = framework/Source/Operations/LineGenerator.swift; sourceTree = "<group>"; };
 		9E78F31D5A772DE16988C81F455C64F7 /* CGAColorspace_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = CGAColorspace_GL.fsh; path = framework/Source/Operations/Shaders/CGAColorspace_GL.fsh; sourceTree = "<group>"; };
 		9E89E0CED5656A132F7555F436A7D1D8 /* GPUImageAdaptiveThresholdFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAdaptiveThresholdFilter.m; path = framework/Source/GPUImageAdaptiveThresholdFilter.m; sourceTree = "<group>"; };
+		9E8C2C0D4471D341ED7E03FE1C7DA4DB /* TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
 		9EC1560BF4596C7C651459B6869DA057 /* HistogramEqualizationBlue_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationBlue_GL.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationBlue_GL.fsh; sourceTree = "<group>"; };
 		9F5F26579298A271C80F06D0E34FF126 /* GPUImageOverlayBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageOverlayBlendFilter.h; path = framework/Source/GPUImageOverlayBlendFilter.h; sourceTree = "<group>"; };
 		9F6DEE53E3DED9AE4691B1E5310C27B8 /* GPUImageFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFilter.h; path = framework/Source/GPUImageFilter.h; sourceTree = "<group>"; };
@@ -1894,9 +1902,11 @@
 		9F9E11B320BE5B995AC50B6944D87B86 /* SolidColorGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolidColorGenerator.swift; path = framework/Source/Operations/SolidColorGenerator.swift; sourceTree = "<group>"; };
 		A03C10D5AB5AE54D298EAC8228C38DF2 /* makechop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makechop.h; path = TesseractOCR/include/tesseract/makechop.h; sourceTree = "<group>"; };
 		A05BBF8A02F11E6ED74217C4AE79F019 /* GlassSphere_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = GlassSphere_GL.fsh; path = framework/Source/Operations/Shaders/GlassSphere_GL.fsh; sourceTree = "<group>"; };
+		A102B044A3432870162CE792A4D99A89 /* Pods-passportscanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-passportscanner.debug.xcconfig"; sourceTree = "<group>"; };
 		A12821776F5D76D6FF242C5AD33D6F65 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
 		A1603927569F1AA8667A21B556471A3A /* OpenGLRendering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenGLRendering.swift; path = framework/Source/OpenGLRendering.swift; sourceTree = "<group>"; };
 		A1E523E81F453FEA31059627CF0BE72B /* UIImage+G8FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8FixOrientation.h"; path = "TesseractOCR/UIImage+G8FixOrientation.h"; sourceTree = "<group>"; };
+		A1E6477B4AC61A57083575EB5287F533 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1FE676154F77395929CFD799375C720 /* cluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = TesseractOCR/include/tesseract/cluster.h; sourceTree = "<group>"; };
 		A2233F4D9114493D690823108F4F2888 /* StretchDistortion_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = StretchDistortion_GLES.fsh; path = framework/Source/Operations/Shaders/StretchDistortion_GLES.fsh; sourceTree = "<group>"; };
 		A233B520B0C6BFE44FB37D86DFF4E4FA /* DivideBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DivideBlend.swift; path = framework/Source/Operations/DivideBlend.swift; sourceTree = "<group>"; };
@@ -1910,14 +1920,15 @@
 		A426686DF3FEA4CECBC717B66C37E9C9 /* cube_search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_search_object.h; path = TesseractOCR/include/tesseract/cube_search_object.h; sourceTree = "<group>"; };
 		A440F05BABBD56457E80223B269FFF80 /* SourceOverBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SourceOverBlend_GLES.fsh; path = framework/Source/Operations/Shaders/SourceOverBlend_GLES.fsh; sourceTree = "<group>"; };
 		A4B2793401C03ADF291223D910AAC167 /* Toon_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Toon_GL.fsh; path = framework/Source/Operations/Shaders/Toon_GL.fsh; sourceTree = "<group>"; };
+		A5096BFCE6671450B4D2BEA89B0215F6 /* PassportScannerNs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PassportScannerNs.xcconfig; sourceTree = "<group>"; };
 		A5476F4BE8BB470E38335DB9AA466F84 /* GPUImageLuminosityBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLuminosityBlendFilter.h; path = framework/Source/GPUImageLuminosityBlendFilter.h; sourceTree = "<group>"; };
 		A5524697D442C87945FC1ADF6BE3CA67 /* RGBAdjustment_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = RGBAdjustment_GLES.fsh; path = framework/Source/Operations/Shaders/RGBAdjustment_GLES.fsh; sourceTree = "<group>"; };
-		A583C6B84B7E37F39C0657C1EF7EE201 /* PassportScannerNs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PassportScannerNs-umbrella.h"; sourceTree = "<group>"; };
 		A6776BEA83B82A171E5294AB11BACDEF /* GPUImageFASTCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFASTCornerDetectionFilter.h; path = framework/Source/GPUImageFASTCornerDetectionFilter.h; sourceTree = "<group>"; };
 		A68A2A9919C9EF96F3B79098B3B53A95 /* GPUImageKuwaharaRadius3Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageKuwaharaRadius3Filter.h; path = framework/Source/GPUImageKuwaharaRadius3Filter.h; sourceTree = "<group>"; };
 		A6C84E59EB9FC87BD3AF8EC6D6EECB61 /* GPUImageNormalBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageNormalBlendFilter.h; path = framework/Source/GPUImageNormalBlendFilter.h; sourceTree = "<group>"; };
 		A78B2BD908ECB1BBA8EFCE7BF81A3952 /* equationdetectbase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetectbase.h; path = TesseractOCR/include/tesseract/equationdetectbase.h; sourceTree = "<group>"; };
 		A7F2D4A0F0E21F62A62EB4792CB08C24 /* SepiaToneFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SepiaToneFilter.swift; path = framework/Source/Operations/SepiaToneFilter.swift; sourceTree = "<group>"; };
+		A803F483626267F68833742DC97FEF10 /* UIImage-Resize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-Resize-prefix.pch"; sourceTree = "<group>"; };
 		A82F5A55C96E0467DBB9CAE854562A6D /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = TesseractOCR/include/leptonica/bilateral.h; sourceTree = "<group>"; };
 		A88540EB3D132910D610B0B65A952500 /* FillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillMode.swift; path = framework/Source/FillMode.swift; sourceTree = "<group>"; };
 		A8C6B5C6D66B6AE6AD1DF3577748F3E5 /* intfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfx.h; path = TesseractOCR/include/tesseract/intfx.h; sourceTree = "<group>"; };
@@ -1934,7 +1945,6 @@
 		AC35D6BD904A1468A385BD1E198EA8F3 /* HueBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HueBlend.swift; path = framework/Source/Operations/HueBlend.swift; sourceTree = "<group>"; };
 		AC41A536ABFFC94CAE1C70842D15D7EA /* GPUImageCGAColorspaceFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageCGAColorspaceFilter.m; path = framework/Source/GPUImageCGAColorspaceFilter.m; sourceTree = "<group>"; };
 		AC76FB498D924F23E01855D848BF3FE8 /* Dilation2_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Dilation2_GLES.fsh; path = framework/Source/Operations/Shaders/Dilation2_GLES.fsh; sourceTree = "<group>"; };
-		ACBED31E8519EF8F7DA4131B0237E5B3 /* PassportScannerNs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PassportScannerNs.xcconfig; sourceTree = "<group>"; };
 		ACEABB5F80A881909510B64FEE1E7561 /* classify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classify.h; path = TesseractOCR/include/tesseract/classify.h; sourceTree = "<group>"; };
 		AD025FD9467F5B26C6EB5752F4DB3314 /* GPUImageMotionBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMotionBlurFilter.m; path = framework/Source/GPUImageMotionBlurFilter.m; sourceTree = "<group>"; };
 		AD68FC2FC4A9F5ACF505179F7DF344DF /* UIImage_Resize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIImage_Resize.framework; path = "UIImage-Resize.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1944,7 +1954,7 @@
 		AE366C298F6577C68193FE7CF2521AE4 /* GPUImageAverageLuminanceThresholdFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAverageLuminanceThresholdFilter.m; path = framework/Source/GPUImageAverageLuminanceThresholdFilter.m; sourceTree = "<group>"; };
 		AE5B65B0B41B4B1219DFDE990CA08C0A /* GPUImageMovieWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieWriter.h; path = framework/Source/iOS/GPUImageMovieWriter.h; sourceTree = "<group>"; };
 		AE8BED7B46A70A5E300D94E51E978192 /* GPUImageWhiteBalanceFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageWhiteBalanceFilter.m; path = framework/Source/GPUImageWhiteBalanceFilter.m; sourceTree = "<group>"; };
-		AF00682AB4B89383C84970C5F4099F40 /* TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TesseractOCRiOS.xcconfig; sourceTree = "<group>"; };
+		AEE40871E7E3D8B9974A0898FE4099F4 /* GPUImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPUImage-prefix.pch"; sourceTree = "<group>"; };
 		AF42F8FFF17731A3C0B2E2424590D740 /* Sharpen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sharpen.swift; path = framework/Source/Operations/Sharpen.swift; sourceTree = "<group>"; };
 		AF6143CB4D95F4F6208FB9324769AAF3 /* WeakPixelInclusion_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = WeakPixelInclusion_GLES.fsh; path = framework/Source/Operations/Shaders/WeakPixelInclusion_GLES.fsh; sourceTree = "<group>"; };
 		AF75E6041F3C2A6FB0CD6533961510EC /* ShaderUniformSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShaderUniformSettings.swift; path = framework/Source/ShaderUniformSettings.swift; sourceTree = "<group>"; };
@@ -1953,7 +1963,6 @@
 		AFDE4E44FD617F02625DDC644ED52FCD /* oldlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldlist.h; path = TesseractOCR/include/tesseract/oldlist.h; sourceTree = "<group>"; };
 		AFE3EE65A0A5D4A02991F48A03556D94 /* ocrpara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrpara.h; path = TesseractOCR/include/tesseract/ocrpara.h; sourceTree = "<group>"; };
 		AFFE958CF02FD5D83FCA1783B7855D44 /* OperationGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationGroup.swift; path = framework/Source/OperationGroup.swift; sourceTree = "<group>"; };
-		B00DF276332E9AD7A92A1BA61872A00F /* GPUImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPUImage-prefix.pch"; sourceTree = "<group>"; };
 		B0173C008EB734D3F671994F8C2C543E /* GPUImageLineGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLineGenerator.h; path = framework/Source/GPUImageLineGenerator.h; sourceTree = "<group>"; };
 		B0245B399B4E0783F56C7EC094469692 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
 		B064A3F5C17377FF799CA20B45C01056 /* PrewittEdgeDetection_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PrewittEdgeDetection_GL.fsh; path = framework/Source/Operations/Shaders/PrewittEdgeDetection_GL.fsh; sourceTree = "<group>"; };
@@ -2006,12 +2015,12 @@
 		BAD13951C44CD931D9326115AE386C1D /* UnsharpMask_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = UnsharpMask_GLES.fsh; path = framework/Source/Operations/Shaders/UnsharpMask_GLES.fsh; sourceTree = "<group>"; };
 		BADB6E4BE594D8BE3AE7C1D3836B4E2E /* ColorDodgeBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorDodgeBlend.swift; path = framework/Source/Operations/ColorDodgeBlend.swift; sourceTree = "<group>"; };
 		BB395B9F5CF417A27895FD994FB91BD0 /* picofeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = picofeat.h; path = TesseractOCR/include/tesseract/picofeat.h; sourceTree = "<group>"; };
-		BB48455EFBCC12A6C03E47BE01B5C94C /* EVGPUImage2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EVGPUImage2-Info.plist"; sourceTree = "<group>"; };
 		BB48589F21C5C14A69B949D9D1F17F41 /* tesseractclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseractclass.h; path = TesseractOCR/include/tesseract/tesseractclass.h; sourceTree = "<group>"; };
 		BB4B2C2D6C2DB2DF65F532945AC161F3 /* GPUImage3x3ConvolutionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImage3x3ConvolutionFilter.m; path = framework/Source/GPUImage3x3ConvolutionFilter.m; sourceTree = "<group>"; };
 		BB813E47FEEA1991EDCA8677FF82F2EA /* LightenBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LightenBlend_GL.fsh; path = framework/Source/Operations/Shaders/LightenBlend_GL.fsh; sourceTree = "<group>"; };
 		BB9634ADBE37EE579FD60D352498D3D4 /* Erosion1_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Erosion1_GL.fsh; path = framework/Source/Operations/Shaders/Erosion1_GL.fsh; sourceTree = "<group>"; };
 		BBC282C29A39B4D39DF9E667E5067B2F /* AverageLuminance_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AverageLuminance_GL.fsh; path = framework/Source/Operations/Shaders/AverageLuminance_GL.fsh; sourceTree = "<group>"; };
+		BBD2D9731A1E8A5CB2423982D817C7B2 /* UIImage-Resize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-Resize-umbrella.h"; sourceTree = "<group>"; };
 		BC2BFCA619B75B2D905073CBB37B26AD /* BilateralBlur_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = BilateralBlur_GLES.fsh; path = framework/Source/Operations/Shaders/BilateralBlur_GLES.fsh; sourceTree = "<group>"; };
 		BC315FD4C67A2BC60D48D1AF762D38CD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		BC7FC5DE1F12489F9BF4BE9ED18E58CD /* LuminosityBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LuminosityBlend_GL.fsh; path = framework/Source/Operations/Shaders/LuminosityBlend_GL.fsh; sourceTree = "<group>"; };
@@ -2031,12 +2040,10 @@
 		BE5AF4881BD53CA331D9372F3671F2CF /* GPUImagePosterizeFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePosterizeFilter.m; path = framework/Source/GPUImagePosterizeFilter.m; sourceTree = "<group>"; };
 		BE79D1BC9353BF850CFC1A30853A19A2 /* GlassSphere_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = GlassSphere_GLES.fsh; path = framework/Source/Operations/Shaders/GlassSphere_GLES.fsh; sourceTree = "<group>"; };
 		BE7FE68038FF168A80C5946E9E268F3A /* blamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blamer.h; path = TesseractOCR/include/tesseract/blamer.h; sourceTree = "<group>"; };
-		BE9DFE12BD198CD3D9EF3A92DFB07B73 /* Pods-passportscanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-passportscanner.debug.xcconfig"; sourceTree = "<group>"; };
 		BED5241ABEC80C73F772CA0FDF6A27C9 /* DirectionalSobelEdgeDetection_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DirectionalSobelEdgeDetection_GLES.fsh; path = framework/Source/Operations/Shaders/DirectionalSobelEdgeDetection_GLES.fsh; sourceTree = "<group>"; };
 		BED859661E898261CD6EDBF3289D593E /* Laplacian_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Laplacian_GL.fsh; path = framework/Source/Operations/Shaders/Laplacian_GL.fsh; sourceTree = "<group>"; };
 		BF32482B5E44A2C43B75FF2929990AE3 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+G8Filters.m"; path = "TesseractOCR/UIImage+G8Filters.m"; sourceTree = "<group>"; };
 		BF6B43ADBE93BDE66A4E2329036FD7F8 /* GPUImageChromaKeyBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageChromaKeyBlendFilter.h; path = framework/Source/GPUImageChromaKeyBlendFilter.h; sourceTree = "<group>"; };
-		BF7095CA79A17B37D313552B8C21B861 /* GPUImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GPUImage-Info.plist"; sourceTree = "<group>"; };
 		BF9E2DE6AA2606D430EE9A1792FA69FD /* char_samp_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp_set.h; path = TesseractOCR/include/tesseract/char_samp_set.h; sourceTree = "<group>"; };
 		BF9F3935911374FDAA2A0FB273E9439E /* GPUImageDirectionalSobelEdgeDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageDirectionalSobelEdgeDetectionFilter.m; path = framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.m; sourceTree = "<group>"; };
 		BFC01AB79F67BD3E0A8E0741AE878E1B /* GPUImageVignetteFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageVignetteFilter.h; path = framework/Source/GPUImageVignetteFilter.h; sourceTree = "<group>"; };
@@ -2065,7 +2072,6 @@
 		C51ABF7DC90AE5A3559EBBE3B52DD9D3 /* ExclusionBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ExclusionBlend_GLES.fsh; path = framework/Source/Operations/Shaders/ExclusionBlend_GLES.fsh; sourceTree = "<group>"; };
 		C555AD2A7F34AC58FB51B6EF314A30D5 /* Vibrance_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Vibrance_GL.fsh; path = framework/Source/Operations/Shaders/Vibrance_GL.fsh; sourceTree = "<group>"; };
 		C5DD0DFCF429B601036F026B6629533E /* GPUImagePixellateFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePixellateFilter.m; path = framework/Source/GPUImagePixellateFilter.m; sourceTree = "<group>"; };
-		C604C6172AB81916FA363A71B0E455E6 /* Pods-passportscanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-passportscanner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C6298AF6CDBDBAE7FC6D1D925A699961 /* underlin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = underlin.h; path = TesseractOCR/include/tesseract/underlin.h; sourceTree = "<group>"; };
 		C68C5CF30DB214F09B11ABBBE355EF56 /* search_node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_node.h; path = TesseractOCR/include/tesseract/search_node.h; sourceTree = "<group>"; };
 		C6C251D75CE2B420C8D4626944FF4D02 /* GPUImageThreeInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageThreeInputFilter.h; path = framework/Source/GPUImageThreeInputFilter.h; sourceTree = "<group>"; };
@@ -2119,22 +2125,21 @@
 		D270773C3A67E4E43356FE5895FE76F3 /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/leptonica/config_auto.h; sourceTree = "<group>"; };
 		D27D5C116ACE4583272041001C34F3BF /* UIImage+G8Filters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8Filters.h"; path = "TesseractOCR/UIImage+G8Filters.h"; sourceTree = "<group>"; };
 		D28D7BC10CA88B878E3FA975BD7C7B74 /* makerow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makerow.h; path = TesseractOCR/include/tesseract/makerow.h; sourceTree = "<group>"; };
-		D2CCAAD48BCFC2EC369E27A582013863 /* EVGPUImage2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVGPUImage2.xcconfig; sourceTree = "<group>"; };
+		D28DC62207BA242529D2230FCCF6D251 /* EVGPUImage2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVGPUImage2-dummy.m"; sourceTree = "<group>"; };
 		D308FB14299BE4B083967F543535957D /* XYDerivative_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = XYDerivative_GL.fsh; path = framework/Source/Operations/Shaders/XYDerivative_GL.fsh; sourceTree = "<group>"; };
 		D353DE40FC13B2045E314ED4AD627BCF /* normstrngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normstrngs.h; path = TesseractOCR/include/tesseract/normstrngs.h; sourceTree = "<group>"; };
 		D39C1173D5B5E585907E2B9A91C27E61 /* TiltShift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiltShift.swift; path = framework/Source/Operations/TiltShift.swift; sourceTree = "<group>"; };
 		D3D8266762776D8A9C24670FF62A5100 /* NobleCornerDetector_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = NobleCornerDetector_GLES.fsh; path = framework/Source/Operations/Shaders/NobleCornerDetector_GLES.fsh; sourceTree = "<group>"; };
 		D4282836EBB88651BF798250FB371C93 /* Halftone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Halftone.swift; path = framework/Source/Operations/Halftone.swift; sourceTree = "<group>"; };
 		D45F7796F83635B73EAC9A07ED32E099 /* GPUImageShiTomasiFeatureDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageShiTomasiFeatureDetectionFilter.m; path = framework/Source/GPUImageShiTomasiFeatureDetectionFilter.m; sourceTree = "<group>"; };
-		D4B0EB1E35EE35C666B16A703CFB7D7A /* TesseractOCRiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-umbrella.h"; sourceTree = "<group>"; };
 		D517C4AF88D056C36F7128B400C3F5A1 /* Swirl_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Swirl_GLES.fsh; path = framework/Source/Operations/Shaders/Swirl_GLES.fsh; sourceTree = "<group>"; };
 		D5255E491EA90F57DCF3355988F47120 /* GPUImageSepiaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSepiaFilter.h; path = framework/Source/GPUImageSepiaFilter.h; sourceTree = "<group>"; };
+		D54F1DA170534BB5795597F3755D2B38 /* TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
 		D55CAE50387191F2DDAA6BF1821BD0BB /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
 		D59FFF20C27E17691D989C386EDAEAF2 /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
 		D686B129C1E7E985D24A4DA4EB1870C6 /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
 		D6DEC3DB4BDBC1948913DE00D6557118 /* FalseColor_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = FalseColor_GL.fsh; path = framework/Source/Operations/Shaders/FalseColor_GL.fsh; sourceTree = "<group>"; };
 		D70D999635066FE968719DB04670B199 /* PrewittEdgeDetection_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PrewittEdgeDetection_GLES.fsh; path = framework/Source/Operations/Shaders/PrewittEdgeDetection_GLES.fsh; sourceTree = "<group>"; };
-		D7C528DECFF348E6F891E6F813ECB4A0 /* EVGPUImage2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVGPUImage2-umbrella.h"; sourceTree = "<group>"; };
 		D81713CB2FDE8495D8F4DAB9A43C6352 /* Solarize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Solarize.swift; path = framework/Source/Operations/Solarize.swift; sourceTree = "<group>"; };
 		D88AE1D9E85507AAB4CB5D7A096896F5 /* GPUImageLookupFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLookupFilter.h; path = framework/Source/GPUImageLookupFilter.h; sourceTree = "<group>"; };
 		D8A90736532E8FE8886DDD7935FAA531 /* secname.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secname.h; path = TesseractOCR/include/tesseract/secname.h; sourceTree = "<group>"; };
@@ -2146,13 +2151,13 @@
 		D9BA16866E0781627D981C3EBA70E96B /* GPUImageLowPassFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLowPassFilter.m; path = framework/Source/GPUImageLowPassFilter.m; sourceTree = "<group>"; };
 		DA1C47E4F7C56CE6604CF0B0BCBF6849 /* cutil_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutil_class.h; path = TesseractOCR/include/tesseract/cutil_class.h; sourceTree = "<group>"; };
 		DA79D71BB9B1B2313929DB0E68057D61 /* feature_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_base.h; path = TesseractOCR/include/tesseract/feature_base.h; sourceTree = "<group>"; };
-		DA89B9D10AE7B1431807B2FC3053CB72 /* UIImage-Resize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-Resize-umbrella.h"; sourceTree = "<group>"; };
 		DB8DAEF57134F193FD5187120D17FCD0 /* DarkenBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DarkenBlend_GL.fsh; path = framework/Source/Operations/Shaders/DarkenBlend_GL.fsh; sourceTree = "<group>"; };
 		DBD2C489899519455E2E675E5EE50113 /* ExclusionBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExclusionBlend.swift; path = framework/Source/Operations/ExclusionBlend.swift; sourceTree = "<group>"; };
 		DBF2ECF4A93CF33A2A802066BF3E9E3C /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = TesseractOCR/include/tesseract/dict.h; sourceTree = "<group>"; };
 		DC30E14182733834EDA74AA1EC95A9D2 /* HistogramDisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramDisplay.swift; path = framework/Source/Operations/HistogramDisplay.swift; sourceTree = "<group>"; };
 		DCD87DA3D7FBB61D350F726DAF829425 /* BilateralBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BilateralBlur.swift; path = framework/Source/Operations/BilateralBlur.swift; sourceTree = "<group>"; };
 		DD05DC4086F20EDD3911E99AD8C4A6DB /* GPUImageColorInvertFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorInvertFilter.h; path = framework/Source/GPUImageColorInvertFilter.h; sourceTree = "<group>"; };
+		DD4704ECB5A42225FC2F2478C515237E /* UIImage-Resize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Resize-dummy.m"; sourceTree = "<group>"; };
 		DD645C9F50D08A87493EE2008F88C879 /* Solarize_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Solarize_GLES.fsh; path = framework/Source/Operations/Shaders/Solarize_GLES.fsh; sourceTree = "<group>"; };
 		DD79ABAD2688ABB508C6BA7806E44877 /* quadratc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadratc.h; path = TesseractOCR/include/tesseract/quadratc.h; sourceTree = "<group>"; };
 		DD95BF67AFB147CC120C6C1F4A831B4E /* GPUImageBilateralFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageBilateralFilter.m; path = framework/Source/GPUImageBilateralFilter.m; sourceTree = "<group>"; };
@@ -2180,12 +2185,12 @@
 		E2674E88A3C8C67E94DB7B46676E41DB /* GPUImageHueBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHueBlendFilter.m; path = framework/Source/GPUImageHueBlendFilter.m; sourceTree = "<group>"; };
 		E2C84C1E2B498FB236F8B14DBEEAA2BB /* GPUImageAmatorkaFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAmatorkaFilter.m; path = framework/Source/GPUImageAmatorkaFilter.m; sourceTree = "<group>"; };
 		E3310C0501D5BC6266C7611DAB64598C /* werd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werd.h; path = TesseractOCR/include/tesseract/werd.h; sourceTree = "<group>"; };
+		E34540715F43A1134F6C47D3DD6FF857 /* EVGPUImage2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EVGPUImage2.modulemap; sourceTree = "<group>"; };
 		E34C1D3EE6312DB98348FD1846F49C71 /* HistogramAccumulation_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramAccumulation_GL.fsh; path = framework/Source/Operations/Shaders/HistogramAccumulation_GL.fsh; sourceTree = "<group>"; };
 		E365F0619C8DE092390F0689F10C3779 /* edgloop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edgloop.h; path = TesseractOCR/include/tesseract/edgloop.h; sourceTree = "<group>"; };
 		E3738E8B921DA9637660DD5331269BDA /* ColourFASTDecriptor_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColourFASTDecriptor_GLES.fsh; path = framework/Source/Operations/Shaders/ColourFASTDecriptor_GLES.fsh; sourceTree = "<group>"; };
 		E3C8A8703668F76A1346EF96D3A756E4 /* Exposure_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Exposure_GLES.fsh; path = framework/Source/Operations/Shaders/Exposure_GLES.fsh; sourceTree = "<group>"; };
 		E3F58810D7F76578FD3926DCE4913CF3 /* GPUImageTransformFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTransformFilter.h; path = framework/Source/GPUImageTransformFilter.h; sourceTree = "<group>"; };
-		E45BA22EBDDBC671EF4C8DF5093256DC /* TesseractOCRiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TesseractOCRiOS-Info.plist"; sourceTree = "<group>"; };
 		E496C68753E385222B46D9C76D661E1A /* GPUImageSourceOverBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSourceOverBlendFilter.m; path = framework/Source/GPUImageSourceOverBlendFilter.m; sourceTree = "<group>"; };
 		E4DA66D2CF6FDF98868353DC974F0127 /* associate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = associate.h; path = TesseractOCR/include/tesseract/associate.h; sourceTree = "<group>"; };
 		E4F96F929B8E2F83EAB45E5B310A3AD4 /* cubeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cubeclassifier.h; path = TesseractOCR/include/tesseract/cubeclassifier.h; sourceTree = "<group>"; };
@@ -2279,15 +2284,12 @@
 		F7927E7D3C0D3A1F5546CFA110241B91 /* UIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		F7FAC5E7C0EBA12825D1FC919B1713CE /* GPUImageXYDerivativeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageXYDerivativeFilter.h; path = framework/Source/GPUImageXYDerivativeFilter.h; sourceTree = "<group>"; };
 		F85310A38F178AEF41A75470CBC2E045 /* GPUImageTwoPassFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTwoPassFilter.m; path = framework/Source/GPUImageTwoPassFilter.m; sourceTree = "<group>"; };
-		F871C241FFB8885BC403123FEE8F04BE /* TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
 		F8A7E44EC38247E4297AD40E9EFE0ED3 /* DifferenceBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DifferenceBlend_GLES.fsh; path = framework/Source/Operations/Shaders/DifferenceBlend_GLES.fsh; sourceTree = "<group>"; };
 		F8E194FC7B244D8FA0F6B94DD2064B5D /* search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_object.h; path = TesseractOCR/include/tesseract/search_object.h; sourceTree = "<group>"; };
 		F8E3FF166CF26819150D6400CFBD0A01 /* boxread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxread.h; path = TesseractOCR/include/tesseract/boxread.h; sourceTree = "<group>"; };
 		F8FC5CCDE6B9B3B18C447FF120ECAC00 /* chopper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chopper.h; path = TesseractOCR/include/tesseract/chopper.h; sourceTree = "<group>"; };
-		F94519CE3D5632AF4E3EDEC0D4BA8805 /* UIImage-Resize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-Resize-prefix.pch"; sourceTree = "<group>"; };
 		F9A0180885879E18E20FB6A97A2C44F5 /* reject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reject.h; path = TesseractOCR/include/tesseract/reject.h; sourceTree = "<group>"; };
 		FA5EFBA705B3EBA1B38CE8CE061D76CE /* GPUImageSphereRefractionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSphereRefractionFilter.h; path = framework/Source/GPUImageSphereRefractionFilter.h; sourceTree = "<group>"; };
-		FA69DCA3AADB23F791FDCE2163E75D12 /* Pods-passportscanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-passportscanner.release.xcconfig"; sourceTree = "<group>"; };
 		FABCF86CF6D48914548CB55E10ABD4F8 /* GPUImageSwirlFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSwirlFilter.h; path = framework/Source/GPUImageSwirlFilter.h; sourceTree = "<group>"; };
 		FAC47557478B4B3BDB603F6060B3C607 /* cube_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_utils.h; path = TesseractOCR/include/tesseract/cube_utils.h; sourceTree = "<group>"; };
 		FAF5893F2BD82C581C8EE7E2ABE7DB83 /* GPUImagePinchDistortionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePinchDistortionFilter.m; path = framework/Source/GPUImagePinchDistortionFilter.m; sourceTree = "<group>"; };
@@ -2308,7 +2310,6 @@
 		FF70BA6920931B7EE4253ACA654FA3C9 /* GPUImageColorBurnBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorBurnBlendFilter.h; path = framework/Source/GPUImageColorBurnBlendFilter.h; sourceTree = "<group>"; };
 		FF94E835B749C6CBF532B3C59D0B6294 /* Median_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Median_GL.fsh; path = framework/Source/Operations/Shaders/Median_GL.fsh; sourceTree = "<group>"; };
 		FFF045A73CF243B97E221D9A3E974664 /* classifier_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_base.h; path = TesseractOCR/include/tesseract/classifier_base.h; sourceTree = "<group>"; };
-		FFF2E008BA38046A2E5A48DE2B6DDC92 /* UIImage-Resize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Resize-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2376,18 +2377,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E7010B114D7CA1E6BF023E5FA23FCA9 /* Support Files */ = {
+		2B33F19543EF52193167F3023670C7AE /* Pods-passportscanner */ = {
 			isa = PBXGroup;
 			children = (
-				28468C0D4716D8F404A0BDBD0B78E246 /* PassportScannerNs.modulemap */,
-				ACBED31E8519EF8F7DA4131B0237E5B3 /* PassportScannerNs.xcconfig */,
-				042AB2BCEADB47AA4B95D9E1FA710799 /* PassportScannerNs-dummy.m */,
-				58D1FDCC3D40F9EDC3B98ACF1E7F36F0 /* PassportScannerNs-Info.plist */,
-				37D8C3BCAA5C43CE15EFCE2A86E7BE9E /* PassportScannerNs-prefix.pch */,
-				A583C6B84B7E37F39C0657C1EF7EE201 /* PassportScannerNs-umbrella.h */,
+				A1E6477B4AC61A57083575EB5287F533 /* Info.plist */,
+				729220EAEDF92A91084330E373890AFE /* Pods-passportscanner.modulemap */,
+				23C0F760EAE757FF7A417B41835029E6 /* Pods-passportscanner-acknowledgements.markdown */,
+				782E7602707B18515367F73C5301968D /* Pods-passportscanner-acknowledgements.plist */,
+				26F0D5862F1B5324520821BD3F4CE51F /* Pods-passportscanner-dummy.m */,
+				1C06726CC6374C282FFC808C79143323 /* Pods-passportscanner-frameworks.sh */,
+				11326FC93A828F4B9B326A52D2FDD9D7 /* Pods-passportscanner-resources.sh */,
+				5DEF5EAB056DA9670BEF74044B8BB527 /* Pods-passportscanner-umbrella.h */,
+				A102B044A3432870162CE792A4D99A89 /* Pods-passportscanner.debug.xcconfig */,
+				3B35D67809E87E920FB119D769A48073 /* Pods-passportscanner.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PassportScannerNs";
+			name = "Pods-passportscanner";
+			path = "Target Support Files/Pods-passportscanner";
 			sourceTree = "<group>";
 		};
 		317018DF986A4A7D10C8F539A71CC489 /* UIImage-Resize */ = {
@@ -2395,7 +2400,7 @@
 			children = (
 				65D3937CF315EA13CEA9813D5F8934D6 /* UIImage+Resize.h */,
 				F7927E7D3C0D3A1F5546CFA110241B91 /* UIImage+Resize.m */,
-				4F98B578E9FDAB5618A03356876BD9A8 /* Support Files */,
+				A196B671783D9C3C98EE0ECC98FAE9E0 /* Support Files */,
 			);
 			name = "UIImage-Resize";
 			path = "UIImage-Resize";
@@ -2413,32 +2418,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		428E724062CAE29C85D31C81002C87A5 /* Support Files */ = {
+		42F734BB4F1858E1B546923587E33511 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7428589F5E0E82631D3EA8C3CAB235B3 /* TesseractOCRiOS.modulemap */,
-				AF00682AB4B89383C84970C5F4099F40 /* TesseractOCRiOS.xcconfig */,
-				802F4DB7219FE62E7D37305AF49EED32 /* TesseractOCRiOS-dummy.m */,
-				E45BA22EBDDBC671EF4C8DF5093256DC /* TesseractOCRiOS-Info.plist */,
-				F871C241FFB8885BC403123FEE8F04BE /* TesseractOCRiOS-prefix.pch */,
-				D4B0EB1E35EE35C666B16A703CFB7D7A /* TesseractOCRiOS-umbrella.h */,
+				2B33F19543EF52193167F3023670C7AE /* Pods-passportscanner */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TesseractOCRiOS";
-			sourceTree = "<group>";
-		};
-		4F98B578E9FDAB5618A03356876BD9A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				846ED62F7D460D0BC2558264801221E9 /* UIImage-Resize.modulemap */,
-				396AB2B140248CB5E833FD95B88C57B5 /* UIImage-Resize.xcconfig */,
-				FFF2E008BA38046A2E5A48DE2B6DDC92 /* UIImage-Resize-dummy.m */,
-				6F73D76C5295812258CEF249C0DE79FF /* UIImage-Resize-Info.plist */,
-				F94519CE3D5632AF4E3EDEC0D4BA8805 /* UIImage-Resize-prefix.pch */,
-				DA89B9D10AE7B1431807B2FC3053CB72 /* UIImage-Resize-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UIImage-Resize";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5A8D44D3CA2D427E06CF0AC8F6CF9B67 /* GPUImage */ = {
@@ -2775,18 +2760,10 @@
 				249264B37D0E1C9205F8FBBB3240D8F8 /* GPUImageZoomBlurFilter.h */,
 				C1EE6EEF9AC438F97CC9768E4DF05C94 /* GPUImageZoomBlurFilter.m */,
 				39C6D3CC7B979C4653A908707B59577B /* Resources */,
-				C99506E25DCA6FB1396B64D1B1B294DA /* Support Files */,
+				CA433EA26507D1174779F2D39BC8F6ED /* Support Files */,
 			);
 			name = GPUImage;
 			path = GPUImage;
-			sourceTree = "<group>";
-		};
-		663F00454AD349BE5138EA3941431E67 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D498ACECC440FB97851610597187AE90 /* Pods-passportscanner */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		6D8B38FF8CE049C13A39ADE645EA1174 /* PassportScannerNs */ = {
@@ -2794,7 +2771,7 @@
 			children = (
 				9CB7364118A762D33C05856863C8E6B8 /* MRZ.swift */,
 				835EF3DD4C1FFE00974B029637E7A8E9 /* PassportScannerController.swift */,
-				2E7010B114D7CA1E6BF023E5FA23FCA9 /* Support Files */,
+				C2617CA73DF28C3507157ADD47449B14 /* Support Files */,
 			);
 			name = PassportScannerNs;
 			path = PassportScannerNs;
@@ -2955,7 +2932,7 @@
 				25FA83291B4611811D1A1F2DDC3CF8DF /* WhiteBalance.swift */,
 				1A504AD96236E3A871B9E8E899D519A2 /* ZoomBlur.swift */,
 				DE72D3D063E165F1AB3FCB918E348AB9 /* Resources */,
-				B4D9CC67730A7DF2C1E15B386220650F /* Support Files */,
+				B4F89E7DDDB8A4BBD26A135F3ADC1BCB /* Support Files */,
 			);
 			name = EVGPUImage2;
 			path = EVGPUImage2;
@@ -2968,7 +2945,7 @@
 				A56CADD3ECDA0F929E0A1D20CF828C18 /* Frameworks */,
 				C0AE7F6FF6B6FF06CFFBADDBEFA0CA6E /* Pods */,
 				A13C83C861426F059FD8D87DB225BE8C /* Products */,
-				663F00454AD349BE5138EA3941431E67 /* Targets Support Files */,
+				42F734BB4F1858E1B546923587E33511 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3320,10 +3297,24 @@
 				33D7277021E0D4C026C2C35F32D6B1FA /* workingpartset.h */,
 				163D760E44755CFDA477CB8A3A540017 /* xform2d.h */,
 				AD9B836ED3C6BB9A5579C076E5D3AE27 /* Frameworks */,
-				428E724062CAE29C85D31C81002C87A5 /* Support Files */,
+				9DE58E1BB538527E035384EB42997AB0 /* Support Files */,
 			);
 			name = TesseractOCRiOS;
 			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		9DE58E1BB538527E035384EB42997AB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E98CE1DA4F81D41CFB5DD41B3E90CD /* Info.plist */,
+				6463A184F98B87BDDC153B46D21DC8BF /* TesseractOCRiOS.modulemap */,
+				10D62C5E5C229066A5560669AF748B44 /* TesseractOCRiOS.xcconfig */,
+				9E8C2C0D4471D341ED7E03FE1C7DA4DB /* TesseractOCRiOS-dummy.m */,
+				D54F1DA170534BB5795597F3755D2B38 /* TesseractOCRiOS-prefix.pch */,
+				1C24D3C457B13F4B5C4B27ABC29F0B64 /* TesseractOCRiOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TesseractOCRiOS";
 			sourceTree = "<group>";
 		};
 		A13C83C861426F059FD8D87DB225BE8C /* Products */ = {
@@ -3337,6 +3328,20 @@
 				AD68FC2FC4A9F5ACF505179F7DF344DF /* UIImage_Resize.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A196B671783D9C3C98EE0ECC98FAE9E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90288BA8A25DFC69433BC415030A8DF6 /* Info.plist */,
+				4AEBACFB1FE388DCC69F5EBCCB66B529 /* UIImage-Resize.modulemap */,
+				3045E11730206DFC035F9578D003CED2 /* UIImage-Resize.xcconfig */,
+				DD4704ECB5A42225FC2F2478C515237E /* UIImage-Resize-dummy.m */,
+				A803F483626267F68833742DC97FEF10 /* UIImage-Resize-prefix.pch */,
+				BBD2D9731A1E8A5CB2423982D817C7B2 /* UIImage-Resize-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage-Resize";
 			sourceTree = "<group>";
 		};
 		A56CADD3ECDA0F929E0A1D20CF828C18 /* Frameworks */ = {
@@ -3360,15 +3365,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4D9CC67730A7DF2C1E15B386220650F /* Support Files */ = {
+		B4F89E7DDDB8A4BBD26A135F3ADC1BCB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				838292E6038BD7C4469D13D607422FC5 /* EVGPUImage2.modulemap */,
-				D2CCAAD48BCFC2EC369E27A582013863 /* EVGPUImage2.xcconfig */,
-				1850D1BBD73834A76340B6AC91C9A936 /* EVGPUImage2-dummy.m */,
-				BB48455EFBCC12A6C03E47BE01B5C94C /* EVGPUImage2-Info.plist */,
-				61C222BF134ACCBDBC13B33C561448CA /* EVGPUImage2-prefix.pch */,
-				D7C528DECFF348E6F891E6F813ECB4A0 /* EVGPUImage2-umbrella.h */,
+				E34540715F43A1134F6C47D3DD6FF857 /* EVGPUImage2.modulemap */,
+				05F1D26BEF624A1F330402322B8E2FC8 /* EVGPUImage2.xcconfig */,
+				D28DC62207BA242529D2230FCCF6D251 /* EVGPUImage2-dummy.m */,
+				681480EFB600002E2DCA3D3D875EE241 /* EVGPUImage2-prefix.pch */,
+				7051495374BE29A200B003039D4C3D31 /* EVGPUImage2-umbrella.h */,
+				4E6FBCA35F77AC7B8775A6E89FC4C7C7 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/EVGPUImage2";
@@ -3399,35 +3404,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C99506E25DCA6FB1396B64D1B1B294DA /* Support Files */ = {
+		C2617CA73DF28C3507157ADD47449B14 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0614282C2C05EAC32A887BA733D7FEE0 /* GPUImage.modulemap */,
-				02CA70A4B9BF35FFCE5622327540EEDA /* GPUImage.xcconfig */,
-				77DC83C371609BAE25C7B46828A2B4EF /* GPUImage-dummy.m */,
-				BF7095CA79A17B37D313552B8C21B861 /* GPUImage-Info.plist */,
-				B00DF276332E9AD7A92A1BA61872A00F /* GPUImage-prefix.pch */,
-				45B1996F9142C8A52895FE5244D7D10D /* GPUImage-umbrella.h */,
+				2C2DAD1A3EB1722E49D30AFA258F1DE1 /* Info.plist */,
+				46E2F43DA8995DE310E53DD1DE968F13 /* PassportScannerNs.modulemap */,
+				A5096BFCE6671450B4D2BEA89B0215F6 /* PassportScannerNs.xcconfig */,
+				7B99251A3A9635540930C50543BD6C4B /* PassportScannerNs-dummy.m */,
+				74E3B6DA632A66F31EAD9D62CB5A1E07 /* PassportScannerNs-prefix.pch */,
+				6C9D60D8F8419B20BCDB5A0E584092E4 /* PassportScannerNs-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PassportScannerNs";
+			sourceTree = "<group>";
+		};
+		CA433EA26507D1174779F2D39BC8F6ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87425F94B644D9F62D7EABF589F03E47 /* GPUImage.modulemap */,
+				0947A7AFC9BC472FB464AE6BA9350257 /* GPUImage.xcconfig */,
+				9AB0C34779ABBBD7057D3AA099F303F1 /* GPUImage-dummy.m */,
+				AEE40871E7E3D8B9974A0898FE4099F4 /* GPUImage-prefix.pch */,
+				6F99E7B86E6724DB2C890FB998CBEADF /* GPUImage-umbrella.h */,
+				65F537245B158DCEAC59C9150D550DA3 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GPUImage";
-			sourceTree = "<group>";
-		};
-		D498ACECC440FB97851610597187AE90 /* Pods-passportscanner */ = {
-			isa = PBXGroup;
-			children = (
-				9A2B5F48B296AD5D3F74A0171DC58829 /* Pods-passportscanner.modulemap */,
-				C604C6172AB81916FA363A71B0E455E6 /* Pods-passportscanner-acknowledgements.markdown */,
-				4C552AFE5ABE874A1C54F34BE386F6D0 /* Pods-passportscanner-acknowledgements.plist */,
-				398D2016F85A78472E55C06F64C55316 /* Pods-passportscanner-dummy.m */,
-				937E2F4CC0CC18D62B8BD9985C9E99CA /* Pods-passportscanner-frameworks.sh */,
-				07770A4D17704E00FAF1845085808DF3 /* Pods-passportscanner-Info.plist */,
-				402F1466C6D3EE73BA7D8D02026ADC81 /* Pods-passportscanner-umbrella.h */,
-				BE9DFE12BD198CD3D9EF3A92DFB07B73 /* Pods-passportscanner.debug.xcconfig */,
-				FA69DCA3AADB23F791FDCE2163E75D12 /* Pods-passportscanner.release.xcconfig */,
-			);
-			name = "Pods-passportscanner";
-			path = "Target Support Files/Pods-passportscanner";
 			sourceTree = "<group>";
 		};
 		DE72D3D063E165F1AB3FCB918E348AB9 /* Resources */ = {
@@ -5103,9 +5105,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05BED7D6A6DA8771850ADE55FF1FF4AF /* Release */ = {
+		461B2EA072C6932DB1D91A5906CE26E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02CA70A4B9BF35FFCE5622327540EEDA /* GPUImage.xcconfig */;
+			baseConfigurationReference = 10D62C5E5C229066A5560669AF748B44 /* TesseractOCRiOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5118,14 +5120,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GPUImage/GPUImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GPUImage/GPUImage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GPUImage/GPUImage.modulemap";
-				PRODUCT_MODULE_NAME = GPUImage;
-				PRODUCT_NAME = GPUImage;
+				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
+				PRODUCT_MODULE_NAME = TesseractOCR;
+				PRODUCT_NAME = TesseractOCR;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -5137,9 +5139,9 @@
 			};
 			name = Release;
 		};
-		5BA65EE39FDB3AA766FE3EC6D9C7376A /* Release */ = {
+		462545F3D70655ED15812D13A11DC061 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 396AB2B140248CB5E833FD95B88C57B5 /* UIImage-Resize.xcconfig */;
+			baseConfigurationReference = 3045E11730206DFC035F9578D003CED2 /* UIImage-Resize.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5153,7 +5155,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Resize/UIImage-Resize-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIImage-Resize/UIImage-Resize-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/UIImage-Resize/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5171,9 +5173,9 @@
 			};
 			name = Release;
 		};
-		5BF26E6BCEEF3C45978D8F79B9F685BD /* Debug */ = {
+		4FD1E7DA48ECB767295159A561508610 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACBED31E8519EF8F7DA4131B0237E5B3 /* PassportScannerNs.xcconfig */;
+			baseConfigurationReference = 3045E11730206DFC035F9578D003CED2 /* UIImage-Resize.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5186,28 +5188,60 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/PassportScannerNs/PassportScannerNs-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Resize/UIImage-Resize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage-Resize/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs.modulemap";
-				PRODUCT_MODULE_NAME = PassportScannerNs;
-				PRODUCT_NAME = PassportScannerNs;
+				MODULEMAP_FILE = "Target Support Files/UIImage-Resize/UIImage-Resize.modulemap";
+				PRODUCT_MODULE_NAME = UIImage_Resize;
+				PRODUCT_NAME = UIImage_Resize;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7954CA0C523F78E49D7A0D26E8BA816B /* Debug */ = {
+		5763C81490698552E7B96E9559E12D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE9DFE12BD198CD3D9EF3A92DFB07B73 /* Pods-passportscanner.debug.xcconfig */;
+			baseConfigurationReference = 10D62C5E5C229066A5560669AF748B44 /* TesseractOCRiOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
+				PRODUCT_MODULE_NAME = TesseractOCR;
+				PRODUCT_NAME = TesseractOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		604EC188B9CF0446B59E30F0CF3BACB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A102B044A3432870162CE792A4D99A89 /* Pods-passportscanner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -5221,7 +5255,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-passportscanner/Pods-passportscanner-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-passportscanner/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5242,9 +5276,9 @@
 			};
 			name = Debug;
 		};
-		946CF5A4BE6CB5DEFE3514B7DF341567 /* Release */ = {
+		8149ABF8525CB0EA5752E84455811CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF00682AB4B89383C84970C5F4099F40 /* TesseractOCRiOS.xcconfig */;
+			baseConfigurationReference = A5096BFCE6671450B4D2BEA89B0215F6 /* PassportScannerNs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5257,18 +5291,162 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PassportScannerNs/PassportScannerNs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PassportScannerNs/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
-				PRODUCT_MODULE_NAME = TesseractOCR;
-				PRODUCT_NAME = TesseractOCR;
+				MODULEMAP_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs.modulemap";
+				PRODUCT_MODULE_NAME = PassportScannerNs;
+				PRODUCT_NAME = PassportScannerNs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88D89283322DA7DE8C9C20FF9578975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B35D67809E87E920FB119D769A48073 /* Pods-passportscanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-passportscanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-passportscanner/Pods-passportscanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A2353B17BF227574EF39A16CBBF44E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0947A7AFC9BC472FB464AE6BA9350257 /* GPUImage.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GPUImage/GPUImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPUImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPUImage/GPUImage.modulemap";
+				PRODUCT_MODULE_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C95E2E4BE56E1549118A3B329ADC5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F1D26BEF624A1F330402322B8E2FC8 /* EVGPUImage2.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/EVGPUImage2/EVGPUImage2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVGPUImage2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVGPUImage2/EVGPUImage2.modulemap";
+				PRODUCT_MODULE_NAME = EVGPUImage2;
+				PRODUCT_NAME = EVGPUImage2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CF7325025B9D79C6EBF2EA2769B59D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5096BFCE6671450B4D2BEA89B0215F6 /* PassportScannerNs.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PassportScannerNs/PassportScannerNs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PassportScannerNs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs.modulemap";
+				PRODUCT_MODULE_NAME = PassportScannerNs;
+				PRODUCT_NAME = PassportScannerNs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5335,42 +5513,9 @@
 			};
 			name = Release;
 		};
-		96F94021828E909E9C918E1D7DDCEA29 /* Debug */ = {
+		CBC0E4F437F631FCA4345CA14C29FEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF00682AB4B89383C84970C5F4099F40 /* TesseractOCRiOS.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
-				PRODUCT_MODULE_NAME = TesseractOCR;
-				PRODUCT_NAME = TesseractOCR;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6ACF46AC4AE1445BFCD2BFB80AD8A57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2CCAAD48BCFC2EC369E27A582013863 /* EVGPUImage2.xcconfig */;
+			baseConfigurationReference = 05F1D26BEF624A1F330402322B8E2FC8 /* EVGPUImage2.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5384,7 +5529,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/EVGPUImage2/EVGPUImage2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVGPUImage2/EVGPUImage2-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/EVGPUImage2/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5394,86 +5539,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A99FBC3845E62FC5A71DBB7098C8C75F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02CA70A4B9BF35FFCE5622327540EEDA /* GPUImage.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GPUImage/GPUImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GPUImage/GPUImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GPUImage/GPUImage.modulemap";
-				PRODUCT_MODULE_NAME = GPUImage;
-				PRODUCT_NAME = GPUImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BC8D19D319438D7E8F6148031CD334ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA69DCA3AADB23F791FDCE2163E75D12 /* Pods-passportscanner.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-passportscanner/Pods-passportscanner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-passportscanner/Pods-passportscanner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -5539,9 +5611,9 @@
 			};
 			name = Debug;
 		};
-		D3B2BF58A9689703C49B2D3F76AFB8EA /* Debug */ = {
+		DEDE9D1EDAC60402F0BB75677FACC676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 396AB2B140248CB5E833FD95B88C57B5 /* UIImage-Resize.xcconfig */;
+			baseConfigurationReference = 0947A7AFC9BC472FB464AE6BA9350257 /* GPUImage.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -5554,87 +5626,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Resize/UIImage-Resize-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIImage-Resize/UIImage-Resize-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GPUImage/GPUImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPUImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIImage-Resize/UIImage-Resize.modulemap";
-				PRODUCT_MODULE_NAME = UIImage_Resize;
-				PRODUCT_NAME = UIImage_Resize;
+				MODULEMAP_FILE = "Target Support Files/GPUImage/GPUImage.modulemap";
+				PRODUCT_MODULE_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EE46BD163759474E37485056E387D5BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACBED31E8519EF8F7DA4131B0237E5B3 /* PassportScannerNs.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/PassportScannerNs/PassportScannerNs-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PassportScannerNs/PassportScannerNs.modulemap";
-				PRODUCT_MODULE_NAME = PassportScannerNs;
-				PRODUCT_NAME = PassportScannerNs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F0B2E4CAA6084EB9CD2EC75260BEF6F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2CCAAD48BCFC2EC369E27A582013863 /* EVGPUImage2.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/EVGPUImage2/EVGPUImage2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVGPUImage2/EVGPUImage2-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EVGPUImage2/EVGPUImage2.modulemap";
-				PRODUCT_MODULE_NAME = EVGPUImage2;
-				PRODUCT_NAME = EVGPUImage2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5648,8 +5650,8 @@
 		008F4793E480290BA98B9636A6925A28 /* Build configuration list for PBXNativeTarget "PassportScannerNs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BF26E6BCEEF3C45978D8F79B9F685BD /* Debug */,
-				EE46BD163759474E37485056E387D5BA /* Release */,
+				8149ABF8525CB0EA5752E84455811CA2 /* Debug */,
+				8CF7325025B9D79C6EBF2EA2769B59D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5657,8 +5659,8 @@
 		23407305FE714555F25FFEB29F57D6F9 /* Build configuration list for PBXNativeTarget "Pods-passportscanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7954CA0C523F78E49D7A0D26E8BA816B /* Debug */,
-				BC8D19D319438D7E8F6148031CD334ED /* Release */,
+				604EC188B9CF0446B59E30F0CF3BACB3 /* Debug */,
+				88D89283322DA7DE8C9C20FF9578975C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5675,8 +5677,8 @@
 		38511708C4F0F4A1DA7CACB80C088BC9 /* Build configuration list for PBXNativeTarget "TesseractOCRiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96F94021828E909E9C918E1D7DDCEA29 /* Debug */,
-				946CF5A4BE6CB5DEFE3514B7DF341567 /* Release */,
+				5763C81490698552E7B96E9559E12D19 /* Debug */,
+				461B2EA072C6932DB1D91A5906CE26E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5684,8 +5686,8 @@
 		9028F516F039B16BC22E8E00BE0F1C9B /* Build configuration list for PBXNativeTarget "EVGPUImage2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0B2E4CAA6084EB9CD2EC75260BEF6F7 /* Debug */,
-				A6ACF46AC4AE1445BFCD2BFB80AD8A57 /* Release */,
+				CBC0E4F437F631FCA4345CA14C29FEE9 /* Debug */,
+				8C95E2E4BE56E1549118A3B329ADC5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5693,8 +5695,8 @@
 		B326540E16C51DAB28FF16B50D397E54 /* Build configuration list for PBXNativeTarget "UIImage-Resize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3B2BF58A9689703C49B2D3F76AFB8EA /* Debug */,
-				5BA65EE39FDB3AA766FE3EC6D9C7376A /* Release */,
+				4FD1E7DA48ECB767295159A561508610 /* Debug */,
+				462545F3D70655ED15812D13A11DC061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5702,8 +5704,8 @@
 		F36B3DA50117E7424856AE3860FA2A71 /* Build configuration list for PBXNativeTarget "GPUImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99FBC3845E62FC5A71DBB7098C8C75F /* Debug */,
-				05BED7D6A6DA8771850ADE55FF1FF4AF /* Release */,
+				DEDE9D1EDAC60402F0BB75677FACC676 /* Debug */,
+				8A2353B17BF227574EF39A16CBBF44E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

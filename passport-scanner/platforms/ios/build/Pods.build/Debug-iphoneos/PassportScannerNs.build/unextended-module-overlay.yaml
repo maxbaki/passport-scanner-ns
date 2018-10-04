@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Debug-iphoneos/PassportScannerNs/PassportScannerNs.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/build/Pods.build/Debug-iphoneos/PassportScannerNs.build/unextended-module.modulemap',
+    }]
+  }]
+}

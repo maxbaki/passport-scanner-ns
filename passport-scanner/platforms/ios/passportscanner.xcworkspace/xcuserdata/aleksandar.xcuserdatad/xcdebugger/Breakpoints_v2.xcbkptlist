@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PassportScannerNs/Pod/PassportScannerController.swift"
+            timestampString = "560293674.53014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "PassportScannerController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportScannerNs.PassportScannerController.tesseract.getter : __C.G8Tesseract"
+                  moduleName = "PassportScannerNs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/PassportScannerController.swift"
+                  timestampString = "560293591.7749209"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportScannerNs.PassportScannerController.tesseract.setter : __C.G8Tesseract"
+                  moduleName = "PassportScannerNs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/PassportScannerController.swift"
+                  timestampString = "560293591.7772371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportScannerNs.PassportScannerController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PassportScannerNs.PassportScannerController"
+                  moduleName = "PassportScannerNs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/PassportScannerController.swift"
+                  timestampString = "560293591.77937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PassportScannerNs.PassportScannerController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PassportScannerNs.PassportScannerController&gt;"
+                  moduleName = "PassportScannerNs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandar/Documents/passport-scanner-ns/passport-scanner/platforms/ios/Pods/PassportScannerNs/Pod/PassportScannerController.swift"
+                  timestampString = "560293591.781446"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1076">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

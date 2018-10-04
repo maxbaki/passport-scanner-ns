@@ -12,9 +12,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+				<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 				<key>dateExpires</key>
-				<string>16/09/19</string>
+				<string>10/3/19</string>
 				<key>type</key>
 				<string>iOS Development</string>
 			</dict>
@@ -28,9 +28,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -52,9 +52,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -76,9 +76,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -100,9 +100,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -124,9 +124,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -148,9 +148,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -172,9 +172,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>35C706A964B0A5B6923CECE378C1707E0D961731</string>
+						<string>D251B9F9D22B882F3BB8CA6F28348FD8D1A28B85</string>
 						<key>dateExpires</key>
-						<string>16/09/19</string>
+						<string>10/3/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -207,9 +207,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>5fcc8a9f-70ee-49cb-962b-fc25bd185715</string>
+				<string>f0560df8-1a66-430e-becc-b46a48b9b150</string>
 				<key>name</key>
-				<string>iOS Team Provisioning Profile: *</string>
+				<string>Developer provisioning profile Nativescript</string>
 			</dict>
 			<key>team</key>
 			<dict>

@@ -1,0 +1,10 @@
+framework module PassportScannerNs {
+  umbrella header "PassportScannerNs-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PassportScannerNs.__Swift {
+    exclude header "PassportScannerNs-Swift.h"
+}
